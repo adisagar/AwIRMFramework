@@ -1,0 +1,20 @@
+framework module AWIrmFramework {
+
+umbrella header "AWIrmFramework.h"
+
+module Private {
+    umbrella header "/Users/adityaprasad/Documents/Development/Samples/Learning/cocoaPods/ObjcFramework/SwiftFramework/SwiftFramework/MSRightsManagement.framework/Headers/MSRightsManagement.h"
+ 
+    export *
+}
+
+module ADALiOS {
+    umbrella header "/Users/adityaprasad/Documents/SCL_WorkSpace/SCL_Repo/AWIrmFramework1/AWIrmFramework/Frameworks/ADALiOS.framework/Headers/ADAuthenticationContext.h"
+    
+    export *
+}
+
+export *
+module * { export * }
+
+}
