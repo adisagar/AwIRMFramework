@@ -8,7 +8,7 @@ s.summary = "This framework does all IRM operations."
 s.requires_arc = true
 
 
-s.version = "0.0.6"
+s.version = "0.0.7"
 
 
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -34,7 +34,7 @@ s.libraries = 'resolv'
 
 s.vendored_frameworks = 'AWIrmFramework/Frameworks/MSRightsManagement.framework','AWIrmFramework/Frameworks/ADALiOS.framework'
 
-s.resource_bundles = {   'MSRightsManagement' => ['AWIrmFramework/Frameworks/MSRightsManagementResources.bundle'],
+s.resource_bundles = {   'MSRightsManagementResources' => ['AWIrmFramework/Frameworks/MSRightsManagementResources.bundle'],
                              'ADALiOS' => ['AWIrmFramework/Frameworks/ADALiOS.bundle']}
 
 s.module_map = 'AWIrmFramework/AWIrmFramework.modulemap'
