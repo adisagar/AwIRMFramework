@@ -19,7 +19,7 @@ class AWMSIrmItemHandle: AWIrmItemHandle {
     
     
     //Length of the decypted data
-    var decryptedDataLength: Int64 {
+    @objc var decryptedDataLength: Int64 {
         get {
             //Implimentation goes here
             return 0
@@ -27,7 +27,7 @@ class AWMSIrmItemHandle: AWIrmItemHandle {
     }
     
     //Returns completed decrypted data.
-    var completePlainData: NSData {
+    @objc var completePlainData: NSData {
         get {
             //Implimentation goes here
             return NSData()
@@ -35,7 +35,7 @@ class AWMSIrmItemHandle: AWIrmItemHandle {
     }
     
     //Fetches decrypted data within the range.
-    func plainDataBytesWithRange(range: NSRange) -> NSData {
+    @objc func plainDataBytesWithRange(range: NSRange) -> NSData {
         //Implimentation goes here
         return NSData()
     }

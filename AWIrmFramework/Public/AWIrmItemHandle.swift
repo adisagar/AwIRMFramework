@@ -15,7 +15,7 @@ import UIKit
 
 //Defines methods related to fetching the decrypted data
 //The wrapper class around IRM provider should impliment these methods
-public protocol AWIrmItemHandle {
+@objc public protocol AWIrmItemHandle {
     //Lenght of the decrypted data
     var decryptedDataLength : Int64 {get} ;
     

@@ -18,7 +18,7 @@ import UIKit
 class AWMSIrmFileOperation : AWIrmProvider, AWIrmInternalProtocol {
     
     /// Unique identifier for the Provider
-    var identifier: String {
+    @objc var identifier: String {
         get {
             return "MSIRM"
         }
@@ -26,7 +26,7 @@ class AWMSIrmFileOperation : AWIrmProvider, AWIrmInternalProtocol {
     
     ///This method should return provider to read the decrypted data.
     ///Before that this should take care of authenticating the user and other preprocessing steps if present.
-    func dataProvider(forReading item: NSURL, userId:String, appBundleId:String,completionBlock:(irmItemHandle : AWIrmItemHandle?, error : NSError?)) {
+    @objc func dataProvider(forReading item: NSURL, userId:String, appBundleId:String,completionBlock:( AWIrmItemHandle?)) {
         
     }
     

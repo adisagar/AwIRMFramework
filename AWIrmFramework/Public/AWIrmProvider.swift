@@ -13,12 +13,12 @@
 
 import UIKit
 
-public protocol AWIrmProvider {
+@objc  public protocol AWIrmProvider {
     
     /// Unique identifier for the Provider
     var identifier: String { get }
     
     ///This method should return provider to read the decrypted data.
     ///Before that this should take care of authenticating the user and other preprocessing steps if present.
-    func dataProvider(forReading item: NSURL, userId:String, appBundleId:String,completionBlock:(irmItemHandle : AWIrmItemHandle?, error : NSError?))
+    func dataProvider(forReading item: NSURL, userId:String, appBundleId:String,completionBlock:(AWIrmItemHandle?))
 }
