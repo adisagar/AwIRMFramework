@@ -4,36 +4,21 @@
  AirWatch products may be covered by one or more patents listed at http://www.vmware.com/go/patents.
  */
 //
-//  AWMSIrmFileOperation.swift
+//  AWIrmProvider.swift
 //  AWIrmFramework
 //
-//  Created by Aditya Prasad on 11/07/16.
+//  Created by Aditya Prasad on 14/07/16.
 //  Copyright © 2016 VMware Airwatch. All rights reserved.
 //
 
 import UIKit
 
-//This class directly interacts with Microsoft Irm framework.
-//Impliments authentication call backs,decryption.
-class AWMSIrmFileOperation : AWIrmProvider, AWIrmInternalProtocol {
+public protocol AWIrmProvider {
     
     /// Unique identifier for the Provider
-    var identifier: String {
-        get {
-            return "MSIRM"
-        }
-    }
+    var identifier: String { get }
     
     ///This method should return provider to read the decrypted data.
     ///Before that this should take care of authenticating the user and other preprocessing steps if present.
-    func dataProvider(forReading item: NSURL, userId:String, appBundleId:String,completionBlock:(irmItemHandle : AWIrmItemHandle?, error : NSError?)) {
-        
-    }
-    
-    
-    //Determine whether file is protected
-    internal func canProvide(item: NSURL) -> Bool {
-        return true
-    }
-
+    func dataProvider(forReading item: NSURL, userId:String, appBundleId:String,completionBlock:(irmItemHandle : AWIrmItemHandle?, error : NSError?))
 }

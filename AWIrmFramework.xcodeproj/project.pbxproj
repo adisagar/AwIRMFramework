@@ -7,27 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C01CAC4B1D25315D0093423B /* MSRightsManagementResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C01CAC491D25315D0093423B /* MSRightsManagementResources.bundle */; };
-		C01CAC4C1D25315D0093423B /* MSRightsManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01CAC4A1D25315D0093423B /* MSRightsManagement.framework */; };
-		C01CAC501D2532480093423B /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C01CAC4F1D2532480093423B /* libresolv.9.tbd */; };
-		C01CAC521D25324C0093423B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01CAC511D25324C0093423B /* MessageUI.framework */; };
-		C01CAC541D2532510093423B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01CAC531D2532510093423B /* CoreData.framework */; };
-		C01CAC561D2532550093423B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01CAC551D2532550093423B /* Security.framework */; };
-		C01CAC581D2532590093423B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01CAC571D2532590093423B /* SystemConfiguration.framework */; };
+		C043D8721D33607600071E80 /* AWMSIrmFileOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C043D8711D33607600071E80 /* AWMSIrmFileOperation.swift */; };
+		C043D8751D33615500071E80 /* AWMSIrmPolicyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C043D8741D33615500071E80 /* AWMSIrmPolicyParser.swift */; };
+		C0AB5DFF1D2379430012894F /* AWIrmFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AB5DFE1D2379430012894F /* AWIrmFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0AB5E061D2379430012894F /* AWIrmFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0AB5DFB1D2379430012894F /* AWIrmFramework.framework */; };
 		C0AB5E0B1D2379430012894F /* AWIrmFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5E0A1D2379430012894F /* AWIrmFrameworkTests.swift */; };
-		C0AB5EE41D23D3100012894F /* AWIrmDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5EDF1D23D3100012894F /* AWIrmDataProvider.swift */; };
-		C0AB5EE51D23D3100012894F /* AWIrmOperationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5EE01D23D3100012894F /* AWIrmOperationFactory.swift */; };
-		C0AB5EE61D23D3100012894F /* AWIrmProviderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5EE11D23D3100012894F /* AWIrmProviderType.swift */; };
-		C0AB5EE71D23D3100012894F /* AWIrmResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5EE21D23D3100012894F /* AWIrmResponse.swift */; };
-		C0AB5EE81D23D3100012894F /* AWIrmUserPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5EE31D23D3100012894F /* AWIrmUserPolicy.swift */; };
-		C0AB5EEB1D23D34C0012894F /* AWIrmProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5EEA1D23D34C0012894F /* AWIrmProtocol.swift */; };
-		C0AB5EF11D23D3D20012894F /* AWMSIrmDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5EEF1D23D3D20012894F /* AWMSIrmDataProvider.swift */; };
-		C0AB5EF21D23D3D20012894F /* AWMSIrmFileOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5EF01D23D3D20012894F /* AWMSIrmFileOperation.swift */; };
-		C0AB5EF51D23D3F50012894F /* AWMSIrmConsent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5EF31D23D3F50012894F /* AWMSIrmConsent.swift */; };
-		C0AB5EF61D23D3F50012894F /* AWMSIrmPolicyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5EF41D23D3F50012894F /* AWMSIrmPolicyParser.swift */; };
-		C0D7509E1D26308A00B21737 /* ADALiOS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C0D7509C1D26308A00B21737 /* ADALiOS.bundle */; };
-		C0D7509F1D26308A00B21737 /* ADALiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D7509D1D26308A00B21737 /* ADALiOS.framework */; };
+		C0F9FEAD1D37FE7E008387CE /* AWIrmProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9FEAC1D37FE7E008387CE /* AWIrmProvider.swift */; };
+		C0F9FEAF1D389BBC008387CE /* AWIrmPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9FEAE1D389BBC008387CE /* AWIrmPermissions.swift */; };
+		C0F9FEB11D389F0F008387CE /* AWIrmProviderRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9FEB01D389F0F008387CE /* AWIrmProviderRegistry.swift */; };
+		C0F9FEB41D38A4A7008387CE /* AWIrmItemHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9FEB31D38A4A7008387CE /* AWIrmItemHandle.swift */; };
+		C0F9FEB61D38AE89008387CE /* AWMSIrmItemHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9FEB51D38AE89008387CE /* AWMSIrmItemHandle.swift */; };
+		C0F9FEB91D38B563008387CE /* AWIrmInternalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9FEB81D38B563008387CE /* AWIrmInternalProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,33 +31,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C01CAC491D25315D0093423B /* MSRightsManagementResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MSRightsManagementResources.bundle; sourceTree = "<group>"; };
-		C01CAC4A1D25315D0093423B /* MSRightsManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MSRightsManagement.framework; sourceTree = "<group>"; };
-		C01CAC4D1D25316A0093423B /* AWIrmFramework.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = AWIrmFramework.modulemap; sourceTree = "<group>"; };
-		C01CAC4E1D2531BD0093423B /* AWIrmFramework-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AWIrmFramework-Bridging-Header.h"; sourceTree = "<group>"; };
-		C01CAC4F1D2532480093423B /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
-		C01CAC511D25324C0093423B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		C01CAC531D2532510093423B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		C01CAC551D2532550093423B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		C01CAC571D2532590093423B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		C01CAC591D2533C00093423B /* AWIrmFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWIrmFramework.h; sourceTree = "<group>"; };
+		C043D8711D33607600071E80 /* AWMSIrmFileOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWMSIrmFileOperation.swift; sourceTree = "<group>"; };
+		C043D8741D33615500071E80 /* AWMSIrmPolicyParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWMSIrmPolicyParser.swift; sourceTree = "<group>"; };
 		C0AB5DFB1D2379430012894F /* AWIrmFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AWIrmFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0AB5DFE1D2379430012894F /* AWIrmFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWIrmFramework.h; sourceTree = "<group>"; };
 		C0AB5E001D2379430012894F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0AB5E051D2379430012894F /* AWIrmFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWIrmFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0AB5E0A1D2379430012894F /* AWIrmFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWIrmFrameworkTests.swift; sourceTree = "<group>"; };
 		C0AB5E0C1D2379430012894F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0AB5EDF1D23D3100012894F /* AWIrmDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWIrmDataProvider.swift; sourceTree = "<group>"; };
-		C0AB5EE01D23D3100012894F /* AWIrmOperationFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWIrmOperationFactory.swift; sourceTree = "<group>"; };
-		C0AB5EE11D23D3100012894F /* AWIrmProviderType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWIrmProviderType.swift; sourceTree = "<group>"; };
-		C0AB5EE21D23D3100012894F /* AWIrmResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWIrmResponse.swift; sourceTree = "<group>"; };
-		C0AB5EE31D23D3100012894F /* AWIrmUserPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWIrmUserPolicy.swift; sourceTree = "<group>"; };
-		C0AB5EEA1D23D34C0012894F /* AWIrmProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWIrmProtocol.swift; sourceTree = "<group>"; };
-		C0AB5EEF1D23D3D20012894F /* AWMSIrmDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWMSIrmDataProvider.swift; sourceTree = "<group>"; };
-		C0AB5EF01D23D3D20012894F /* AWMSIrmFileOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWMSIrmFileOperation.swift; sourceTree = "<group>"; };
-		C0AB5EF31D23D3F50012894F /* AWMSIrmConsent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWMSIrmConsent.swift; sourceTree = "<group>"; };
-		C0AB5EF41D23D3F50012894F /* AWMSIrmPolicyParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWMSIrmPolicyParser.swift; sourceTree = "<group>"; };
-		C0D7509C1D26308A00B21737 /* ADALiOS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ADALiOS.bundle; sourceTree = "<group>"; };
-		C0D7509D1D26308A00B21737 /* ADALiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADALiOS.framework; sourceTree = "<group>"; };
+		C0F9FEAC1D37FE7E008387CE /* AWIrmProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWIrmProvider.swift; sourceTree = "<group>"; };
+		C0F9FEAE1D389BBC008387CE /* AWIrmPermissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWIrmPermissions.swift; sourceTree = "<group>"; };
+		C0F9FEB01D389F0F008387CE /* AWIrmProviderRegistry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWIrmProviderRegistry.swift; sourceTree = "<group>"; };
+		C0F9FEB31D38A4A7008387CE /* AWIrmItemHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWIrmItemHandle.swift; sourceTree = "<group>"; };
+		C0F9FEB51D38AE89008387CE /* AWMSIrmItemHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWMSIrmItemHandle.swift; sourceTree = "<group>"; };
+		C0F9FEB81D38B563008387CE /* AWIrmInternalProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWIrmInternalProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,13 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C01CAC581D2532590093423B /* SystemConfiguration.framework in Frameworks */,
-				C01CAC561D2532550093423B /* Security.framework in Frameworks */,
-				C01CAC541D2532510093423B /* CoreData.framework in Frameworks */,
-				C01CAC521D25324C0093423B /* MessageUI.framework in Frameworks */,
-				C01CAC501D2532480093423B /* libresolv.9.tbd in Frameworks */,
-				C0D7509F1D26308A00B21737 /* ADALiOS.framework in Frameworks */,
-				C01CAC4C1D25315D0093423B /* MSRightsManagement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,20 +66,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C01CAC481D2531500093423B /* Frameworks */ = {
+		C043D85F1D33597800071E80 /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				C0D7509C1D26308A00B21737 /* ADALiOS.bundle */,
-				C0D7509D1D26308A00B21737 /* ADALiOS.framework */,
-				C01CAC4F1D2532480093423B /* libresolv.9.tbd */,
-				C01CAC571D2532590093423B /* SystemConfiguration.framework */,
-				C01CAC551D2532550093423B /* Security.framework */,
-				C01CAC531D2532510093423B /* CoreData.framework */,
-				C01CAC511D25324C0093423B /* MessageUI.framework */,
-				C01CAC491D25315D0093423B /* MSRightsManagementResources.bundle */,
-				C01CAC4A1D25315D0093423B /* MSRightsManagement.framework */,
+				C0F9FEAC1D37FE7E008387CE /* AWIrmProvider.swift */,
+				C0F9FEAE1D389BBC008387CE /* AWIrmPermissions.swift */,
+				C0F9FEB01D389F0F008387CE /* AWIrmProviderRegistry.swift */,
+				C0F9FEB31D38A4A7008387CE /* AWIrmItemHandle.swift */,
 			);
-			path = Frameworks;
+			path = Public;
+			sourceTree = "<group>";
+		};
+		C043D86D1D335FC800071E80 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				C043D86E1D335FD500071E80 /* Microsoft */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		C043D86E1D335FD500071E80 /* Microsoft */ = {
+			isa = PBXGroup;
+			children = (
+				C043D8731D33614D00071E80 /* Internal */,
+				C043D8711D33607600071E80 /* AWMSIrmFileOperation.swift */,
+				C0F9FEB51D38AE89008387CE /* AWMSIrmItemHandle.swift */,
+			);
+			path = Microsoft;
+			sourceTree = "<group>";
+		};
+		C043D8731D33614D00071E80 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				C043D8741D33615500071E80 /* AWMSIrmPolicyParser.swift */,
+			);
+			path = Internal;
 			sourceTree = "<group>";
 		};
 		C0AB5DF11D2379430012894F = {
@@ -133,14 +124,11 @@
 		C0AB5DFD1D2379430012894F /* AWIrmFramework */ = {
 			isa = PBXGroup;
 			children = (
-				C01CAC481D2531500093423B /* Frameworks */,
-				C0AB5EDE1D23D2DD0012894F /* Public */,
-				C0AB5EEC1D23D36C0012894F /* Providers */,
-				C0AB5EE91D23D3330012894F /* Internal */,
+				C0F9FEB71D38B54F008387CE /* Internal */,
+				C043D86D1D335FC800071E80 /* Providers */,
+				C043D85F1D33597800071E80 /* Public */,
+				C0AB5DFE1D2379430012894F /* AWIrmFramework.h */,
 				C0AB5E001D2379430012894F /* Info.plist */,
-				C01CAC4E1D2531BD0093423B /* AWIrmFramework-Bridging-Header.h */,
-				C01CAC4D1D25316A0093423B /* AWIrmFramework.modulemap */,
-				C01CAC591D2533C00093423B /* AWIrmFramework.h */,
 			);
 			path = AWIrmFramework;
 			sourceTree = "<group>";
@@ -154,49 +142,10 @@
 			path = AWIrmFrameworkTests;
 			sourceTree = "<group>";
 		};
-		C0AB5EDE1D23D2DD0012894F /* Public */ = {
+		C0F9FEB71D38B54F008387CE /* Internal */ = {
 			isa = PBXGroup;
 			children = (
-				C0AB5EDF1D23D3100012894F /* AWIrmDataProvider.swift */,
-				C0AB5EE01D23D3100012894F /* AWIrmOperationFactory.swift */,
-				C0AB5EE11D23D3100012894F /* AWIrmProviderType.swift */,
-				C0AB5EE21D23D3100012894F /* AWIrmResponse.swift */,
-				C0AB5EE31D23D3100012894F /* AWIrmUserPolicy.swift */,
-			);
-			path = Public;
-			sourceTree = "<group>";
-		};
-		C0AB5EE91D23D3330012894F /* Internal */ = {
-			isa = PBXGroup;
-			children = (
-				C0AB5EEA1D23D34C0012894F /* AWIrmProtocol.swift */,
-			);
-			path = Internal;
-			sourceTree = "<group>";
-		};
-		C0AB5EEC1D23D36C0012894F /* Providers */ = {
-			isa = PBXGroup;
-			children = (
-				C0AB5EED1D23D3880012894F /* Microsoft */,
-			);
-			path = Providers;
-			sourceTree = "<group>";
-		};
-		C0AB5EED1D23D3880012894F /* Microsoft */ = {
-			isa = PBXGroup;
-			children = (
-				C0AB5EEF1D23D3D20012894F /* AWMSIrmDataProvider.swift */,
-				C0AB5EF01D23D3D20012894F /* AWMSIrmFileOperation.swift */,
-				C0AB5EEE1D23D3960012894F /* Internal */,
-			);
-			path = Microsoft;
-			sourceTree = "<group>";
-		};
-		C0AB5EEE1D23D3960012894F /* Internal */ = {
-			isa = PBXGroup;
-			children = (
-				C0AB5EF31D23D3F50012894F /* AWMSIrmConsent.swift */,
-				C0AB5EF41D23D3F50012894F /* AWMSIrmPolicyParser.swift */,
+				C0F9FEB81D38B563008387CE /* AWIrmInternalProtocol.swift */,
 			);
 			path = Internal;
 			sourceTree = "<group>";
@@ -208,6 +157,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0AB5DFF1D2379430012894F /* AWIrmFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,8 +241,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C01CAC4B1D25315D0093423B /* MSRightsManagementResources.bundle in Resources */,
-				C0D7509E1D26308A00B21737 /* ADALiOS.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,16 +258,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0AB5EF11D23D3D20012894F /* AWMSIrmDataProvider.swift in Sources */,
-				C0AB5EF61D23D3F50012894F /* AWMSIrmPolicyParser.swift in Sources */,
-				C0AB5EF51D23D3F50012894F /* AWMSIrmConsent.swift in Sources */,
-				C0AB5EE51D23D3100012894F /* AWIrmOperationFactory.swift in Sources */,
-				C0AB5EF21D23D3D20012894F /* AWMSIrmFileOperation.swift in Sources */,
-				C0AB5EEB1D23D34C0012894F /* AWIrmProtocol.swift in Sources */,
-				C0AB5EE41D23D3100012894F /* AWIrmDataProvider.swift in Sources */,
-				C0AB5EE71D23D3100012894F /* AWIrmResponse.swift in Sources */,
-				C0AB5EE61D23D3100012894F /* AWIrmProviderType.swift in Sources */,
-				C0AB5EE81D23D3100012894F /* AWIrmUserPolicy.swift in Sources */,
+				C0F9FEB41D38A4A7008387CE /* AWIrmItemHandle.swift in Sources */,
+				C0F9FEB11D389F0F008387CE /* AWIrmProviderRegistry.swift in Sources */,
+				C0F9FEAD1D37FE7E008387CE /* AWIrmProvider.swift in Sources */,
+				C043D8751D33615500071E80 /* AWMSIrmPolicyParser.swift in Sources */,
+				C0F9FEB61D38AE89008387CE /* AWMSIrmItemHandle.swift in Sources */,
+				C0F9FEB91D38B563008387CE /* AWIrmInternalProtocol.swift in Sources */,
+				C043D8721D33607600071E80 /* AWMSIrmFileOperation.swift in Sources */,
+				C0F9FEAF1D389BBC008387CE /* AWIrmPermissions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,18 +387,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/AWIrmFramework/Frameworks",
-				);
 				INFOPLIST_FILE = AWIrmFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.airwatch.AWIrmFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.air-watch.AWIrmFramework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "AWIrmFramework/AWIrmFramework-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -465,18 +405,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/AWIrmFramework/Frameworks",
-				);
 				INFOPLIST_FILE = AWIrmFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.airwatch.AWIrmFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.air-watch.AWIrmFramework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "AWIrmFramework/AWIrmFramework-Bridging-Header.h";
 			};
 			name = Release;
 		};

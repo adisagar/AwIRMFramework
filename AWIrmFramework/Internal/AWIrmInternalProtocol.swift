@@ -4,18 +4,17 @@
  AirWatch products may be covered by one or more patents listed at http://www.vmware.com/go/patents.
  */
 //
-//  AWMSIrmPolicyParser.swift
+//  AWIrmInternalProtocol.swift
 //  AWIrmFramework
 //
-//  Created by Aditya Prasad on 11/07/16.
+//  Created by Aditya Prasad on 15/07/16.
 //  Copyright © 2016 VMware Airwatch. All rights reserved.
 //
 
 import UIKit
 
+internal protocol AWIrmInternalProtocol {
 
-//Interacts with microsoft APIs and fetches the policies for the file.
-//Then maps it to corressponding Airwatch specific policies.
-internal class AWMSIrmPolicyParser {
-
+    /// Returns true if the specified file is owned by the Provider
+    func canProvide(item: NSURL) -> Bool
 }
