@@ -13,7 +13,8 @@
 
 import UIKit
 
-@objc  public protocol AWIrmProvider {
+@objc(AWIrmProvider)
+public protocol AWIrmProvider {
     
     /// Unique identifier for the Provider
     var identifier: String { get }
