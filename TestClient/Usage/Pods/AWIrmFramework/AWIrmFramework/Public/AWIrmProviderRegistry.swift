@@ -25,7 +25,7 @@ public class AWIrmProviderRegistry: NSObject {
     }
     
     /// Finds a Provider for the specified file
-    public func provider(with item:NSURL) -> AWIrmProvider? {
+    public func provider(for item:NSURL) -> AWIrmProvider? {
         return nil 
     }
     

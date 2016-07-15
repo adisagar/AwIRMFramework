@@ -18,6 +18,7 @@
 		C0F9FEB41D38A4A7008387CE /* AWIrmItemHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9FEB31D38A4A7008387CE /* AWIrmItemHandle.swift */; };
 		C0F9FEB61D38AE89008387CE /* AWMSIrmItemHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9FEB51D38AE89008387CE /* AWMSIrmItemHandle.swift */; };
 		C0F9FEB91D38B563008387CE /* AWIrmInternalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9FEB81D38B563008387CE /* AWIrmInternalProtocol.swift */; };
+		C0F9FF011D38CE07008387CE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F9FF001D38CE07008387CE /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		C0F9FEB31D38A4A7008387CE /* AWIrmItemHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWIrmItemHandle.swift; sourceTree = "<group>"; };
 		C0F9FEB51D38AE89008387CE /* AWMSIrmItemHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWMSIrmItemHandle.swift; sourceTree = "<group>"; };
 		C0F9FEB81D38B563008387CE /* AWIrmInternalProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWIrmInternalProtocol.swift; sourceTree = "<group>"; };
+		C0F9FF001D38CE07008387CE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				C0F9FEB81D38B563008387CE /* AWIrmInternalProtocol.swift */,
+				C0F9FF001D38CE07008387CE /* Constants.swift */,
 			);
 			path = Internal;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				C0F9FEB91D38B563008387CE /* AWIrmInternalProtocol.swift in Sources */,
 				C043D8721D33607600071E80 /* AWMSIrmFileOperation.swift in Sources */,
 				C0F9FEAF1D389BBC008387CE /* AWIrmPermissions.swift in Sources */,
+				C0F9FF011D38CE07008387CE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

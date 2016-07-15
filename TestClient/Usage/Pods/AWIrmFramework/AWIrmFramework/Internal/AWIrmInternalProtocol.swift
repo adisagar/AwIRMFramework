@@ -13,7 +13,7 @@
 
 import UIKit
 
-protocol AWIrmInternalProtocol {
+internal protocol AWIrmInternalProtocol {
 
     /// Returns true if the specified file is owned by the Provider
     func canProvide(item: NSURL) -> Bool

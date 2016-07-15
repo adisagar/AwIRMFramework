@@ -3,9 +3,9 @@
   "platforms": {
     "ios": "8.0"
   },
-  "summary": "This framework authenticates the user and extracts the user IRM policies and restrictions for protected file. And also decrypts the contents if user has permissions.",
+  "summary": "This framework authenticates the user and extracts the user IRM policies and restrictions for protected file",
   "requires_arc": true,
-  "version": "0.0.8",
+  "version": "0.0.12",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -16,8 +16,11 @@
   "homepage": "https://stash.air-watch.com/projects/ISCL/repos/awirmframework",
   "source": {
     "git": "https://github.com/adisagar/AwIRMFramework.git",
-    "tag": "0.0.8"
+    "tag": "0.0.12"
   },
   "frameworks": "UIKit",
-  "source_files": "AWIrmFramework/**/*.{h}"
+  "source_files": [
+    "AWIrmFramework/**/*.{swift}",
+    "AWIrmFramework/AWIrmFramework.h"
+  ]
 }

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-@import AWIrmFramework
+@import AWIrmFramework;
 
 @interface ViewController ()
 
@@ -17,11 +17,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    AWIrmProviderRegistry* registry = [AWIrmProviderRegistry instance];
+    id<AWIrmProvider>_Nullable j =  [registry provider: for:@"asd"];
+    NSString *str = j.identifier;
+    NSURL *url = [[NSURL alloc]init];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+   
+    
+    
     // Dispose of any resources that can be recreated.
 }
 

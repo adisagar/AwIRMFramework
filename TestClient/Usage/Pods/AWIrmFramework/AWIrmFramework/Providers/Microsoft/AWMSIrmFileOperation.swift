@@ -20,7 +20,7 @@ class AWMSIrmFileOperation : AWIrmProvider, AWIrmInternalProtocol {
     /// Unique identifier for the Provider
     @objc var identifier: String {
         get {
-            return Constants.ProviderIdentifiers.microsoftIrmProvider
+            return "MSIRM"
         }
     }
     

@@ -4,7 +4,7 @@
  AirWatch products may be covered by one or more patents listed at http://www.vmware.com/go/patents.
  */
 //
-//  AWIrmInternalProtocol.swift
+//  Constants.swift
 //  AWIrmFramework
 //
 //  Created by Aditya Prasad on 15/07/16.
@@ -13,8 +13,8 @@
 
 import UIKit
 
-protocol AWIrmInternalProtocol {
-
-    /// Returns true if the specified file is owned by the Provider
-    func canProvide(item: NSURL) -> Bool
+struct Constants {
+    struct ProviderIdentifiers {
+        static let microsoftIrmProvider = "MICROSOFTIRMPROVIDER"
+    }
 }
