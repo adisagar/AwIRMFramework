@@ -18,7 +18,7 @@ s.author = { "VMWare Airwatch" => "adityaprasad@vmware.com" }
 
 s.homepage = "https://stash.air-watch.com/projects/ISCL/repos/awirmframework"
 
-s.source = { :git => "ssh://git@stash.air-watch.com:7999/iscl/awirmframework.git", :tag => "#{s.version}"}
+s.source = { :git => "https://github.com/adisagar/AwIRMFramework.git", :tag => "#{s.version}"}
 
 s.framework = "UIKit"
 
