@@ -10,7 +10,7 @@ s.summary = "This framework authenticates the user and extracts the user IRM pol
 
 s.requires_arc = true
 
-s.version = "0.0.9"
+s.version = "0.0.10"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 

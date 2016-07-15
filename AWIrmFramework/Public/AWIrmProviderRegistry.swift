@@ -34,5 +34,9 @@ public class AWIrmProviderRegistry: NSObject {
     func setProvider(identifier: String, enabled: Bool) {
         
     }
+    
+    func test() ->String  {
+        return "asd"
+    }
 
 }
