@@ -31,11 +31,11 @@ public class AWIrmProviderRegistry: NSObject {
     
     
     /// Enables / Disables a Provider
-    func setProvider(identifier: String, enabled: Bool) {
+    public func setProvider(identifier: String, enabled: Bool) {
         
     }
     
-    func test() ->String  {
+    public func test() ->String  {
         return "asd"
     }
 
