@@ -6,11 +6,11 @@ s.ios.deployment_target = '8.0'
 
 s.name = "AWIrmFramework"
 
-s.summary = "This framework authenticates the user and extracts the user IRM policies and restrictions for protected file. And also decrypts the contents if user has permissions."
+s.summary = "This framework authenticates the user and extracts the user IRM policies and restrictions for protected file"
 
 s.requires_arc = true
 
-s.version = "0.0.8"
+s.version = "0.0.9"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 
@@ -22,6 +22,6 @@ s.source = { :git => "https://github.com/adisagar/AwIRMFramework.git", :tag => "
 
 s.framework = "UIKit"
 
-s.source_files = "AWIrmFramework/**/*.{h}"
+s.source_files =  "AWIrmFramework/**/*.{swift}", "AWIrmFramework/AWIrmFramework.h"
 
 end
