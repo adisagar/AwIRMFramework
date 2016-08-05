@@ -4,22 +4,22 @@
  AirWatch products may be covered by one or more patents listed at http://www.vmware.com/go/patents.
  */
 //
-//  AWIrmProvider.swift
+//  Provider.swift
 //  AWIrmFramework
 //
 //  Created by Aditya Prasad on 14/07/16.
 //  Copyright © 2016 VMware Airwatch. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 @objc(AWIrmProvider)
-public protocol AWIrmProvider {
+public protocol Provider {
     
     /// Unique identifier for the Provider
     var identifier: String { get }
     
     ///This method should return provider to read the decrypted data.
     ///Before that this should take care of authenticating the user and other preprocessing steps if present.
-    func dataProvider(forReading item: NSURL, userId:String, appBundleId:String,completionBlock:(AWIrmItemHandle?))
+    func irmItemHandle(forReading item: NSURL, userId:String, bundleId:String,completionBlock:(ItemHandle?,NSError?)->Void)
 }

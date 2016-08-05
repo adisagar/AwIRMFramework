@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'EDCBCB7EAD9EE0EE6D06C846D999A5AE'
+               BlueprintIdentifier = 'B336F029A1CF60E838DBEE1B237CEDF1'
                BlueprintName = 'AWIrmFramework'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'AWIrmFramework.framework'>

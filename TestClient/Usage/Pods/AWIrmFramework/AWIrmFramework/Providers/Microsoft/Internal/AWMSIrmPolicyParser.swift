@@ -16,6 +16,6 @@ import UIKit
 
 //Interacts with microsoft APIs and fetches the policies for the file.
 //Then maps it to corressponding Airwatch specific policies.
-internal class AWMSIrmPolicyParser {
+class AWMSIrmPolicyParser {
 
 }

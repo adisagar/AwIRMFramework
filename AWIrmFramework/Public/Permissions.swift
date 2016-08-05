@@ -4,17 +4,24 @@
  AirWatch products may be covered by one or more patents listed at http://www.vmware.com/go/patents.
  */
 //
-//  AWIrmInternalProtocol.swift
+//  Permissions.swift
 //  AWIrmFramework
 //
 //  Created by Aditya Prasad on 15/07/16.
 //  Copyright © 2016 VMware Airwatch. All rights reserved.
 //
 
-import UIKit
-
-protocol AWIrmInternalProtocol {
-
-    /// Returns true if the specified file is owned by the Provider
-    func canProvide(item: NSURL) -> Bool
+ 
+//Permission.
+public struct Permissions: OptionSetType {
+    public let rawValue: Int
+    
+    public init(rawValue: Int) {
+        self.rawValue = rawValue
+    }
+    
+    static let View  = Permissions(rawValue: 1 << 0)
+    static let Save  = Permissions(rawValue: 1 << 1)
+    static let Share = Permissions(rawValue: 1 << 2)
+    static let Print = Permissions(rawValue: 1 << 3)
 }
