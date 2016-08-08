@@ -3,9 +3,14 @@
   "platforms": {
     "ios": "8.0"
   },
-  "summary": "This framework authenticates the user and extracts the user IRM policies and restrictions for protected file. And also decrypts the contents if user has permissions.",
+  "summary": "This framework does all IRM operations.",
   "requires_arc": true,
-  "version": "0.0.1",
+  "dependencies": {
+    "ADAL": [
+      "~> 2.2.2"
+    ]
+  },
+  "version": "0.0.17",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,11 +18,33 @@
   "authors": {
     "VMWare Airwatch": "adityaprasad@vmware.com"
   },
-  "homepage": "https://stash.air-watch.com/projects/ISCL/repos/awirmframework",
+  "homepage": "'https://github.com/adisagar/AwIRMFramework",
   "source": {
-    "git": "ssh://git@stash.air-watch.com:7999/iscl/awirmframework.git",
-    "tag": "0.0.1"
+    "git": "'https://github.com/adisagar/AwIRMFramework.git'",
+    "tag": "0.0.17"
   },
-  "frameworks": "UIKit",
-  "source_files": "AWIrmFramework/**/*.{h}"
+  "frameworks": [
+    "CoreData",
+    "MessageUI",
+    "SystemConfiguration",
+    "Security",
+    "Foundation"
+  ],
+  "source_files": [
+    "AWIrmFramework/**/*.{swift}",
+    "AWIrmFramework/AWIrmFramework.h",
+    "AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/*"
+  ],
+  "libraries": "resolv",
+  "resources": [
+    "AWIrmFramework/Frameworks/MSRightsManagementResources.bundle"
+  ],
+  "private_header_files": [
+    "AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSRightsManagement.h",
+    "AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSCustomProtection.h"
+  ],
+  "vendored_frameworks": "AWIrmFramework/Frameworks/MSRightsManagement.framework",
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  }
 }

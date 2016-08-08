@@ -10,7 +10,7 @@ s.requires_arc = true
 s.dependency 'ADAL', '~> 2.2.2'
 
 
-s.version = "0.0.17"
+s.version = "0.0.18"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 

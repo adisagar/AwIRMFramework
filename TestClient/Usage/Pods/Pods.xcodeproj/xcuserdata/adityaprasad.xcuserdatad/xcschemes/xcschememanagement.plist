@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ADAL.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AWIrmFramework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Usage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -12,7 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>726FE4C7095C1BCFAC94457731111BD5</key>
+		<key>7F25518F7E5E0D43D9487CD918873CF1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9A72640B0B04158F5BAB67F78C555CAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B1BFEC21F8E1EE945C0C626FE57AA405</key>
 		<dict>
 			<key>primary</key>
 			<true/>
