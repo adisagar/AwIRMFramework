@@ -21,7 +21,7 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
     
     var consent = MSConsentHandler()
     var clientId = ""
-    var redirectUrl = "local://authorize"
+   
     
     /// Unique identifier for the Provider
     @objc var identifier: String {
@@ -33,11 +33,12 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
     ///This method should return provider to read the decrypted data.
     ///Before that this should take care of authenticating the user and other preprocessing steps if present.
     @objc func irmItemHandle(forReading item: NSURL, userId:String, bundleId:String,completionBlock:(ItemHandle?,NSError?)->Void) {
-        
+        self.clientId = bundleId
         let itemHelper = MSItemHelper(url: item)
         let protectionType = itemHelper.protectionType()
         if protectionType == .MSProtection {
             plainDataFromProtectedFile(item.absoluteString, userId: userId, bundleId: bundleId, completionBlock: { (itemHandle:ItemHandle?,error: NSError?) in
+                completionBlock(itemHandle,error)
             })
             
         } else if(protectionType == .MSCustomProtection) {
@@ -90,33 +91,11 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
     //MSAuthenticationCallback delegate implimentation.
     func accessTokenWithAuthenticationParameters(authenticationParameters: MSAuthenticationParameters!, completionBlock: ((String!, NSError!) -> Void)!) {
         
-        let error : AutoreleasingUnsafeMutablePointer<ADAuthenticationError?> = nil
-        let context =  ADAuthenticationContext(authority: authenticationParameters.authority, error:error)
-        context.validateAuthority = false;
-        
-        let redirectURI = NSURL(string: redirectUrl)
-        
-        dispatch_async(dispatch_get_main_queue()) {
-            context.acquireTokenWithResource(authenticationParameters.resource,
-                                             clientId: self.clientId,
-                                             redirectUri: redirectURI,
-                                             userId: nil)
-            { (let result : ADAuthenticationResult!) in
-                
-                if result.status != AD_SUCCEEDED {
-                    if result.status == AD_USER_CANCELLED {
-                        completionBlock("",NSError(domain: "", code: 0, userInfo: result.error.userInfo))
-                    } else {
-                        completionBlock("",result.error)
-                    }
-                } else {
-                    completionBlock(result.accessToken, result.error)
-                    
-                    let token = result.accessToken;
-                    NSLog(token)
-                }
-            }
-            
+        let authenticationHandler = AuthenticationHandler()
+        authenticationHandler.acquireTokenWithResource(authenticationParameters.resource, authority: authenticationParameters.authority, clientId: self.clientId)
+        { (accessToekn:String!,error: NSError!) in
+            completionBlock(accessToekn,error)
         }
+ 
     }
 }

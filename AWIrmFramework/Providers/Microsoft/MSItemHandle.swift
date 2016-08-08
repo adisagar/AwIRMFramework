@@ -49,9 +49,10 @@ class MSItemHandle: ItemHandle {
     @objc func plainDataBytes(buffer: UnsafeMutablePointer<Void>, range: NSRange, error: NSError) {
         do {
             try self.protectedData.getBytes(buffer, range: range)
+ 
         }
         catch {
-            //Todo - Handle execption
+ 
         }
     }
     

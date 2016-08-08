@@ -14,6 +14,7 @@
 		C03F479C1D5499C300CDFF43 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03F479B1D5499C300CDFF43 /* Security.framework */; };
 		C03F479E1D5499CA00CDFF43 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03F479D1D5499CA00CDFF43 /* CoreData.framework */; };
 		C03F47A01D5499D100CDFF43 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03F479F1D5499D100CDFF43 /* MessageUI.framework */; };
+		C069141A1D55F630003A98D7 /* AuthenticationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06914191D55F630003A98D7 /* AuthenticationHandler.swift */; };
 		C0735E141D545C4200446C54 /* MSPolicyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0735E131D545C4200446C54 /* MSPolicyParser.swift */; };
 		C0735E171D545C4B00446C54 /* MSProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0735E151D545C4B00446C54 /* MSProvider.swift */; };
 		C0735E181D545C4B00446C54 /* MSItemHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0735E161D545C4B00446C54 /* MSItemHandle.swift */; };
@@ -53,6 +54,7 @@
 		C03F479B1D5499C300CDFF43 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		C03F479D1D5499CA00CDFF43 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C03F479F1D5499D100CDFF43 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C06914191D55F630003A98D7 /* AuthenticationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationHandler.swift; sourceTree = "<group>"; };
 		C0735E131D545C4200446C54 /* MSPolicyParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSPolicyParser.swift; sourceTree = "<group>"; };
 		C0735E151D545C4B00446C54 /* MSProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSProvider.swift; sourceTree = "<group>"; };
 		C0735E161D545C4B00446C54 /* MSItemHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSItemHandle.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 			children = (
 				C0735E191D545C6300446C54 /* Constants.swift */,
 				C0735E1A1D545C6300446C54 /* InternalProtocol.swift */,
+				C06914191D55F630003A98D7 /* AuthenticationHandler.swift */,
 			);
 			path = Internal;
 			sourceTree = "<group>";
@@ -431,6 +434,7 @@
 				C0735E231D545C6F00446C54 /* ProviderRegistry.swift in Sources */,
 				C0735E211D545C6F00446C54 /* Provider.swift in Sources */,
 				C0735E1B1D545C6300446C54 /* Constants.swift in Sources */,
+				C069141A1D55F630003A98D7 /* AuthenticationHandler.swift in Sources */,
 				C08A38491D54679100F5A407 /* MSItemHelper.swift in Sources */,
 				C08A384B1D54699F00F5A407 /* MSProtectionType.swift in Sources */,
 			);

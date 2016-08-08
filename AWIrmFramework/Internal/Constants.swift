@@ -20,4 +20,15 @@ struct Constants {
         //MicrosoftIrmProvider
         static let MicrosoftIrmProvider = "MICROSOFTIRMPROVIDER"
     }
+    
+    struct Application {
+        static let BundleId = "com.air-watch.AWIrmFramework"
+    }
+    
+    struct ErrorCodes {
+        static let AuthenticationInComplete = 100
+        static let ViewPermissionDenied = 101
+        static let FileParsingError = 103
+        static let DataDecryptionError = 104
+    }
 }
