@@ -10,7 +10,7 @@
 //  Created by Aditya Prasad on 15/07/16.
 //  Copyright © 2016 VMware Airwatch. All rights reserved.
 //
- 
+
 
 
 //All constants
@@ -21,13 +21,14 @@ struct Constants {
         static let MicrosoftIrmProvider = "MICROSOFTIRMPROVIDER"
     }
     
-    struct Application {
+    struct Framework {
         static let BundleId = "com.air-watch.AWIrmFramework"
     }
     
     struct ErrorCodes {
-        static let AuthenticationInComplete = 100
-        static let ViewPermissionDenied = 101
+        static let UserCancelledAuthentication = 100
+        static let AuthenticationError = 101
+        static let ViewPermissionDenied = 102
         static let FileParsingError = 103
         static let DataDecryptionError = 104
     }

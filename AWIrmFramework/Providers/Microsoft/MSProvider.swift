@@ -32,12 +32,12 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
     
     ///This method should return provider to read the decrypted data.
     ///Before that this should take care of authenticating the user and other preprocessing steps if present.
-    @objc func irmItemHandle(forReading item: NSURL, userId:String, bundleId:String,completionBlock:(ItemHandle?,NSError?)->Void) {
-        self.clientId = bundleId
+    @objc func irmItemHandle(forReading item: NSURL, userId:String, clientId:String,completionBlock:(ItemHandle?,NSError?)->Void) {
+        self.clientId = clientId
         let itemHelper = MSItemHelper(url: item)
         let protectionType = itemHelper.protectionType()
         if protectionType == .MSProtection {
-            plainDataFromProtectedFile(item.path!, userId: userId, bundleId: bundleId, completionBlock: { (itemHandle:ItemHandle?,error: NSError?) in
+            plainDataFromProtectedFile(item.path!, userId: userId, clientId: clientId, completionBlock: { (itemHandle:ItemHandle?,error: NSError?) in
                 completionBlock(itemHandle,error)
             })
             
@@ -68,7 +68,7 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
     //This is for ppdf,ptxt etc..
     private func plainDataFromProtectedFile(filePath:String,
                                             userId:String,
-                                            bundleId:String,
+                                            clientId:String,
                                             completionBlock : (itemHandle:ItemHandle?,NSError?)->Void ) {
         
         MSProtectedData .protectedDataWithProtectedFile(filePath,

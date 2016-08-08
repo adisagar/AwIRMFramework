@@ -21,5 +21,5 @@ public protocol Provider {
     
     ///This method should return provider to read the decrypted data.
     ///Before that this should take care of authenticating the user and other preprocessing steps if present.
-    func irmItemHandle(forReading item: NSURL, userId:String, bundleId:String,completionBlock:(ItemHandle?,NSError?)->Void)
+    func irmItemHandle(forReading item: NSURL, userId:String, clientId:String,completionBlock:(ItemHandle?,NSError?)->Void)
 }

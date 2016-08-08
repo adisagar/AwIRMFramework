@@ -33,15 +33,12 @@ class AuthenticationHandler: NSObject {
                 
                 if result.status != AD_SUCCEEDED {
                     if result.status == AD_USER_CANCELLED {
-                        completionBlock("",NSError(domain: Constants.Application.BundleId, code: 0, userInfo: result.error.userInfo))
+                        completionBlock("",NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.UserCancelledAuthentication, userInfo: result.error.userInfo))
                     } else {
-                        completionBlock("",result.error)
+                        completionBlock("",NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.AuthenticationError, userInfo: result.error.userInfo))
                     }
                 } else {
-                    completionBlock(result.accessToken, result.error)
-                    
-                    let token = result.accessToken;
-                    NSLog(token)
+                    completionBlock(result.accessToken, result.error) 
                 }
             }
             

@@ -19,7 +19,7 @@ import ADAL
 
 class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallback {
     
-     var consentManager = AWMSIrmConsent();
+    var consent = MSConsentHandler()
     var clientId = ""
    
     
@@ -33,12 +33,11 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
     ///This method should return provider to read the decrypted data.
     ///Before that this should take care of authenticating the user and other preprocessing steps if present.
     @objc func irmItemHandle(forReading item: NSURL, userId:String, bundleId:String,completionBlock:(ItemHandle?,NSError?)->Void) {
-        let fileHandle = NSFileHandle(forReadingAtPath: item.path!)
         self.clientId = bundleId
         let itemHelper = MSItemHelper(url: item)
         let protectionType = itemHelper.protectionType()
         if protectionType == .MSProtection {
-            plainDataFromProtectedFile(item.path!, userId: "airwatchinboxdev1@airwatchpm.onmicrosoft.com", bundleId: "com.airwatch.NewObjClient", completionBlock: { (itemHandle:ItemHandle?,error: NSError?) in
+            plainDataFromProtectedFile(item.path!, userId: userId, bundleId: bundleId, completionBlock: { (itemHandle:ItemHandle?,error: NSError?) in
                 completionBlock(itemHandle,error)
             })
             
@@ -75,7 +74,7 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
         MSProtectedData .protectedDataWithProtectedFile(filePath,
                                                         userId: userId,
                                                         authenticationCallback: self,
-                                                        consentCallback: self.consentManager, options: Default)
+                                                        consentCallback: self.consent, options: Default)
         { (protectedData:MSProtectedData!, error:NSError!) in
             if error != nil {
                 completionBlock(itemHandle: nil, error)

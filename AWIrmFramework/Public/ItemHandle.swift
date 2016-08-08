@@ -24,12 +24,12 @@ public protocol ItemHandle {
     var completePlainData : NSData {get};
     
     //Should return plain data within the range
-    func plainDataBytesWithRange(range:NSRange) -> NSData
+    func plainDataBytesWithRange(range:NSRange) throws -> NSData
     
     //Populates buffer within the range.
-    func plainDataBytes(buffer: UnsafeMutablePointer<Void>, range: NSRange, error: NSError)
+    func plainDataBytes(buffer: UnsafeMutablePointer<Void>, range: NSRange) throws
     
     //Populates buffer with data of lenght.
-    func plainDataBytes(buffer: UnsafeMutablePointer<Void>, length: UInt, error: NSError)
+    func plainDataBytes(buffer: UnsafeMutablePointer<Void>, length: UInt) throws
     
 }

@@ -3,14 +3,14 @@
   "platforms": {
     "ios": "8.0"
   },
-  "summary": "This framework does all IRM operations.",
+  "summary": "This framework does all IRM operations",
   "requires_arc": true,
   "dependencies": {
     "ADAL": [
       "~> 2.2.2"
     ]
   },
-  "version": "0.0.22",
+  "version": "0.0.23",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/adisagar/AwIRMFramework",
   "source": {
     "git": "'https://github.com/adisagar/AwIRMFramework.git'",
-    "tag": "0.0.22"
+    "tag": "0.0.23"
   },
   "frameworks": [
     "CoreData",
