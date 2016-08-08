@@ -15,6 +15,19 @@
 		C043D9901D364CF800071E80 /* MSRightsManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C043D98F1D364CF800071E80 /* MSRightsManagement.framework */; };
 		C043D9921D364D0500071E80 /* MSRightsManagementResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C043D9911D364D0500071E80 /* MSRightsManagementResources.bundle */; };
 		C04976731D2E480B0026BB07 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C04976721D2E480B0026BB07 /* libresolv.tbd */; };
+		C06914231D5865A3003A98D7 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C069141F1D5865A3003A98D7 /* Provider.swift */; };
+		C06914241D5865A3003A98D7 /* Permissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06914201D5865A3003A98D7 /* Permissions.swift */; };
+		C06914251D5865A3003A98D7 /* ProviderRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06914211D5865A3003A98D7 /* ProviderRegistry.swift */; };
+		C06914261D5865A3003A98D7 /* ItemHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06914221D5865A3003A98D7 /* ItemHandle.swift */; };
+		C06914291D5865AB003A98D7 /* MSProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06914271D5865AB003A98D7 /* MSProvider.swift */; };
+		C069142A1D5865AB003A98D7 /* MSItemHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06914281D5865AB003A98D7 /* MSItemHandle.swift */; };
+		C069142F1D5865B2003A98D7 /* MSPolicyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C069142B1D5865B2003A98D7 /* MSPolicyParser.swift */; };
+		C06914301D5865B2003A98D7 /* MSItemHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C069142C1D5865B2003A98D7 /* MSItemHelper.swift */; };
+		C06914311D5865B2003A98D7 /* MSProtectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C069142D1D5865B2003A98D7 /* MSProtectionType.swift */; };
+		C06914321D5865B2003A98D7 /* MSConsent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C069142E1D5865B2003A98D7 /* MSConsent.swift */; };
+		C06914361D5865BB003A98D7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06914331D5865BB003A98D7 /* Constants.swift */; };
+		C06914371D5865BB003A98D7 /* InternalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06914341D5865BB003A98D7 /* InternalProtocol.swift */; };
+		C06914381D5865BB003A98D7 /* AuthenticationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06914351D5865BB003A98D7 /* AuthenticationHandler.swift */; };
 		C0AB5E061D2379430012894F /* AWIrmFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0AB5DFB1D2379430012894F /* AWIrmFramework.framework */; };
 		C0AB5E0B1D2379430012894F /* AWIrmFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5E0A1D2379430012894F /* AWIrmFrameworkTests.swift */; };
 		C0AB5EE41D23D3100012894F /* AWIrmDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5EDF1D23D3100012894F /* AWIrmDataProvider.swift */; };
@@ -54,6 +67,19 @@
 		C043D9911D364D0500071E80 /* MSRightsManagementResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MSRightsManagementResources.bundle; sourceTree = "<group>"; };
 		C043D9931D365D8500071E80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C04976721D2E480B0026BB07 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		C069141F1D5865A3003A98D7 /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		C06914201D5865A3003A98D7 /* Permissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Permissions.swift; sourceTree = "<group>"; };
+		C06914211D5865A3003A98D7 /* ProviderRegistry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProviderRegistry.swift; sourceTree = "<group>"; };
+		C06914221D5865A3003A98D7 /* ItemHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemHandle.swift; sourceTree = "<group>"; };
+		C06914271D5865AB003A98D7 /* MSProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSProvider.swift; sourceTree = "<group>"; };
+		C06914281D5865AB003A98D7 /* MSItemHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSItemHandle.swift; sourceTree = "<group>"; };
+		C069142B1D5865B2003A98D7 /* MSPolicyParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSPolicyParser.swift; sourceTree = "<group>"; };
+		C069142C1D5865B2003A98D7 /* MSItemHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSItemHelper.swift; sourceTree = "<group>"; };
+		C069142D1D5865B2003A98D7 /* MSProtectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSProtectionType.swift; sourceTree = "<group>"; };
+		C069142E1D5865B2003A98D7 /* MSConsent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSConsent.swift; sourceTree = "<group>"; };
+		C06914331D5865BB003A98D7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C06914341D5865BB003A98D7 /* InternalProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternalProtocol.swift; sourceTree = "<group>"; };
+		C06914351D5865BB003A98D7 /* AuthenticationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationHandler.swift; sourceTree = "<group>"; };
 		C0AB5DFB1D2379430012894F /* AWIrmFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AWIrmFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0AB5E001D2379430012894F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0AB5E051D2379430012894F /* AWIrmFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWIrmFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,6 +204,10 @@
 		C0AB5EDE1D23D2DD0012894F /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				C069141F1D5865A3003A98D7 /* Provider.swift */,
+				C06914201D5865A3003A98D7 /* Permissions.swift */,
+				C06914211D5865A3003A98D7 /* ProviderRegistry.swift */,
+				C06914221D5865A3003A98D7 /* ItemHandle.swift */,
 				C0AB5EDF1D23D3100012894F /* AWIrmDataProvider.swift */,
 				C0AB5EE01D23D3100012894F /* AWIrmOperationFactory.swift */,
 				C0AB5EE11D23D3100012894F /* AWIrmProviderType.swift */,
@@ -190,6 +220,9 @@
 		C0AB5EE91D23D3330012894F /* Internal */ = {
 			isa = PBXGroup;
 			children = (
+				C06914331D5865BB003A98D7 /* Constants.swift */,
+				C06914341D5865BB003A98D7 /* InternalProtocol.swift */,
+				C06914351D5865BB003A98D7 /* AuthenticationHandler.swift */,
 				C0AB5EEA1D23D34C0012894F /* AWIrmProtocol.swift */,
 			);
 			path = Internal;
@@ -206,6 +239,8 @@
 		C0AB5EED1D23D3880012894F /* Microsoft */ = {
 			isa = PBXGroup;
 			children = (
+				C06914271D5865AB003A98D7 /* MSProvider.swift */,
+				C06914281D5865AB003A98D7 /* MSItemHandle.swift */,
 				C0AB5EEF1D23D3D20012894F /* AWMSIrmDataProvider.swift */,
 				C0AB5EF01D23D3D20012894F /* AWMSIrmFileOperation.swift */,
 				C0AB5EEE1D23D3960012894F /* Internal */,
@@ -216,6 +251,10 @@
 		C0AB5EEE1D23D3960012894F /* Internal */ = {
 			isa = PBXGroup;
 			children = (
+				C069142B1D5865B2003A98D7 /* MSPolicyParser.swift */,
+				C069142C1D5865B2003A98D7 /* MSItemHelper.swift */,
+				C069142D1D5865B2003A98D7 /* MSProtectionType.swift */,
+				C069142E1D5865B2003A98D7 /* MSConsent.swift */,
 				C0AB5EF31D23D3F50012894F /* AWMSIrmConsent.swift */,
 				C0AB5EF41D23D3F50012894F /* AWMSIrmPolicyParser.swift */,
 			);
@@ -366,12 +405,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0AB5EF11D23D3D20012894F /* AWMSIrmDataProvider.swift in Sources */,
+				C06914291D5865AB003A98D7 /* MSProvider.swift in Sources */,
 				C0AB5EF61D23D3F50012894F /* AWMSIrmPolicyParser.swift in Sources */,
+				C06914261D5865A3003A98D7 /* ItemHandle.swift in Sources */,
 				C0AB5EF51D23D3F50012894F /* AWMSIrmConsent.swift in Sources */,
 				C0AB5EE51D23D3100012894F /* AWIrmOperationFactory.swift in Sources */,
+				C06914251D5865A3003A98D7 /* ProviderRegistry.swift in Sources */,
+				C06914241D5865A3003A98D7 /* Permissions.swift in Sources */,
+				C06914301D5865B2003A98D7 /* MSItemHelper.swift in Sources */,
+				C069142A1D5865AB003A98D7 /* MSItemHandle.swift in Sources */,
 				C0AB5EF21D23D3D20012894F /* AWMSIrmFileOperation.swift in Sources */,
+				C06914361D5865BB003A98D7 /* Constants.swift in Sources */,
+				C06914311D5865B2003A98D7 /* MSProtectionType.swift in Sources */,
+				C06914321D5865B2003A98D7 /* MSConsent.swift in Sources */,
+				C06914371D5865BB003A98D7 /* InternalProtocol.swift in Sources */,
 				C0AB5EEB1D23D34C0012894F /* AWIrmProtocol.swift in Sources */,
+				C069142F1D5865B2003A98D7 /* MSPolicyParser.swift in Sources */,
 				C0AB5EE41D23D3100012894F /* AWIrmDataProvider.swift in Sources */,
+				C06914231D5865A3003A98D7 /* Provider.swift in Sources */,
+				C06914381D5865BB003A98D7 /* AuthenticationHandler.swift in Sources */,
 				C0AB5EE71D23D3100012894F /* AWIrmResponse.swift in Sources */,
 				C0AB5EE61D23D3100012894F /* AWIrmProviderType.swift in Sources */,
 				C0AB5EE81D23D3100012894F /* AWIrmUserPolicy.swift in Sources */,

@@ -10,7 +10,7 @@
       "~> 2.2.2"
     ]
   },
-  "version": "0.0.20",
+  "version": "0.0.21",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -18,10 +18,10 @@
   "authors": {
     "VMWare Airwatch": "adityaprasad@vmware.com"
   },
-  "homepage": "https://stash.air-watch.com/users/aprasad/repos/awirmframework",
+  "homepage": "https://github.com/adisagar/AwIRMFramework",
   "source": {
     "git": "'https://github.com/adisagar/AwIRMFramework.git'",
-    "tag": "0.0.20"
+    "tag": "0.0.21"
   },
   "frameworks": [
     "CoreData",

@@ -23,18 +23,18 @@
      NSString* newPath = [[NSBundle mainBundle] pathForResource:filename  ofType:@"ppdf"];
     
      BOOL fileExists = [[NSFileManager defaultManager] fileExistsAtPath:newPath];
-//    [self plainDataFromProtectedFile:newPath];
-    ProviderRegistry* registry = [ProviderRegistry instance];
-    NSURL *url = [NSURL fileURLWithPath:newPath];
-    id<AWIrmProvider>_Nullable irmOperation =  [registry providerFor:url];
-    NSString *str = irmOperation.identifier;
-    
-    irmOperation = [registry provider:str];
-    NSString *userId = @"adityaprasad@vmware.com";
-    NSString *bundleId = @"com.airwatch.Usage";
-    [irmOperation irmItemHandleForReading:url userId:userId bundleId:bundleId completionBlock:^(id<AWIrmItemHandle> _Nullable itemHandle, NSError* _Nullable error) {
-        NSData* plaindata = [itemHandle completePlainData];
-    }];
+    [self plainDataFromProtectedFile:newPath];
+//    ProviderRegistry* registry = [ProviderRegistry instance];
+//    NSURL *url = [NSURL fileURLWithPath:newPath];
+//    id<AWIrmProvider>_Nullable irmOperation =  [registry providerFor:url];
+//    NSString *str = irmOperation.identifier;
+//    
+//    irmOperation = [registry provider:str];
+//    NSString *userId = @"adityaprasad@vmware.com";
+//    NSString *bundleId = @"com.airwatch.Usage";
+//    [irmOperation irmItemHandleForReading:url userId:userId bundleId:bundleId completionBlock:^(id<AWIrmItemHandle> _Nullable itemHandle, NSError* _Nullable error) {
+//        NSData* plaindata = [itemHandle completePlainData];
+//    }];
     
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -45,95 +45,95 @@
     // Dispose of any resources that can be recreated.
 }
 
-//-(void)plainDataFromProtectedFile:(NSString *)filePath  {
-//    
-//    NSHTTPCookieStorage *storage = [NSHTTPCookieStorage sharedHTTPCookieStorage];
-//    NSArray *cookiesArray = [storage cookies];
-//    for (NSHTTPCookie *cookie in cookiesArray) { [storage deleteCookie:cookie];
-//        // if ([[cookie name] isEqualToString:@"ESTSAUTHPERSISTENT"] || [[cookie name] isEqualToString:@"ESTSSSOTILES"] )
-//        
-//    }
-//    
-//    
-//    AWIrmOperationFactory *factory = [AWIrmOperationFactory sharedInstance];
-//    
-//    // NSString *userId = @"adityaprasd@vmware.com" ;
-//    NSString *userId =  @"airwatchinboxdev1@airwatchpm.onmicrosoft.com" ;
-//    AWIrmProviderType type = [[AWIrmOperationFactory sharedInstance] irmProviderForContent:filePath];
-//    //airwatchinboxdev1@airwatchpm.onmicrosoft.com
-//    [[AWIrmOperationFactory sharedInstance] plainDataFromIRMFile:filePath providerType:AWIrmProviderTypeAWIrmProviderTypeMicrosoft userId:userId appBundleId:@"com.airwatch.NewObjClient" completionBlock:^(AWIrmResponse * _Nullable irmResponse, NSError * _Nullable error) {
-//        
-//        if (irmResponse != nil) {
-//            NSLog(@"Logged");
-//        }
-//        
-//        //NSData *plainData = [irmResponse.irmDataProvider completePlainData];
-//        
-//        NSUInteger decryptedLength = [irmResponse.irmDataProvider decryptedDataLength];
-//        
-//        
-//        
-//        
-//        if (decryptedLength == 0) {
-//            dispatch_async(dispatch_get_main_queue(), ^{
-//                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Fail"
-//                                                                message:@"Fail."
-//                                                               delegate:nil
-//                                                      cancelButtonTitle:@"OK"
-//                                                      otherButtonTitles:nil];
-//                [alert show];
-//            });
-//            
-//            return ;
-//        }
-//        
-//        dispatch_async(dispatch_get_main_queue(), ^{
-//            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Success"
-//                                                            message:@"Success."
-//                                                           delegate:nil
-//                                                  cancelButtonTitle:@"OK"
-//                                                  otherButtonTitles:nil];
-//            [alert show];
-//            
-//        });
-//        
-//        
-//        
-//        NSData *plainDatas = [irmResponse.irmDataProvider completePlainData];
-//        NSMutableData *plainData = [[NSMutableData alloc] init];
-//        int chunkSize = 1024;
-//        
-//        int bufferLength = chunkSize;
-//        int segments = decryptedLength/bufferLength;
-//        int reminder = decryptedLength % bufferLength;
-//        int startrange = 0;
-//        Byte *byteData= (Byte*)malloc(bufferLength);
-//        
-//        for (int index = 0; index <= segments; index++) {
-//            @autoreleasepool {
-//                if (index == segments) {
-//                    bufferLength = reminder;
-//                    byteData= (Byte*)malloc(bufferLength);
-//                }
-//                //uint8_t buffer[chunkSize];
-//                //Byte *byteData= (Byte*)malloc(bufferLength);
-//                NSRange fetchRange =NSMakeRange(startrange,bufferLength);
-//                [irmResponse.irmDataProvider plainDataBytes:byteData range:fetchRange error:nil];
-//                [plainData appendBytes:byteData length:bufferLength];
-//                startrange += bufferLength;
-//            }
-//        }
-//    }];
-//    
-//    //    [MSProtectedData protectedDataWithProtectedFile:filePath userId:nil authenticationCallback:self.auth consentCallback:self.consentManager options:Default completionBlock:^(MSProtectedData *data, NSError *error) {
-//    //
-//    //        if(error)  {
-//    //
-//    //            return;
-//    //        }
-//    //      
-//    //        
-//    //    }];
-//}
+-(void)plainDataFromProtectedFile:(NSString *)filePath  {
+    
+    NSHTTPCookieStorage *storage = [NSHTTPCookieStorage sharedHTTPCookieStorage];
+    NSArray *cookiesArray = [storage cookies];
+    for (NSHTTPCookie *cookie in cookiesArray) { [storage deleteCookie:cookie];
+        // if ([[cookie name] isEqualToString:@"ESTSAUTHPERSISTENT"] || [[cookie name] isEqualToString:@"ESTSSSOTILES"] )
+        
+    }
+    
+    
+    AWIrmOperationFactory *factory = [AWIrmOperationFactory sharedInstance];
+    
+    // NSString *userId = @"adityaprasd@vmware.com" ;
+    NSString *userId =  @"airwatchinboxdev1@airwatchpm.onmicrosoft.com" ;
+    AWIrmProviderType type = [[AWIrmOperationFactory sharedInstance] irmProviderForContent:filePath];
+    //airwatchinboxdev1@airwatchpm.onmicrosoft.com
+    [[AWIrmOperationFactory sharedInstance] plainDataFromIRMFile:filePath providerType:AWIrmProviderTypeAWIrmProviderTypeMicrosoft userId:userId appBundleId:@"com.airwatch.NewObjClient" completionBlock:^(AWIrmResponse * _Nullable irmResponse, NSError * _Nullable error) {
+        
+        if (irmResponse != nil) {
+            NSLog(@"Logged");
+        }
+        
+        //NSData *plainData = [irmResponse.irmDataProvider completePlainData];
+        
+        NSUInteger decryptedLength = [irmResponse.irmDataProvider decryptedDataLength];
+        
+        
+        
+        
+        if (decryptedLength == 0) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Fail"
+                                                                message:@"Fail."
+                                                               delegate:nil
+                                                      cancelButtonTitle:@"OK"
+                                                      otherButtonTitles:nil];
+                [alert show];
+            });
+            
+            return ;
+        }
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Success"
+                                                            message:@"Success."
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"OK"
+                                                  otherButtonTitles:nil];
+            [alert show];
+            
+        });
+        
+        
+        
+        NSData *plainDatas = [irmResponse.irmDataProvider completePlainData];
+        NSMutableData *plainData = [[NSMutableData alloc] init];
+        int chunkSize = 1024;
+        
+        int bufferLength = chunkSize;
+        int segments = decryptedLength/bufferLength;
+        int reminder = decryptedLength % bufferLength;
+        int startrange = 0;
+        Byte *byteData= (Byte*)malloc(bufferLength);
+        
+        for (int index = 0; index <= segments; index++) {
+            @autoreleasepool {
+                if (index == segments) {
+                    bufferLength = reminder;
+                    byteData= (Byte*)malloc(bufferLength);
+                }
+                //uint8_t buffer[chunkSize];
+                //Byte *byteData= (Byte*)malloc(bufferLength);
+                NSRange fetchRange =NSMakeRange(startrange,bufferLength);
+                [irmResponse.irmDataProvider plainDataBytes:byteData range:fetchRange error:nil];
+                [plainData appendBytes:byteData length:bufferLength];
+                startrange += bufferLength;
+            }
+        }
+    }];
+    
+    //    [MSProtectedData protectedDataWithProtectedFile:filePath userId:nil authenticationCallback:self.auth consentCallback:self.consentManager options:Default completionBlock:^(MSProtectedData *data, NSError *error) {
+    //
+    //        if(error)  {
+    //
+    //            return;
+    //        }
+    //      
+    //        
+    //    }];
+}
 
 @end
