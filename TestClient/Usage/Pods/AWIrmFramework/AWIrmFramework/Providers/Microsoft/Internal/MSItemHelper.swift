@@ -32,9 +32,9 @@ class MSItemHelper {
             let fileHandle = try NSFileHandle(forReadingFromURL: itemURL)
             let fileHeader = fileHandle.readDataOfLength(headerLength)
             
-            if checkForMSProtection(fileHeader) {
+            if checkForMSProtection(fileHeader) {//Non-Office
                 protectionType = MSProtectionType.MSProtection
-            } else if checkForCustomProtection(fileHeader) {
+            } else if checkForCustomProtection(fileHeader) {//Office files
                 protectionType = MSProtectionType.MSCustomProtection
             }
             

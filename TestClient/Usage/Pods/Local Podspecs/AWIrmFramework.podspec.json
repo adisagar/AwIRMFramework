@@ -10,7 +10,7 @@
       "~> 2.2.2"
     ]
   },
-  "version": "0.0.25",
+  "version": "0.0.26",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/adisagar/AwIRMFramework",
   "source": {
     "git": "'https://github.com/adisagar/AwIRMFramework.git'",
-    "tag": "0.0.25"
+    "tag": "0.0.26"
   },
   "frameworks": [
     "CoreData",

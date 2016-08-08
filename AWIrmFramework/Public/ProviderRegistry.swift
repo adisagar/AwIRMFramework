@@ -33,14 +33,14 @@ public class ProviderRegistry: NSObject {
     /* Finds a Provider for the specified file
      @param  item: url of the item/file
      */
-    public func provider(for item:NSURL) -> Provider? {
+    public func provider(for item:NSURL, error:NSErrorPointer) -> Provider? {
         let msProvider = MSIrmProvider()
         do {
             if try msProvider.canProvide(item) {
                 return msProvider
             }
         } catch _{
-            NSLog("AWIrmFramework error occured while parsing the file to detect microsoft protection")
+            error.memory = NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.FileParsingError, userInfo: nil)
         }
         return nil
     }
