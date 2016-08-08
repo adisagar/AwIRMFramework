@@ -1,22 +1,22 @@
 PODS:
-  - AWIrmFramework (0.0.14)
+  - AWIrmFramework (0.0.1)
 
 DEPENDENCIES:
-  - AWIrmFramework (from `https://github.com/adisagar/AwIRMFramework.git`, tag `0.0.14`)
+  - AWIrmFramework (from `https://github.com/adisagar/AwIRMFramework.git`, tag `0.0.16`)
 
 EXTERNAL SOURCES:
   AWIrmFramework:
     :git: https://github.com/adisagar/AwIRMFramework.git
-    :tag: 0.0.14
+    :tag: 0.0.16
 
 CHECKOUT OPTIONS:
   AWIrmFramework:
     :git: https://github.com/adisagar/AwIRMFramework.git
-    :tag: 0.0.14
+    :tag: 0.0.16
 
 SPEC CHECKSUMS:
-  AWIrmFramework: face987b22492da813a5bc5637f5c03fa4573cff
+  AWIrmFramework: d6460be283ebb6ae146c36bfcf14b8bf75b06297
 
-PODFILE CHECKSUM: fe28c9b9aba758a814d80314e44cd8d4e134b35f
+PODFILE CHECKSUM: 13a58e0705af94299576b2d96afadc64cc6b38da
 
 COCOAPODS: 1.0.1

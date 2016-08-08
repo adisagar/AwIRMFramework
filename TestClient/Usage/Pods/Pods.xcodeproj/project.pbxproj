@@ -7,113 +7,216 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02AE58D36BFB81292CB8947271F120DD /* AWIrmFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 8933F6832729249A8D099E0D248DAD63 /* AWIrmFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14DD46BD5D8540529FC8C7CBB40ECE01 /* AWIrmProviderRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF40D710778489DCFCF1DCD52159B8 /* AWIrmProviderRegistry.swift */; };
-		1CB88009E450AA24D1BD274922206FAA /* AWIrmPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAF43C48AEC434A317F3FF63E6B8050 /* AWIrmPermissions.swift */; };
-		202BCA44AADBBC60808C96523B53CE37 /* Pods-Usage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 185B143155CA5B5D0C061F3E3822A1BB /* Pods-Usage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25E7AF9605810BECCB041C7E4881FF12 /* AWMSIrmFileOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C7C78F490C25750C2C81A67813282 /* AWMSIrmFileOperation.swift */; };
-		2B2F198ADC62513CCF13B88F79862A52 /* AWIrmFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C75E5C375BAB626873AD7279E883BDB6 /* AWIrmFramework-dummy.m */; };
-		423EFF080704EDBF6932A8A2D0660C0C /* Pods-Usage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B63097B3B7113AD0A0B55B9641CCDCAE /* Pods-Usage-dummy.m */; };
-		61AAD9F14A37C1E45C47127E0496B8ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		798B6C8E3E1A825E3920C81C547BEAAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		84D1AF0C4242EFF88BD828A78BA9ADD3 /* AWIrmInternalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520D74C05B9D9A53FFC15A29B9C8658 /* AWIrmInternalProtocol.swift */; };
-		8740AEBB39801F62DA63ED4D39582280 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4C9FD23083A7BDCAA00A99AF64EE2C /* Constants.swift */; };
-		8767B514F1B3EDE909A78D8B744D42AC /* AWIrmItemHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB30CD0EF7D2A947BA405B50E9E59FBA /* AWIrmItemHandle.swift */; };
-		A49923C3F21E5AED28AC15C1C4C48003 /* AWIrmFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2300696708A7E3F0B97D6F68F902A7B /* AWIrmFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA8A1AD12239203CD2F2ADD28A1C166D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
-		E59F087988282677F43FD6220EAE4862 /* AWMSIrmPolicyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B87D9BDEDD73C7E801763EBF93B176 /* AWMSIrmPolicyParser.swift */; };
-		EB1A439C16735856BD2C528596CBA935 /* AWIrmProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBCC2E7D91F9AD31E20A382441BFCA1 /* AWIrmProvider.swift */; };
-		F33CD9889E57207F3F230C40A571B1A4 /* AWMSIrmItemHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22D7CA87895958B992D18185340FB37 /* AWMSIrmItemHandle.swift */; };
+		1D1CDFFD94AA2E4A911FA823CB151A8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		465232594454A449372E4A98A436115A /* Pods-Usage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 185B143155CA5B5D0C061F3E3822A1BB /* Pods-Usage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D38553F416863DED7006FE92A51D01AF /* Pods-Usage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B63097B3B7113AD0A0B55B9641CCDCAE /* Pods-Usage-dummy.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		42D46AC0E87C327BDFB0455E7693BD77 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B336F029A1CF60E838DBEE1B237CEDF1;
-			remoteInfo = AWIrmFramework;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		01FF40D710778489DCFCF1DCD52159B8 /* AWIrmProviderRegistry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AWIrmProviderRegistry.swift; path = AWIrmFramework/Public/AWIrmProviderRegistry.swift; sourceTree = "<group>"; };
+		032C2298346391294794E936832529CF /* MSPolicyDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPolicyDescriptor.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSPolicyDescriptor.h; sourceTree = "<group>"; };
+		047D54113152631E259913B1F5E655B4 /* MSRightsManagement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSRightsManagement.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSRightsManagement.h; sourceTree = "<group>"; };
+		066685646E20C581483181EA243C430E /* MSProtectedData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSProtectedData.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSProtectedData.h; sourceTree = "<group>"; };
+		0713D95557BA9C38A896E1B8AB51B4A4 /* MSProtectedData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSProtectedData.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSProtectedData.h; sourceTree = "<group>"; };
+		0734BD5867EC506C4A828D6C86C96182 /* MSUserRights.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSUserRights.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSUserRights.h; sourceTree = "<group>"; };
+		086F1B8C5726D3772F2AD067FBFFEA17 /* MSSdkErrorCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSdkErrorCodes.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSSdkErrorCodes.h; sourceTree = "<group>"; };
 		09D33108E3C7F61BBC9C7DE65CC18CB7 /* Pods-Usage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Usage-acknowledgements.plist"; sourceTree = "<group>"; };
-		0A0D218FD49CF19855D230310A3D07EC /* AWIrmFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AWIrmFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A80FC3C6ED5E67C001148EB23BA3DCF /* MSRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSRole.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSRole.h; sourceTree = "<group>"; };
+		12A3516A3B61703E7F4D54B162C0B956 /* MSUserPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSUserPolicy.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSUserPolicy.h; sourceTree = "<group>"; };
+		163A6F15FBB9AE73C9E6241B18E7CCE1 /* MSAuthenticationCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSAuthenticationCallback.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSAuthenticationCallback.h; sourceTree = "<group>"; };
 		16FC7B4A6A9D37370E2FBF8232D13F80 /* Pods-Usage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Usage.modulemap"; sourceTree = "<group>"; };
+		1839A38BA8E7E08970C12EBBC61B1B62 /* MSProtector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSProtector.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSProtector.h; sourceTree = "<group>"; };
 		185B143155CA5B5D0C061F3E3822A1BB /* Pods-Usage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Usage-umbrella.h"; sourceTree = "<group>"; };
+		195D5363F2FD25315D421576342B0F2E /* MSRight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSRight.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSRight.h; sourceTree = "<group>"; };
+		1B25C638E05634CF460CEABF77FB8D76 /* MSAuthenticationCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSAuthenticationCallback.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSAuthenticationCallback.h; sourceTree = "<group>"; };
+		1BC8483481D6D50D65C57212D1E738EC /* AWIrmFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWIrmFramework.h; path = AWIrmFramework/AWIrmFramework.h; sourceTree = "<group>"; };
+		210EF4C2551E84FEC609ACD171980D91 /* MSSecureCodableObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSecureCodableObject.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSSecureCodableObject.h; sourceTree = "<group>"; };
+		247483E8673A770AA82602B9C6003E38 /* MSLicenseMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSLicenseMetadata.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSLicenseMetadata.h; sourceTree = "<group>"; };
 		267ABAC972B05BC7B083D6DF2E70A382 /* Pods-Usage-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Usage-frameworks.sh"; sourceTree = "<group>"; };
 		2950ED91FAC0090CBBA7BAD1E7EF4FDD /* Pods-Usage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Usage.debug.xcconfig"; sourceTree = "<group>"; };
-		37BFE88EA8C89613910B97412D96AA33 /* AWIrmFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AWIrmFramework.modulemap; sourceTree = "<group>"; };
-		3E3C7C78F490C25750C2C81A67813282 /* AWMSIrmFileOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AWMSIrmFileOperation.swift; path = AWIrmFramework/Providers/Microsoft/AWMSIrmFileOperation.swift; sourceTree = "<group>"; };
-		40FCA3A257F6E15B56EDDD61F842F9EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7DAF43C48AEC434A317F3FF63E6B8050 /* AWIrmPermissions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AWIrmPermissions.swift; path = AWIrmFramework/Public/AWIrmPermissions.swift; sourceTree = "<group>"; };
-		8933F6832729249A8D099E0D248DAD63 /* AWIrmFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWIrmFramework.h; path = AWIrmFramework/AWIrmFramework.h; sourceTree = "<group>"; };
-		8CBCC2E7D91F9AD31E20A382441BFCA1 /* AWIrmProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AWIrmProvider.swift; path = AWIrmFramework/Public/AWIrmProvider.swift; sourceTree = "<group>"; };
+		2D092EA57031AEA7A5A1DD1DABEB5360 /* MSConsent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSConsent.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSConsent.h; sourceTree = "<group>"; };
+		368807B5E79BCFD5F6E332940D66F614 /* MSAuthenticationParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSAuthenticationParameters.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSAuthenticationParameters.h; sourceTree = "<group>"; };
+		3763718846FC78BC1AE33AAAFCF47848 /* MSSdkErrorCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSdkErrorCodes.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSSdkErrorCodes.h; sourceTree = "<group>"; };
+		39518499EBDA9D5C685B5CC880E16B8C /* MSSecureCodableObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSecureCodableObject.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSSecureCodableObject.h; sourceTree = "<group>"; };
+		39D15E3CC1308963F229C307FCDE25B9 /* MSProtection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSProtection.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSProtection.h; sourceTree = "<group>"; };
+		3BE725B237DF85A8B625124B2C2BBA91 /* MSSecureCodableObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSecureCodableObject.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSSecureCodableObject.h; sourceTree = "<group>"; };
+		3C1D8E6BBB57485372217C9D4065351C /* MSUserPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSUserPolicy.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSUserPolicy.h; sourceTree = "<group>"; };
+		3EA6EA5190626F5C1EF5F30AAA011DC8 /* MSConsent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSConsent.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSConsent.h; sourceTree = "<group>"; };
+		3ECC1E8596149EE0A0D6F1E9D23AE71F /* MSProtector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSProtector.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSProtector.h; sourceTree = "<group>"; };
+		4CD7FEAE3199BB4A49B04F4C55B03458 /* MSRightsManagement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSRightsManagement.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSRightsManagement.h; sourceTree = "<group>"; };
+		54CD581EF8044B4D9315D77FDF3E75AA /* MSAuthenticationParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSAuthenticationParameters.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSAuthenticationParameters.h; sourceTree = "<group>"; };
+		57FA272A1F2474F5B40622CB1792DE1A /* MSConsentCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSConsentCallback.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSConsentCallback.h; sourceTree = "<group>"; };
+		5CEC4A7F453EAE6E089BF8FFCF952AD8 /* MSTemplateDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSTemplateDescriptor.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSTemplateDescriptor.h; sourceTree = "<group>"; };
+		5EE8A4C11AB5DFB084B51C8533F0A0F4 /* MSCustomProtectedData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSCustomProtectedData.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSCustomProtectedData.h; sourceTree = "<group>"; };
+		680D01A3E2DA1F3CB23AD6CC403A43B3 /* MSPolicyDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPolicyDescriptor.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSPolicyDescriptor.h; sourceTree = "<group>"; };
+		68C80E454E03EF23C9D111F160EF9FDD /* MSMutableProtectedData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSMutableProtectedData.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSMutableProtectedData.h; sourceTree = "<group>"; };
+		699582243C1EF576E7F018BCEF34C11B /* MSAuthenticationCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSAuthenticationCallback.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSAuthenticationCallback.h; sourceTree = "<group>"; };
+		6B41CED8A02EFC4600D7017D46751F04 /* MSAsyncControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSAsyncControl.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSAsyncControl.h; sourceTree = "<group>"; };
+		6C997990E1F76A7BBA51AAC1ABEFDF8B /* MSAsyncControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSAsyncControl.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSAsyncControl.h; sourceTree = "<group>"; };
+		71E00A190DC02084F7D15BB5A68507EB /* MSUserPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSUserPolicy.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSUserPolicy.h; sourceTree = "<group>"; };
+		72945CC87365E6CB4D9C9E9CE2C658DD /* MSLicenseMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSLicenseMetadata.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSLicenseMetadata.h; sourceTree = "<group>"; };
+		77AA4CADC8C3ECC72B99752143859CBB /* MSCustomProtectedData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSCustomProtectedData.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSCustomProtectedData.h; sourceTree = "<group>"; };
+		77F8A25CE2CA1B693EF7F41540C78F85 /* MSUserRoles.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSUserRoles.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSUserRoles.h; sourceTree = "<group>"; };
+		7C0E8A89E6C996994FAFBEEC9FA54D93 /* MSMutableProtectedData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSMutableProtectedData.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSMutableProtectedData.h; sourceTree = "<group>"; };
+		7CE85372757BC7B5EEFC809202E12E7B /* MSTemplateDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSTemplateDescriptor.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSTemplateDescriptor.h; sourceTree = "<group>"; };
+		7D941F60FC325C8C7EBEE8E08D4C2B9E /* MSUserRoles.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSUserRoles.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSUserRoles.h; sourceTree = "<group>"; };
+		84421C605CBE8F389ED74C61EF0F18D2 /* MSMutableCustomProtectedData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSMutableCustomProtectedData.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSMutableCustomProtectedData.h; sourceTree = "<group>"; };
+		8766FFF542C20B4A83BE6EEDC63F872F /* MSLicenseMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSLicenseMetadata.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSLicenseMetadata.h; sourceTree = "<group>"; };
+		87E14C8C9755D4DC29F10CE3B168AC4D /* MSConsent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSConsent.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSConsent.h; sourceTree = "<group>"; };
+		8838DF320C84C5C5E29C9EB267D5686A /* MSCustomProtection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSCustomProtection.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSCustomProtection.h; sourceTree = "<group>"; };
+		88D4D9CADE841090C6C3E47B00D3F448 /* MSAsyncControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSAsyncControl.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSAsyncControl.h; sourceTree = "<group>"; };
+		8CDC10DDF28179073ECCBDD448000F56 /* Pods_Usage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Usage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2FCEA9E20471C075D7AACCA6C7CB42 /* MSProtection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSProtection.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSProtection.h; sourceTree = "<group>"; };
+		8E9F8E5846A793E3B81168423E981112 /* MSRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSRole.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSRole.h; sourceTree = "<group>"; };
+		902827C0428F51C9A07DF95BE756761A /* MSProtection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSProtection.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSProtection.h; sourceTree = "<group>"; };
+		90D7EE6C73B1F1DE9D0C7C96CDB76780 /* MSProtectedData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSProtectedData.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSProtectedData.h; sourceTree = "<group>"; };
 		9264CCB8FDA16BF3B230806AADC9DA42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938FC535F42F3DE9F7C0BE0E958B683E /* MSConsentCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSConsentCallback.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSConsentCallback.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9520D74C05B9D9A53FFC15A29B9C8658 /* AWIrmInternalProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AWIrmInternalProtocol.swift; path = AWIrmFramework/Internal/AWIrmInternalProtocol.swift; sourceTree = "<group>"; };
 		954D7785F35C886CD267DB1E2BDDE0D2 /* Pods-Usage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Usage.release.xcconfig"; sourceTree = "<group>"; };
-		9FDF14968BE4FA2F83A0AFBC84491F0A /* Pods_Usage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Usage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9790570D2BEFF05159BDD043313F0285 /* AWIrmFramework-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AWIrmFramework-Bridging-Header.h"; path = "AWIrmFramework/AWIrmFramework-Bridging-Header.h"; sourceTree = "<group>"; };
+		A3D98B1AECAC98C9EBF11A4756513217 /* MSOfflineCacheLifetimeConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSOfflineCacheLifetimeConstants.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSOfflineCacheLifetimeConstants.h; sourceTree = "<group>"; };
+		A61936DC23B2C98DC559C737C6EDA7BB /* MSProtector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSProtector.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSProtector.h; sourceTree = "<group>"; };
+		A8A1B8AB97498A5D1885472DFEABFE1E /* MSSdkErrorCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSdkErrorCodes.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSSdkErrorCodes.h; sourceTree = "<group>"; };
+		AC67B7BE3834B335D42A76163EB25577 /* MSPolicyDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSPolicyDescriptor.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSPolicyDescriptor.h; sourceTree = "<group>"; };
+		B522E8D2EEA22AC23FD8F9B31517C141 /* MSRight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSRight.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSRight.h; sourceTree = "<group>"; };
 		B63097B3B7113AD0A0B55B9641CCDCAE /* Pods-Usage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Usage-dummy.m"; sourceTree = "<group>"; };
-		C75E5C375BAB626873AD7279E883BDB6 /* AWIrmFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AWIrmFramework-dummy.m"; sourceTree = "<group>"; };
-		D086D1EFA381A49151128F7E4AB1F729 /* AWIrmFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AWIrmFramework.xcconfig; sourceTree = "<group>"; };
-		D0B87D9BDEDD73C7E801763EBF93B176 /* AWMSIrmPolicyParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AWMSIrmPolicyParser.swift; path = AWIrmFramework/Providers/Microsoft/Internal/AWMSIrmPolicyParser.swift; sourceTree = "<group>"; };
-		D22D7CA87895958B992D18185340FB37 /* AWMSIrmItemHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AWMSIrmItemHandle.swift; path = AWIrmFramework/Providers/Microsoft/AWMSIrmItemHandle.swift; sourceTree = "<group>"; };
-		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		EF4C9FD23083A7BDCAA00A99AF64EE2C /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = AWIrmFramework/Internal/Constants.swift; sourceTree = "<group>"; };
+		B76C81FFCA8E6F7E3DFB1FAFD475249E /* MSUserRoles.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSUserRoles.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSUserRoles.h; sourceTree = "<group>"; };
+		BA4067492EC8D7B16535374C4B5B1B7D /* MSTemplateDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSTemplateDescriptor.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSTemplateDescriptor.h; sourceTree = "<group>"; };
+		BAFCC0A6A3DD1E21DD4D5D36428E44F8 /* MSCustomProtection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSCustomProtection.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSCustomProtection.h; sourceTree = "<group>"; };
+		BE6B632B17AF0295D4F9D159890EE576 /* MSRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSRole.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSRole.h; sourceTree = "<group>"; };
+		C3FD7C2C26D6A11E4765F1244AD8915B /* MSMutableCustomProtectedData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSMutableCustomProtectedData.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSMutableCustomProtectedData.h; sourceTree = "<group>"; };
+		C6E1A3D5C4C948B006D1E1772291E090 /* MSConsentCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSConsentCallback.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSConsentCallback.h; sourceTree = "<group>"; };
+		C8C4F4A58E635B0C7E74E4E537B19B2C /* MSRight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSRight.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSRight.h; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D3974F49BAD2117D758F4B40963941EC /* MSRightsManagement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSRightsManagement.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSRightsManagement.h; sourceTree = "<group>"; };
+		DA47A1245DFEF04FF17816FB90B5EF2A /* MSAuthenticationParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSAuthenticationParameters.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSAuthenticationParameters.h; sourceTree = "<group>"; };
+		DAB0943340DE0E6EA8B3342745484FE4 /* MSMutableCustomProtectedData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSMutableCustomProtectedData.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSMutableCustomProtectedData.h; sourceTree = "<group>"; };
+		DB0306316376E4F09B25535FEFEDC398 /* MSCustomProtection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSCustomProtection.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSCustomProtection.h; sourceTree = "<group>"; };
+		E4A2D12F6BCF92C56DA08A2750C6082C /* MSOfflineCacheLifetimeConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSOfflineCacheLifetimeConstants.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/Current/Headers/MSOfflineCacheLifetimeConstants.h; sourceTree = "<group>"; };
+		ED8231E1183AC74C0AA6B0E4C13565AB /* MSMutableProtectedData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSMutableProtectedData.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSMutableProtectedData.h; sourceTree = "<group>"; };
 		F0BF7A0B34F81CEBD99E0509997D172B /* Pods-Usage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Usage-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F12B31F8F83227EC8607BBA5422D9DDB /* Pods-Usage-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Usage-resources.sh"; sourceTree = "<group>"; };
-		F2300696708A7E3F0B97D6F68F902A7B /* AWIrmFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWIrmFramework-umbrella.h"; sourceTree = "<group>"; };
-		FB30CD0EF7D2A947BA405B50E9E59FBA /* AWIrmItemHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AWIrmItemHandle.swift; path = AWIrmFramework/Public/AWIrmItemHandle.swift; sourceTree = "<group>"; };
-		FE8BE351B78BC261517C31F6EE6E6924 /* AWIrmFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWIrmFramework-prefix.pch"; sourceTree = "<group>"; };
+		F32FDD57B9F9C1CE09A5736B55B3075B /* MSCustomProtectedData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSCustomProtectedData.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSCustomProtectedData.h; sourceTree = "<group>"; };
+		F98430B7472895188ADB9EA8A4C1276F /* MSOfflineCacheLifetimeConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSOfflineCacheLifetimeConstants.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSOfflineCacheLifetimeConstants.h; sourceTree = "<group>"; };
+		FADB255AA01B7A3F284CB263E8AA2BA7 /* MSUserRights.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSUserRights.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSUserRights.h; sourceTree = "<group>"; };
+		FE53C34C300425048B66F1F2E47C8EB0 /* MSUserRights.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSUserRights.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Versions/A/Headers/MSUserRights.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		74F15599803C9E7DEDFD23E6C5A90E2E /* Frameworks */ = {
+		E9AF3780531B27371CEFF4B358DF4C77 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61AAD9F14A37C1E45C47127E0496B8ED /* Foundation.framework in Frameworks */,
-				DA8A1AD12239203CD2F2ADD28A1C166D /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D803C070700D7528A5A21DD3DDDD994A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				798B6C8E3E1A825E3920C81C547BEAAE /* Foundation.framework in Frameworks */,
+				1D1CDFFD94AA2E4A911FA823CB151A8C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		156BB7DB184DCF24075711234D583E3D /* Pods */ = {
+		264C7F0F08E96C87AC4BCC67E2118BA1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6B89D77FF6E95335FB348547ECCA39CA /* AWIrmFramework */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4EDF386CA2F4D4127B43066789E25AB9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0A0D218FD49CF19855D230310A3D07EC /* AWIrmFramework.framework */,
-				9FDF14968BE4FA2F83A0AFBC84491F0A /* Pods_Usage.framework */,
+				8CDC10DDF28179073ECCBDD448000F56 /* Pods_Usage.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		33D1FE210C80C8244F32DCA4428CD0E0 /* AWIrmFramework */ = {
+			isa = PBXGroup;
+			children = (
+				1BC8483481D6D50D65C57212D1E738EC /* AWIrmFramework.h */,
+				9790570D2BEFF05159BDD043313F0285 /* AWIrmFramework-Bridging-Header.h */,
+				6B41CED8A02EFC4600D7017D46751F04 /* MSAsyncControl.h */,
+				88D4D9CADE841090C6C3E47B00D3F448 /* MSAsyncControl.h */,
+				6C997990E1F76A7BBA51AAC1ABEFDF8B /* MSAsyncControl.h */,
+				163A6F15FBB9AE73C9E6241B18E7CCE1 /* MSAuthenticationCallback.h */,
+				1B25C638E05634CF460CEABF77FB8D76 /* MSAuthenticationCallback.h */,
+				699582243C1EF576E7F018BCEF34C11B /* MSAuthenticationCallback.h */,
+				DA47A1245DFEF04FF17816FB90B5EF2A /* MSAuthenticationParameters.h */,
+				54CD581EF8044B4D9315D77FDF3E75AA /* MSAuthenticationParameters.h */,
+				368807B5E79BCFD5F6E332940D66F614 /* MSAuthenticationParameters.h */,
+				3EA6EA5190626F5C1EF5F30AAA011DC8 /* MSConsent.h */,
+				87E14C8C9755D4DC29F10CE3B168AC4D /* MSConsent.h */,
+				2D092EA57031AEA7A5A1DD1DABEB5360 /* MSConsent.h */,
+				938FC535F42F3DE9F7C0BE0E958B683E /* MSConsentCallback.h */,
+				57FA272A1F2474F5B40622CB1792DE1A /* MSConsentCallback.h */,
+				C6E1A3D5C4C948B006D1E1772291E090 /* MSConsentCallback.h */,
+				77AA4CADC8C3ECC72B99752143859CBB /* MSCustomProtectedData.h */,
+				F32FDD57B9F9C1CE09A5736B55B3075B /* MSCustomProtectedData.h */,
+				5EE8A4C11AB5DFB084B51C8533F0A0F4 /* MSCustomProtectedData.h */,
+				8838DF320C84C5C5E29C9EB267D5686A /* MSCustomProtection.h */,
+				DB0306316376E4F09B25535FEFEDC398 /* MSCustomProtection.h */,
+				BAFCC0A6A3DD1E21DD4D5D36428E44F8 /* MSCustomProtection.h */,
+				247483E8673A770AA82602B9C6003E38 /* MSLicenseMetadata.h */,
+				8766FFF542C20B4A83BE6EEDC63F872F /* MSLicenseMetadata.h */,
+				72945CC87365E6CB4D9C9E9CE2C658DD /* MSLicenseMetadata.h */,
+				DAB0943340DE0E6EA8B3342745484FE4 /* MSMutableCustomProtectedData.h */,
+				84421C605CBE8F389ED74C61EF0F18D2 /* MSMutableCustomProtectedData.h */,
+				C3FD7C2C26D6A11E4765F1244AD8915B /* MSMutableCustomProtectedData.h */,
+				7C0E8A89E6C996994FAFBEEC9FA54D93 /* MSMutableProtectedData.h */,
+				68C80E454E03EF23C9D111F160EF9FDD /* MSMutableProtectedData.h */,
+				ED8231E1183AC74C0AA6B0E4C13565AB /* MSMutableProtectedData.h */,
+				F98430B7472895188ADB9EA8A4C1276F /* MSOfflineCacheLifetimeConstants.h */,
+				A3D98B1AECAC98C9EBF11A4756513217 /* MSOfflineCacheLifetimeConstants.h */,
+				E4A2D12F6BCF92C56DA08A2750C6082C /* MSOfflineCacheLifetimeConstants.h */,
+				AC67B7BE3834B335D42A76163EB25577 /* MSPolicyDescriptor.h */,
+				032C2298346391294794E936832529CF /* MSPolicyDescriptor.h */,
+				680D01A3E2DA1F3CB23AD6CC403A43B3 /* MSPolicyDescriptor.h */,
+				0713D95557BA9C38A896E1B8AB51B4A4 /* MSProtectedData.h */,
+				90D7EE6C73B1F1DE9D0C7C96CDB76780 /* MSProtectedData.h */,
+				066685646E20C581483181EA243C430E /* MSProtectedData.h */,
+				39D15E3CC1308963F229C307FCDE25B9 /* MSProtection.h */,
+				8D2FCEA9E20471C075D7AACCA6C7CB42 /* MSProtection.h */,
+				902827C0428F51C9A07DF95BE756761A /* MSProtection.h */,
+				A61936DC23B2C98DC559C737C6EDA7BB /* MSProtector.h */,
+				3ECC1E8596149EE0A0D6F1E9D23AE71F /* MSProtector.h */,
+				1839A38BA8E7E08970C12EBBC61B1B62 /* MSProtector.h */,
+				195D5363F2FD25315D421576342B0F2E /* MSRight.h */,
+				C8C4F4A58E635B0C7E74E4E537B19B2C /* MSRight.h */,
+				B522E8D2EEA22AC23FD8F9B31517C141 /* MSRight.h */,
+				D3974F49BAD2117D758F4B40963941EC /* MSRightsManagement.h */,
+				047D54113152631E259913B1F5E655B4 /* MSRightsManagement.h */,
+				4CD7FEAE3199BB4A49B04F4C55B03458 /* MSRightsManagement.h */,
+				8E9F8E5846A793E3B81168423E981112 /* MSRole.h */,
+				BE6B632B17AF0295D4F9D159890EE576 /* MSRole.h */,
+				0A80FC3C6ED5E67C001148EB23BA3DCF /* MSRole.h */,
+				A8A1B8AB97498A5D1885472DFEABFE1E /* MSSdkErrorCodes.h */,
+				3763718846FC78BC1AE33AAAFCF47848 /* MSSdkErrorCodes.h */,
+				086F1B8C5726D3772F2AD067FBFFEA17 /* MSSdkErrorCodes.h */,
+				39518499EBDA9D5C685B5CC880E16B8C /* MSSecureCodableObject.h */,
+				210EF4C2551E84FEC609ACD171980D91 /* MSSecureCodableObject.h */,
+				3BE725B237DF85A8B625124B2C2BBA91 /* MSSecureCodableObject.h */,
+				BA4067492EC8D7B16535374C4B5B1B7D /* MSTemplateDescriptor.h */,
+				7CE85372757BC7B5EEFC809202E12E7B /* MSTemplateDescriptor.h */,
+				5CEC4A7F453EAE6E089BF8FFCF952AD8 /* MSTemplateDescriptor.h */,
+				71E00A190DC02084F7D15BB5A68507EB /* MSUserPolicy.h */,
+				12A3516A3B61703E7F4D54B162C0B956 /* MSUserPolicy.h */,
+				3C1D8E6BBB57485372217C9D4065351C /* MSUserPolicy.h */,
+				FE53C34C300425048B66F1F2E47C8EB0 /* MSUserRights.h */,
+				0734BD5867EC506C4A828D6C86C96182 /* MSUserRights.h */,
+				FADB255AA01B7A3F284CB263E8AA2BA7 /* MSUserRights.h */,
+				B76C81FFCA8E6F7E3DFB1FAFD475249E /* MSUserRoles.h */,
+				77F8A25CE2CA1B693EF7F41540C78F85 /* MSUserRoles.h */,
+				7D941F60FC325C8C7EBEE8E08D4C2B9E /* MSUserRoles.h */,
+			);
+			path = AWIrmFramework;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		47BBB2A65973B3328194A643FF1BC844 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33D1FE210C80C8244F32DCA4428CD0E0 /* AWIrmFramework */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		61F1930BB71754E9496BE9971A51A784 /* Pods-Usage */ = {
@@ -134,24 +237,6 @@
 			path = "Target Support Files/Pods-Usage";
 			sourceTree = "<group>";
 		};
-		6B89D77FF6E95335FB348547ECCA39CA /* AWIrmFramework */ = {
-			isa = PBXGroup;
-			children = (
-				8933F6832729249A8D099E0D248DAD63 /* AWIrmFramework.h */,
-				9520D74C05B9D9A53FFC15A29B9C8658 /* AWIrmInternalProtocol.swift */,
-				FB30CD0EF7D2A947BA405B50E9E59FBA /* AWIrmItemHandle.swift */,
-				7DAF43C48AEC434A317F3FF63E6B8050 /* AWIrmPermissions.swift */,
-				8CBCC2E7D91F9AD31E20A382441BFCA1 /* AWIrmProvider.swift */,
-				01FF40D710778489DCFCF1DCD52159B8 /* AWIrmProviderRegistry.swift */,
-				3E3C7C78F490C25750C2C81A67813282 /* AWMSIrmFileOperation.swift */,
-				D22D7CA87895958B992D18185340FB37 /* AWMSIrmItemHandle.swift */,
-				D0B87D9BDEDD73C7E801763EBF93B176 /* AWMSIrmPolicyParser.swift */,
-				EF4C9FD23083A7BDCAA00A99AF64EE2C /* Constants.swift */,
-				A976ABFF90541EEC0927B44A03DF26F5 /* Support Files */,
-			);
-			path = AWIrmFramework;
-			sourceTree = "<group>";
-		};
 		748FF37C23F4288DDB467AB0D483BE20 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,92 +249,50 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				156BB7DB184DCF24075711234D583E3D /* Pods */,
-				4EDF386CA2F4D4127B43066789E25AB9 /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				47BBB2A65973B3328194A643FF1BC844 /* Pods */,
+				264C7F0F08E96C87AC4BCC67E2118BA1 /* Products */,
 				748FF37C23F4288DDB467AB0D483BE20 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A976ABFF90541EEC0927B44A03DF26F5 /* Support Files */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				37BFE88EA8C89613910B97412D96AA33 /* AWIrmFramework.modulemap */,
-				D086D1EFA381A49151128F7E4AB1F729 /* AWIrmFramework.xcconfig */,
-				C75E5C375BAB626873AD7279E883BDB6 /* AWIrmFramework-dummy.m */,
-				FE8BE351B78BC261517C31F6EE6E6924 /* AWIrmFramework-prefix.pch */,
-				F2300696708A7E3F0B97D6F68F902A7B /* AWIrmFramework-umbrella.h */,
-				40FCA3A257F6E15B56EDDD61F842F9EE /* Info.plist */,
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/AWIrmFramework";
-			sourceTree = "<group>";
-		};
-		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
-				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
-			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3C76F826AF54BE080C25580882A1F0BC /* Headers */ = {
+		6A7E9C29CA0783155A1492009605AC97 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A49923C3F21E5AED28AC15C1C4C48003 /* AWIrmFramework-umbrella.h in Headers */,
-				02AE58D36BFB81292CB8947271F120DD /* AWIrmFramework.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A9940A9AAF4BDB57583BBE05581226A0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				202BCA44AADBBC60808C96523B53CE37 /* Pods-Usage-umbrella.h in Headers */,
+				465232594454A449372E4A98A436115A /* Pods-Usage-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B336F029A1CF60E838DBEE1B237CEDF1 /* AWIrmFramework */ = {
+		726FE4C7095C1BCFAC94457731111BD5 /* Pods-Usage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9FF5EBE351C9A105BE9ADA8245F4CD0 /* Build configuration list for PBXNativeTarget "AWIrmFramework" */;
+			buildConfigurationList = 1975861789724637998E94C264B5CB2F /* Build configuration list for PBXNativeTarget "Pods-Usage" */;
 			buildPhases = (
-				2AA83C84AB221996A1D3640A05B59DBD /* Sources */,
-				74F15599803C9E7DEDFD23E6C5A90E2E /* Frameworks */,
-				3C76F826AF54BE080C25580882A1F0BC /* Headers */,
+				4121517FAED0DFC7BD7DC5B2741E8514 /* Sources */,
+				E9AF3780531B27371CEFF4B358DF4C77 /* Frameworks */,
+				6A7E9C29CA0783155A1492009605AC97 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = AWIrmFramework;
-			productName = AWIrmFramework;
-			productReference = 0A0D218FD49CF19855D230310A3D07EC /* AWIrmFramework.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E8682AFB540E3C2C1CA0D68821B0362B /* Pods-Usage */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C9F22163C41F6CD6A777A14C0870C5AB /* Build configuration list for PBXNativeTarget "Pods-Usage" */;
-			buildPhases = (
-				8D95DC4711B8D91DE55E8B4C92BE5949 /* Sources */,
-				D803C070700D7528A5A21DD3DDDD994A /* Frameworks */,
-				A9940A9AAF4BDB57583BBE05581226A0 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8C79A59BD750294FFFBCF5D1759966F7 /* PBXTargetDependency */,
 			);
 			name = "Pods-Usage";
 			productName = "Pods-Usage";
-			productReference = 9FDF14968BE4FA2F83A0AFBC84491F0A /* Pods_Usage.framework */;
+			productReference = 8CDC10DDF28179073ECCBDD448000F56 /* Pods_Usage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -269,121 +312,27 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4EDF386CA2F4D4127B43066789E25AB9 /* Products */;
+			productRefGroup = 264C7F0F08E96C87AC4BCC67E2118BA1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B336F029A1CF60E838DBEE1B237CEDF1 /* AWIrmFramework */,
-				E8682AFB540E3C2C1CA0D68821B0362B /* Pods-Usage */,
+				726FE4C7095C1BCFAC94457731111BD5 /* Pods-Usage */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2AA83C84AB221996A1D3640A05B59DBD /* Sources */ = {
+		4121517FAED0DFC7BD7DC5B2741E8514 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B2F198ADC62513CCF13B88F79862A52 /* AWIrmFramework-dummy.m in Sources */,
-				84D1AF0C4242EFF88BD828A78BA9ADD3 /* AWIrmInternalProtocol.swift in Sources */,
-				8767B514F1B3EDE909A78D8B744D42AC /* AWIrmItemHandle.swift in Sources */,
-				1CB88009E450AA24D1BD274922206FAA /* AWIrmPermissions.swift in Sources */,
-				EB1A439C16735856BD2C528596CBA935 /* AWIrmProvider.swift in Sources */,
-				14DD46BD5D8540529FC8C7CBB40ECE01 /* AWIrmProviderRegistry.swift in Sources */,
-				25E7AF9605810BECCB041C7E4881FF12 /* AWMSIrmFileOperation.swift in Sources */,
-				F33CD9889E57207F3F230C40A571B1A4 /* AWMSIrmItemHandle.swift in Sources */,
-				E59F087988282677F43FD6220EAE4862 /* AWMSIrmPolicyParser.swift in Sources */,
-				8740AEBB39801F62DA63ED4D39582280 /* Constants.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8D95DC4711B8D91DE55E8B4C92BE5949 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				423EFF080704EDBF6932A8A2D0660C0C /* Pods-Usage-dummy.m in Sources */,
+				D38553F416863DED7006FE92A51D01AF /* Pods-Usage-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		8C79A59BD750294FFFBCF5D1759966F7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AWIrmFramework;
-			target = B336F029A1CF60E838DBEE1B237CEDF1 /* AWIrmFramework */;
-			targetProxy = 42D46AC0E87C327BDFB0455E7693BD77 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		0330F3391FB91180646691AAA35F4700 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 954D7785F35C886CD267DB1E2BDDE0D2 /* Pods-Usage.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Usage/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Usage/Pods-Usage.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Usage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1748CB12308899BCF5725BAFE0192A39 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2950ED91FAC0090CBBA7BAD1E7EF4FDD /* Pods-Usage.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Usage/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Usage/Pods-Usage.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Usage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -464,38 +413,9 @@
 			};
 			name = Debug;
 		};
-		DDB1C1F28F75C67387C5382F10171629 /* Release */ = {
+		635359F84D85416793E9B18E89D1B483 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D086D1EFA381A49151128F7E4AB1F729 /* AWIrmFramework.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AWIrmFramework/AWIrmFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AWIrmFramework/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AWIrmFramework/AWIrmFramework.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AWIrmFramework;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E8B403A831AA8EB9626B74FE405DFBF1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D086D1EFA381A49151128F7E4AB1F729 /* AWIrmFramework.xcconfig */;
+			baseConfigurationReference = 2950ED91FAC0090CBBA7BAD1E7EF4FDD /* Pods-Usage.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -506,49 +426,76 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AWIrmFramework/AWIrmFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AWIrmFramework/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Usage/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AWIrmFramework/AWIrmFramework.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Usage/Pods-Usage.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AWIrmFramework;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Usage;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+		8DDE641F116EF13AC876E9DB2B4C107E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954D7785F35C886CD267DB1E2BDDE0D2 /* Pods-Usage.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Usage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Usage/Pods-Usage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Usage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1975861789724637998E94C264B5CB2F /* Build configuration list for PBXNativeTarget "Pods-Usage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635359F84D85416793E9B18E89D1B483 /* Debug */,
+				8DDE641F116EF13AC876E9DB2B4C107E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
 				3FA451D268613890FA8A5A03801E11D5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C9F22163C41F6CD6A777A14C0870C5AB /* Build configuration list for PBXNativeTarget "Pods-Usage" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1748CB12308899BCF5725BAFE0192A39 /* Debug */,
-				0330F3391FB91180646691AAA35F4700 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E9FF5EBE351C9A105BE9ADA8245F4CD0 /* Build configuration list for PBXNativeTarget "AWIrmFramework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E8B403A831AA8EB9626B74FE405DFBF1 /* Debug */,
-				DDB1C1F28F75C67387C5382F10171629 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
