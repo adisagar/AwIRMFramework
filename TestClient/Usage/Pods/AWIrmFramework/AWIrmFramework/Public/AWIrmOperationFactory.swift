@@ -22,9 +22,9 @@ public class AWIrmOperationFactory : NSObject{
     //Method resposible for Authenticating and parsing the policies of the protected document.
     //If found,the policies are directly returned from cache for particular user/file pair.
     //If only credentails are found to be cached then, authentication screen is skipped.
-    public func plainDataFromIRMFile(filePath : String, providerType:AWIrmProviderType, userId:String, appBundleId:String, completionBlock:(irmResponse : AWIrmResponse?, error : NSError?) -> Void){
+    public func plainDataFromIRMFile(filePath : NSURL, providerType:AWIrmProviderType, userId:String, appBundleId:String, completionBlock:(irmResponse : AWIrmResponse?, error : NSError?) -> Void){
         
-        let irmHandler = irmProviderHandlerForContent(filePath, providerType: providerType, userId: userId, appBundleId: appBundleId)
+        let irmHandler = irmProviderHandlerForContent(filePath.absoluteString, providerType: providerType, userId: userId, appBundleId: appBundleId)
         
         if (irmHandler != nil) {
             irmHandler!.plainDataFromIRMFile(filePath) { (plainData, error) in

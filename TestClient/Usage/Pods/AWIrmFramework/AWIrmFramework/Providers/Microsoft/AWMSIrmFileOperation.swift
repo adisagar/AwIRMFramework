@@ -36,9 +36,9 @@ class AWMSIrmFileOperation: NSObject, AWIrmProtocol, MSAuthenticationCallback {
         self.appClientId = appBundleId
     }
     
-    func plainDataFromIRMFile(filePath: String, completionBlock: ((response: AWIrmResponse?, error: NSError?) -> Void)) {
+    func plainDataFromIRMFile(filePath: NSURL, completionBlock: ((response: AWIrmResponse?, error: NSError?) -> Void)) {
         
-        let fileHandle = NSFileHandle(forReadingAtPath: filePath)
+        let fileHandle = NSFileHandle(forReadingAtPath: filePath.absoluteString)
         
         if fileHandle == nil {
             completionBlock(response: nil, error: NSError(domain: "", code: 0, userInfo: nil))
@@ -47,7 +47,7 @@ class AWMSIrmFileOperation: NSObject, AWIrmProtocol, MSAuthenticationCallback {
         
         
         
-        plainDataFromProtectedFile(filePath) { (response, error) in
+        plainDataFromProtectedFile(filePath.absoluteString) { (response, error) in
             completionBlock(response: response, error: nil)
         }
         

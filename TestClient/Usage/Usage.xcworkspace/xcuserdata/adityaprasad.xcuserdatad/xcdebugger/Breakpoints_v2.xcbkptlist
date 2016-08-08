@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/AWIrmFramework/AWIrmFramework/Providers/Microsoft/MSProvider.swift"
-            timestampString = "492328217.499803"
+            timestampString = "492334999.099578"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
             landmarkName = "plainDataFromProtectedFile(_:userId:bundleId:completionBlock:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -58,27 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/AWIrmFramework/AWIrmFramework/Providers/Microsoft/MSProvider.swift"
-            timestampString = "492328215.667291"
+            timestampString = "492334999.099578"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "irmItemHandle(forReading:userId:bundleId:completionBlock:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Pods/AWIrmFramework/AWIrmFramework/Providers/Microsoft/MSProvider.swift"
-            timestampString = "492328217.499803"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "plainDataFromProtectedFile(_:userId:bundleId:completionBlock:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -90,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/AWIrmFramework/AWIrmFramework/Providers/Microsoft/MSProvider.swift"
-            timestampString = "492328217.499803"
+            timestampString = "492334999.099578"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
             landmarkName = "accessTokenWithAuthenticationParameters(_:completionBlock:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -106,13 +90,45 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/AWIrmFramework/AWIrmFramework/Providers/Microsoft/MSProvider.swift"
-            timestampString = "492328217.499803"
+            timestampString = "492334999.099578"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "plainDataFromProtectedFile(_:userId:bundleId:completionBlock:)"
             landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AWIrmFramework.MSIrmProvider.(plainDataFromProtectedFile in _5463A5A15AA6F4D70E5C3E60044D7FC1) (Swift.String, userId : Swift.String, bundleId : Swift.String, completionBlock : (itemHandle : Swift.Optional&lt;AWIrmFramework.ItemHandle&gt;, Swift.Optional&lt;__ObjC.NSError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AWIrmFramework"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adityaprasad/Documents/SCL_WorkSpace/SCL_Repo/AWIrmFrameworkCode/TestClient/Usage/Pods/AWIrmFramework/AWIrmFramework/Providers/Microsoft/MSProvider.swift"
+                  timestampString = "492335167.158514"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "806">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AWIrmFramework.MSIrmProvider.((plainDataFromProtectedFile in _5463A5A15AA6F4D70E5C3E60044D7FC1) (Swift.String, userId : Swift.String, bundleId : Swift.String, completionBlock : (itemHandle : Swift.Optional&lt;AWIrmFramework.ItemHandle&gt;, Swift.Optional&lt;__ObjC.NSError&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "AWIrmFramework"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adityaprasad/Documents/SCL_WorkSpace/SCL_Repo/AWIrmFrameworkCode/TestClient/Usage/Pods/AWIrmFramework/AWIrmFramework/Providers/Microsoft/MSProvider.swift"
+                  timestampString = "492335167.158622"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "428">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -169,22 +185,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Pods/AWIrmFramework/AWIrmFramework/Providers/Microsoft/MSProvider.swift"
-            timestampString = "492328494.300429"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "irmItemHandle(forReading:userId:bundleId:completionBlock:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "Usage/ViewController.m"
             timestampString = "492332294.426838"
             startingColumnNumber = "9223372036854775807"
@@ -208,6 +208,86 @@
             startingLineNumber = "126"
             endingLineNumber = "126"
             landmarkName = "-plainDataFromProtectedFile:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usage/ViewController.m"
+            timestampString = "492334895.319356"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "-plainDataFromProtectedFile:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController plainDataFromProtectedFile:]"
+                  moduleName = "Usage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adityaprasad/Documents/SCL_WorkSpace/SCL_Repo/AWIrmFrameworkCode/TestClient/Usage/Usage/ViewController.m"
+                  timestampString = "492335167.161769"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "708">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__45-[ViewController plainDataFromProtectedFile:]_block_invoke"
+                  moduleName = "Usage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adityaprasad/Documents/SCL_WorkSpace/SCL_Repo/AWIrmFrameworkCode/TestClient/Usage/Usage/ViewController.m"
+                  timestampString = "492335167.161919"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "90">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/AWIrmFramework/AWIrmFramework/Providers/Microsoft/AWMSIrmFileOperation.swift"
+            timestampString = "492334942.526243"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "plainDataFromIRMFile(_:completionBlock:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/AWIrmFramework/AWIrmFramework/Providers/Microsoft/MSProvider.swift"
+            timestampString = "492334992.04468"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "irmItemHandle(forReading:userId:bundleId:completionBlock:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

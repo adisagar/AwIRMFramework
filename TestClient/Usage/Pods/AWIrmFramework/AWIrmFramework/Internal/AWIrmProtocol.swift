@@ -16,7 +16,7 @@
 protocol AWIrmProtocol {
     
     //Method to decrypt the file and policies.
-    func plainDataFromIRMFile(filePath:String,completionBlock:(response:AWIrmResponse?, error:NSError?)-> Void);
+    func plainDataFromIRMFile(filePath:NSURL,completionBlock:(response:AWIrmResponse?, error:NSError?)-> Void);
     
     //Determine whether file is protected
     static func isFileIrmProtected(filePath:String) -> Bool

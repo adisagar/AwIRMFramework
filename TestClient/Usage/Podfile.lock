@@ -4,26 +4,26 @@ PODS:
   - ADAL/app-lib (2.2.2):
     - ADAL/tokencacheheader
   - ADAL/tokencacheheader (2.2.2)
-  - AWIrmFramework (0.0.21):
+  - AWIrmFramework (0.0.22):
     - ADAL (~> 2.2.2)
 
 DEPENDENCIES:
-  - AWIrmFramework (from `https://github.com/adisagar/AwIRMFramework.git`, tag `0.0.21`)
+  - AWIrmFramework (from `https://github.com/adisagar/AwIRMFramework.git`, tag `0.0.22`)
 
 EXTERNAL SOURCES:
   AWIrmFramework:
     :git: https://github.com/adisagar/AwIRMFramework.git
-    :tag: 0.0.21
+    :tag: 0.0.22
 
 CHECKOUT OPTIONS:
   AWIrmFramework:
     :git: https://github.com/adisagar/AwIRMFramework.git
-    :tag: 0.0.21
+    :tag: 0.0.22
 
 SPEC CHECKSUMS:
   ADAL: b396ada3fe9a19d6d357650da9835045e0fe631e
-  AWIrmFramework: 8ec7e8906f12b9ab85e58793cc190bceda2ec900
+  AWIrmFramework: 773a3ef382d4a02888e87ef001181c0562b1ba4d
 
-PODFILE CHECKSUM: c978299d8e784fa19c5a0ec83e25ca8a4e6fae7f
+PODFILE CHECKSUM: b28098d7afffd0490725110e58b61eb2ab74f03b
 
 COCOAPODS: 1.0.1

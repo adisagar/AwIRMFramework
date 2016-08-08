@@ -23,18 +23,18 @@
      NSString* newPath = [[NSBundle mainBundle] pathForResource:filename  ofType:@"ppdf"];
     
      BOOL fileExists = [[NSFileManager defaultManager] fileExistsAtPath:newPath];
-    [self plainDataFromProtectedFile:newPath];
-//    ProviderRegistry* registry = [ProviderRegistry instance];
-//    NSURL *url = [NSURL fileURLWithPath:newPath];
-//    id<AWIrmProvider>_Nullable irmOperation =  [registry providerFor:url];
-//    NSString *str = irmOperation.identifier;
-//    
-//    irmOperation = [registry provider:str];
-//    NSString *userId = @"adityaprasad@vmware.com";
-//    NSString *bundleId = @"com.airwatch.Usage";
-//    [irmOperation irmItemHandleForReading:url userId:userId bundleId:bundleId completionBlock:^(id<AWIrmItemHandle> _Nullable itemHandle, NSError* _Nullable error) {
-//        NSData* plaindata = [itemHandle completePlainData];
-//    }];
+   // [self plainDataFromProtectedFile:newPath];
+    ProviderRegistry* registry = [ProviderRegistry instance];
+    NSURL *url = [NSURL fileURLWithPath:newPath];
+    id<AWIrmProvider>_Nullable irmOperation =  [registry providerFor:url];
+    NSString *str = irmOperation.identifier;
+    
+    irmOperation = [registry provider:str];
+    NSString *userId = @"adityaprasad@vmware.com";
+    NSString *bundleId = @"com.airwatch.Usage";
+    [irmOperation irmItemHandleForReading:url userId:userId bundleId:bundleId completionBlock:^(id<AWIrmItemHandle> _Nullable itemHandle, NSError* _Nullable error) {
+        NSData* plaindata = [itemHandle completePlainData];
+    }];
     
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -61,7 +61,7 @@
     NSString *userId =  @"airwatchinboxdev1@airwatchpm.onmicrosoft.com" ;
     AWIrmProviderType type = [[AWIrmOperationFactory sharedInstance] irmProviderForContent:filePath];
     //airwatchinboxdev1@airwatchpm.onmicrosoft.com
-    [[AWIrmOperationFactory sharedInstance] plainDataFromIRMFile:filePath providerType:AWIrmProviderTypeAWIrmProviderTypeMicrosoft userId:userId appBundleId:@"com.airwatch.NewObjClient" completionBlock:^(AWIrmResponse * _Nullable irmResponse, NSError * _Nullable error) {
+    [[AWIrmOperationFactory sharedInstance] plainDataFromIRMFile:[NSURL fileURLWithPath:filePath] providerType:AWIrmProviderTypeAWIrmProviderTypeMicrosoft userId:userId appBundleId:@"com.airwatch.NewObjClient" completionBlock:^(AWIrmResponse * _Nullable irmResponse, NSError * _Nullable error) {
         
         if (irmResponse != nil) {
             NSLog(@"Logged");
