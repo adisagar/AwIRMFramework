@@ -37,7 +37,7 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
         let itemHelper = MSItemHelper(url: item)
         let protectionType = itemHelper.protectionType()
         if protectionType == .MSProtection {
-            plainDataFromProtectedFile(item.absoluteString, userId: userId, bundleId: bundleId, completionBlock: { (itemHandle:ItemHandle?,error: NSError?) in
+            plainDataFromProtectedFile(item.path!, userId: userId, bundleId: bundleId, completionBlock: { (itemHandle:ItemHandle?,error: NSError?) in
                 completionBlock(itemHandle,error)
             })
             
