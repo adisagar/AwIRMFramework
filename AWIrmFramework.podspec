@@ -10,15 +10,20 @@ s.requires_arc = true
 s.dependency 'ADAL', '~> 2.2.2'
 
 
-s.version = "0.0.18"
+s.version = "0.0.19"
+
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 
 s.author = { "VMWare Airwatch" => "adityaprasad@vmware.com" }
 
-s.homepage = "'https://github.com/adisagar/AwIRMFramework"
+
+
+s.homepage = "https://stash.air-watch.com/users/aprasad/repos/awirmframework"
+
 
 s.source = { :git => "'https://github.com/adisagar/AwIRMFramework.git'", :tag => "#{s.version}"}
+
 
 s.framework = "UIKit"
 

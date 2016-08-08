@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CompoundFileReader.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Usage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,12 +27,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7F25518F7E5E0D43D9487CD918873CF1</key>
+		<key>60082FC65F354D4BA019DB5E7922CCC5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9A72640B0B04158F5BAB67F78C555CAB</key>
+		<key>60388470FFDA42AECD6A32414B710580</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>71026F80E7D2A83A06B3B044ACE8B38A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

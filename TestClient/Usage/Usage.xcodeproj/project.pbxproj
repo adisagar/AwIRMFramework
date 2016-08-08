@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0A27DC26957F23F692FC3014 /* Pods_Usage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D81DAC145E4F7132F04ACFA /* Pods_Usage.framework */; };
+		C069141C1D58511F003A98D7 /* FileOneNonAD.ppdf in Resources */ = {isa = PBXBuildFile; fileRef = C069141B1D58511F003A98D7 /* FileOneNonAD.ppdf */; };
+		C069141E1D585861003A98D7 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C069141D1D585861003A98D7 /* libresolv.tbd */; };
 		C0F9FEC81D38B973008387CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F9FEC71D38B973008387CE /* main.m */; };
 		C0F9FECB1D38B973008387CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F9FECA1D38B973008387CE /* AppDelegate.m */; };
 		C0F9FECE1D38B973008387CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F9FECD1D38B973008387CE /* ViewController.m */; };
@@ -40,6 +42,8 @@
 		6F41E535FEAFD12293501FA8 /* Pods-Usage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Usage.release.xcconfig"; path = "Pods/Target Support Files/Pods-Usage/Pods-Usage.release.xcconfig"; sourceTree = "<group>"; };
 		9D81DAC145E4F7132F04ACFA /* Pods_Usage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Usage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FB9751E793C43D11C78667 /* Pods-Usage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Usage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Usage/Pods-Usage.debug.xcconfig"; sourceTree = "<group>"; };
+		C069141B1D58511F003A98D7 /* FileOneNonAD.ppdf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FileOneNonAD.ppdf; sourceTree = "<group>"; };
+		C069141D1D585861003A98D7 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		C0F9FEC31D38B973008387CE /* Usage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Usage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F9FEC71D38B973008387CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C0F9FEC91D38B973008387CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C069141E1D585861003A98D7 /* libresolv.tbd in Frameworks */,
 				0A27DC26957F23F692FC3014 /* Pods_Usage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,6 +102,7 @@
 		C0F9FEBA1D38B973008387CE = {
 			isa = PBXGroup;
 			children = (
+				C069141B1D58511F003A98D7 /* FileOneNonAD.ppdf */,
 				C0F9FEC51D38B973008387CE /* Usage */,
 				C0F9FEE21D38B974008387CE /* UsageTests */,
 				C0F9FEED1D38B974008387CE /* UsageUITests */,
@@ -162,6 +168,7 @@
 		EC99DF224BC6B8C43404A84A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C069141D1D585861003A98D7 /* libresolv.tbd */,
 				9D81DAC145E4F7132F04ACFA /* Pods_Usage.framework */,
 			);
 			name = Frameworks;
@@ -276,6 +283,7 @@
 				C0F9FED91D38B973008387CE /* LaunchScreen.storyboard in Resources */,
 				C0F9FED61D38B973008387CE /* Assets.xcassets in Resources */,
 				C0F9FED11D38B973008387CE /* Main.storyboard in Resources */,
+				C069141C1D58511F003A98D7 /* FileOneNonAD.ppdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

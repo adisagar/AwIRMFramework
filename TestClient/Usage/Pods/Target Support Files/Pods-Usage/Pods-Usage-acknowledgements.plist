@@ -225,11 +225,23 @@
 			<key>FooterText</key>
 			<string>The MIT License (MIT)
 
-Copyright (c) 2016 VMware Airwatch
+Copyright (c) 2016 VMware, LLC
 
 &#8212; Todo : Actual License text&#8212;</string>
 			<key>Title</key>
 			<string>AWIrmFramework</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>The MIT License (MIT)
+
+Copyright (c) 2016 VMware, LLC
+
+&#8212; Todo : Actual License text&#8212;</string>
+			<key>Title</key>
+			<string>CompoundFileReader</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
