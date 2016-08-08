@@ -21,7 +21,9 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
     
     var consent = MSConsentHandler()
     var clientId = ""
-   
+    
+    
+    //MARK: Provider protocol implimentations
     
     /// Unique identifier for the Provider
     @objc var identifier: String {
@@ -35,34 +37,57 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
     @objc func irmItemHandle(forReading item: NSURL, userId:String, clientId:String,completionBlock:(ItemHandle?,NSError?)->Void) {
         self.clientId = clientId
         let itemHelper = MSItemHelper(url: item)
-        let protectionType = itemHelper.protectionType()
+        var protectionType = MSProtectionType.MSProtectionNone
+        
+        do {
+            protectionType = try itemHelper.protectionType()
+        } catch _{
+            completionBlock(nil,NSError(domain: Constants.Framework.BundleId, code:  Constants.ErrorCodes.FileParsingError, userInfo: nil))
+            return
+        }
+        //For non-office files.
         if protectionType == .MSProtection {
             plainDataFromProtectedFile(item.path!, userId: userId, clientId: clientId, completionBlock: { (itemHandle:ItemHandle?,error: NSError?) in
                 completionBlock(itemHandle,error)
             })
-            
         } else if(protectionType == .MSCustomProtection) {
             //Todo handle office files.
         } else {
-            completionBlock(nil,NSError(domain: "", code: 0, userInfo: nil)) //Todo handle error.
+            completionBlock(nil,NSError(domain: Constants.Framework.BundleId, code:  Constants.ErrorCodes.ProtectionNotDetected, userInfo: nil))
         }
     }
     
+    //MARK: InternalProtocol
     
     //Determine whether file is protected
-    internal func canProvide(item: NSURL) -> Bool {
+    internal func canProvide(item: NSURL) throws -> Bool {
         var canProvide = false
-        let itemHelper = MSItemHelper(url: item)
-        let protectionType = itemHelper.protectionType()
-        
-        if protectionType != .MSProtectionNone {
-            canProvide = true
+        do {
+            let itemHelper = MSItemHelper(url: item)
+            let protectionType = try itemHelper.protectionType()
+            
+            if protectionType != .MSProtectionNone {
+                canProvide = true
+            }
+        } catch _{
+            throw NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.FileParsingError, userInfo: nil)
         }
         return canProvide
     }
     
     
-    //Private implimentaions
+    //MARK: MSAuthenticationCallback
+
+    //MSAuthenticationCallback delegate implimentation.
+    func accessTokenWithAuthenticationParameters(authenticationParameters: MSAuthenticationParameters!, completionBlock: ((String!, NSError!) -> Void)!) {
+        let authenticationHandler = AuthenticationHandler()
+        authenticationHandler.acquireTokenWithResource(authenticationParameters.resource, authority: authenticationParameters.authority, clientId: self.clientId)
+        { (accessToekn:String!,error: NSError!) in
+            completionBlock(accessToekn,error)
+        }
+    }
+    
+    //MARK: Private implimentaions
     
     //takes the file path and returns plain data after successfull authentication
     //This is for ppdf,ptxt etc..
@@ -80,22 +105,9 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
                 completionBlock(itemHandle: nil, error)
                 return
             }
-            
-            let itemHandle = MSItemHandle(msprotectedData: protectedData)
-            
+            let itemHandle = MSItemHandle(msprotectedData:protectedData)
             completionBlock(itemHandle: itemHandle, nil)
         }
     }
     
-    
-    //MSAuthenticationCallback delegate implimentation.
-    func accessTokenWithAuthenticationParameters(authenticationParameters: MSAuthenticationParameters!, completionBlock: ((String!, NSError!) -> Void)!) {
-        
-        let authenticationHandler = AuthenticationHandler()
-        authenticationHandler.acquireTokenWithResource(authenticationParameters.resource, authority: authenticationParameters.authority, clientId: self.clientId)
-        { (accessToekn:String!,error: NSError!) in
-            completionBlock(accessToekn,error)
-        }
- 
-    }
 }

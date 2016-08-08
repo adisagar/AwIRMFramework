@@ -15,8 +15,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
             endingLineNumber = "66"
-            landmarkName = "MSIrmProvider"
-            landmarkType = "3">
+            landmarkName = "canProvide(_:)"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -32,6 +32,22 @@
             startingLineNumber = "21"
             endingLineNumber = "21"
             landmarkName = "acquireTokenWithResource(_:authority:clientId:completionBlock:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AWIrmFramework/Providers/Microsoft/MSProvider.swift"
+            timestampString = "492339672.03587"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "accessTokenWithAuthenticationParameters(_:completionBlock:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

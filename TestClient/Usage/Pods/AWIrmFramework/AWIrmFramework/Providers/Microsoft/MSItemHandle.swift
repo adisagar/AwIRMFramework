@@ -28,7 +28,7 @@ class MSItemHandle: ItemHandle {
     //Length of the decypted data
     @objc var decryptedDataLength: Int64 {
         get {
-            return protectedData.length(nil)
+             return protectedData.length(nil)
         }
     }
     
@@ -43,12 +43,12 @@ class MSItemHandle: ItemHandle {
     //Fetches decrypted data within the range.
     @objc func plainDataBytesWithRange(range: NSRange) throws -> NSData {
         do {
-            return try protectedData.subdataWithRange(range)
+        return try protectedData.subdataWithRange(range)
         }
         catch {
             throw NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.DataDecryptionError, userInfo: nil)
         }
-        
+
     }
     
     //Populates buffer within the range.

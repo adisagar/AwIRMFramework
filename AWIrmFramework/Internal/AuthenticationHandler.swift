@@ -1,4 +1,9 @@
-//
+/*
+ Copyright © 2016 AirWatch, LLC. All rights reserved.
+ This product is protected by copyright and intellectual property laws in the United States and other countries as well as by international treaties.
+ AirWatch products may be covered by one or more patents listed at http://www.vmware.com/go/patents.
+ */
+
 //  AuthenticationHandler.swift
 //  AWIrmFramework
 //
@@ -8,6 +13,7 @@
 
 import ADAL
 
+//Authentication is handled using ADAL framework.
 class AuthenticationHandler: NSObject {
 
      var redirectUrl = "local://authorize"

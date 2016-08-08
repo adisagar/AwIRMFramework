@@ -1,4 +1,8 @@
-//
+/*
+ Copyright © 2016 AirWatch, LLC. All rights reserved.
+ This product is protected by copyright and intellectual property laws in the United States and other countries as well as by international treaties.
+ AirWatch products may be covered by one or more patents listed at http://www.vmware.com/go/patents.
+ */
 //  MSFileHelper.swift
 //  AWIrmFramework
 //
@@ -6,7 +10,7 @@
 //  Copyright © 2016 VMware Airwatch. All rights reserved.
 //
 
-
+//Handles all file parsing related operations.
 class MSItemHelper {
     
     let msprotectedFileHeader = NSData(bytes: [0x2E,0x70,0x66,0x69,0x6C,0x65,0x02, 0x00] as [UInt8], length: 8)
@@ -21,7 +25,7 @@ class MSItemHelper {
     }
     
     //Read the first 8 bytes of the file and validate it against the protected header.
-    func protectionType() -> MSProtectionType {
+    func protectionType() throws -> MSProtectionType {
         var protectionType = MSProtectionType.MSProtectionNone
         do {
             
@@ -34,15 +38,15 @@ class MSItemHelper {
                 protectionType = MSProtectionType.MSCustomProtection
             }
             
-        }  catch {
-            //Todo handle exception case.
+        }  catch _{
+            throw NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.FileParsingError, userInfo: nil)
         }
         return protectionType
     }
     
     //Check for non-Office files, compare it with standard header.
     private func checkForMSProtection(itemHeader : NSData) -> Bool {
-       return itemHeader.isEqualToData(msprotectedFileHeader)
+        return itemHeader.isEqualToData(msprotectedFileHeader)
     }
     
     

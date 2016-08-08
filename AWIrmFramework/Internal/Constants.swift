@@ -31,5 +31,6 @@ struct Constants {
         static let ViewPermissionDenied = 102
         static let FileParsingError = 103
         static let DataDecryptionError = 104
+        static let ProtectionNotDetected = 105
     }
 }

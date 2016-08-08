@@ -10,6 +10,7 @@
 		0A27DC26957F23F692FC3014 /* Pods_Usage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D81DAC145E4F7132F04ACFA /* Pods_Usage.framework */; };
 		C069141C1D58511F003A98D7 /* FileOneNonAD.ppdf in Resources */ = {isa = PBXBuildFile; fileRef = C069141B1D58511F003A98D7 /* FileOneNonAD.ppdf */; };
 		C069141E1D585861003A98D7 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C069141D1D585861003A98D7 /* libresolv.tbd */; };
+		C069143A1D588279003A98D7 /* FileOneAD.ppdf in Resources */ = {isa = PBXBuildFile; fileRef = C06914391D588279003A98D7 /* FileOneAD.ppdf */; };
 		C0F9FEC81D38B973008387CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F9FEC71D38B973008387CE /* main.m */; };
 		C0F9FECB1D38B973008387CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F9FECA1D38B973008387CE /* AppDelegate.m */; };
 		C0F9FECE1D38B973008387CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F9FECD1D38B973008387CE /* ViewController.m */; };
@@ -44,6 +45,7 @@
 		A2FB9751E793C43D11C78667 /* Pods-Usage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Usage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Usage/Pods-Usage.debug.xcconfig"; sourceTree = "<group>"; };
 		C069141B1D58511F003A98D7 /* FileOneNonAD.ppdf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FileOneNonAD.ppdf; sourceTree = "<group>"; };
 		C069141D1D585861003A98D7 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		C06914391D588279003A98D7 /* FileOneAD.ppdf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FileOneAD.ppdf; sourceTree = "<group>"; };
 		C0F9FEC31D38B973008387CE /* Usage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Usage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F9FEC71D38B973008387CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C0F9FEC91D38B973008387CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		C0F9FEBA1D38B973008387CE = {
 			isa = PBXGroup;
 			children = (
+				C06914391D588279003A98D7 /* FileOneAD.ppdf */,
 				C069141B1D58511F003A98D7 /* FileOneNonAD.ppdf */,
 				C0F9FEC51D38B973008387CE /* Usage */,
 				C0F9FEE21D38B974008387CE /* UsageTests */,
@@ -284,6 +287,7 @@
 				C0F9FED61D38B973008387CE /* Assets.xcassets in Resources */,
 				C0F9FED11D38B973008387CE /* Main.storyboard in Resources */,
 				C069141C1D58511F003A98D7 /* FileOneNonAD.ppdf in Resources */,
+				C069143A1D588279003A98D7 /* FileOneAD.ppdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

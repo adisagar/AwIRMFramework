@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString *filename = @"FileOneNonAD";
+    NSString *filename = @"FileOneAD";
     // NSString *filename = @"ETicket";
      NSString* newPath = [[NSBundle mainBundle] pathForResource:filename  ofType:@"ppdf"];
     
@@ -30,16 +30,26 @@
     NSString *str = irmOperation.identifier;
     
     irmOperation = [registry provider:str];
-    NSString *userId = @"adityaprasad@vmware.com";
+    NSString *userId = @"airwatchinboxdev1@airwatchpm.onmicrosoft.com";
     NSString *bundleId = @"com.airwatch.Usage";
-    [irmOperation irmItemHandleForReading:url userId:userId bundleId:bundleId completionBlock:^(id<AWIrmItemHandle> _Nullable itemHandle, NSError* _Nullable error) {
-        NSData* plaindata = [itemHandle completePlainData];
+    
+    
+    [irmOperation irmItemHandleForReading:url userId:userId clientId:bundleId completionBlock:^(id<AWIrmItemHandle> _Nullable itemHandle, NSError* _Nullable error) {
         long length = [itemHandle decryptedDataLength];
-         Byte *byteData= (Byte*)malloc(length + 1);
+        Byte *byteData= (Byte*)malloc(length );
+        NSError* err=nil;
+        [itemHandle plainDataBytes:nil length:length+10 error:&error];
         
-       // [itemHandle.irmDataProvider plainDataBytes:byteData range:fetchRange error:nil];
-        NSLog(@"");
     }];
+
+//    [irmOperation irmItemHandleForReading:url userId:userId bundleId:bundleId completionBlock:^(id<AWIrmItemHandle> _Nullable itemHandle, NSError* _Nullable error) {
+//        NSData* plaindata = [itemHandle completePlainData];
+//        long length = [itemHandle decryptedDataLength];
+//         Byte *byteData= (Byte*)malloc(length + 1);
+//        itemHandle plainDataBytes:<#(void * _Null_unspecified)#> length:<#(NSUInteger)#> error:<#(NSError *__autoreleasing  _Nullable * _Null_unspecified)#>
+//        [itemHandle.irmDataProvider plainDataBytes:byteData range:fetchRange error:nil];
+//        NSLog(@"");
+//    }];
     
     // Do any additional setup after loading the view, typically from a nib.
 }

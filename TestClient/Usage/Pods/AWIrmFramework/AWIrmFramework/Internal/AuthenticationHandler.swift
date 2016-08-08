@@ -9,8 +9,8 @@
 import ADAL
 
 class AuthenticationHandler: NSObject {
-    
-    var redirectUrl = "local://authorize"
+
+     var redirectUrl = "local://authorize"
     
     //MSAuthenticationCallback delegate implimentation.
     func acquireTokenWithResource(resource:String,
@@ -38,7 +38,7 @@ class AuthenticationHandler: NSObject {
                         completionBlock("",NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.AuthenticationError, userInfo: result.error.userInfo))
                     }
                 } else {
-                    completionBlock(result.accessToken, result.error)
+                    completionBlock(result.accessToken, result.error) 
                 }
             }
             
