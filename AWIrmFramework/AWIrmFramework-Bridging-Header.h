@@ -8,7 +8,9 @@
 
 #ifndef AWIrmFramework_Bridging_Header_h
 #define AWIrmFramework_Bridging_Header_h
- 
+
 #import "MSRightsManagement/MSRightsManagement.h"
- 
+//#import "CompoundFileReader/StorageStreamParser.h"
+//#import "ADALiOS/ADAuthenticationContext.h"
+
 #endif /* AWIrmFramework_Bridging_Header_h */

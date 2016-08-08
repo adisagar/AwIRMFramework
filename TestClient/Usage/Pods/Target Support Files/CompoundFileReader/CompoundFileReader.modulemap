@@ -1,6 +1,0 @@
-framework module CompoundFileReader {
-  umbrella header "CompoundFileReader-umbrella.h"
-
-  export *
-  module * { export * }
-}

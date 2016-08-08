@@ -7,30 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FF7F393A3FE00045918378E /* Pods_AWIrmFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5498162B8AEED8F7F86811F /* Pods_AWIrmFramework.framework */; };
-		1C343C519D770D550AEF4C14 /* Pods_AWIrmFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3CF412675A78D14CB4A499 /* Pods_AWIrmFrameworkTests.framework */; };
-		C03F47981D5499B200CDFF43 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C03F47971D5499B200CDFF43 /* libresolv.tbd */; };
-		C03F479A1D5499BB00CDFF43 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03F47991D5499BB00CDFF43 /* SystemConfiguration.framework */; };
-		C03F479C1D5499C300CDFF43 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03F479B1D5499C300CDFF43 /* Security.framework */; };
-		C03F479E1D5499CA00CDFF43 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03F479D1D5499CA00CDFF43 /* CoreData.framework */; };
-		C03F47A01D5499D100CDFF43 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03F479F1D5499D100CDFF43 /* MessageUI.framework */; };
-		C069141A1D55F630003A98D7 /* AuthenticationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06914191D55F630003A98D7 /* AuthenticationHandler.swift */; };
-		C0735E141D545C4200446C54 /* MSPolicyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0735E131D545C4200446C54 /* MSPolicyParser.swift */; };
-		C0735E171D545C4B00446C54 /* MSProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0735E151D545C4B00446C54 /* MSProvider.swift */; };
-		C0735E181D545C4B00446C54 /* MSItemHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0735E161D545C4B00446C54 /* MSItemHandle.swift */; };
-		C0735E1B1D545C6300446C54 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0735E191D545C6300446C54 /* Constants.swift */; };
-		C0735E1C1D545C6300446C54 /* InternalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0735E1A1D545C6300446C54 /* InternalProtocol.swift */; };
-		C0735E211D545C6F00446C54 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0735E1D1D545C6F00446C54 /* Provider.swift */; };
-		C0735E221D545C6F00446C54 /* Permissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0735E1E1D545C6F00446C54 /* Permissions.swift */; };
-		C0735E231D545C6F00446C54 /* ProviderRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0735E1F1D545C6F00446C54 /* ProviderRegistry.swift */; };
-		C0735E241D545C6F00446C54 /* ItemHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0735E201D545C6F00446C54 /* ItemHandle.swift */; };
-		C0735E291D545FF600446C54 /* MSRightsManagementResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C0735E271D545FF600446C54 /* MSRightsManagementResources.bundle */; };
-		C0735E2A1D545FF600446C54 /* MSRightsManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0735E281D545FF600446C54 /* MSRightsManagement.framework */; };
-		C08A38491D54679100F5A407 /* MSItemHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08A38481D54679100F5A407 /* MSItemHelper.swift */; };
-		C08A384B1D54699F00F5A407 /* MSProtectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08A384A1D54699F00F5A407 /* MSProtectionType.swift */; };
-		C08A384D1D5481AE00F5A407 /* MSConsent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08A384C1D5481AE00F5A407 /* MSConsent.swift */; };
+		458B14DACD0F181DC16E1903 /* Pods_AWIrmFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7A4E252A6F00BB6A12D49C /* Pods_AWIrmFramework.framework */; };
+		C01CAC521D25324C0093423B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01CAC511D25324C0093423B /* MessageUI.framework */; };
+		C01CAC541D2532510093423B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01CAC531D2532510093423B /* CoreData.framework */; };
+		C01CAC561D2532550093423B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01CAC551D2532550093423B /* Security.framework */; };
+		C01CAC581D2532590093423B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01CAC571D2532590093423B /* SystemConfiguration.framework */; };
+		C043D9901D364CF800071E80 /* MSRightsManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C043D98F1D364CF800071E80 /* MSRightsManagement.framework */; };
+		C043D9921D364D0500071E80 /* MSRightsManagementResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C043D9911D364D0500071E80 /* MSRightsManagementResources.bundle */; };
+		C04976731D2E480B0026BB07 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C04976721D2E480B0026BB07 /* libresolv.tbd */; };
 		C0AB5E061D2379430012894F /* AWIrmFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0AB5DFB1D2379430012894F /* AWIrmFramework.framework */; };
 		C0AB5E0B1D2379430012894F /* AWIrmFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5E0A1D2379430012894F /* AWIrmFrameworkTests.swift */; };
+		C0AB5EE41D23D3100012894F /* AWIrmDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5EDF1D23D3100012894F /* AWIrmDataProvider.swift */; };
+		C0AB5EE51D23D3100012894F /* AWIrmOperationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5EE01D23D3100012894F /* AWIrmOperationFactory.swift */; };
+		C0AB5EE61D23D3100012894F /* AWIrmProviderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5EE11D23D3100012894F /* AWIrmProviderType.swift */; };
+		C0AB5EE71D23D3100012894F /* AWIrmResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5EE21D23D3100012894F /* AWIrmResponse.swift */; };
+		C0AB5EE81D23D3100012894F /* AWIrmUserPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5EE31D23D3100012894F /* AWIrmUserPolicy.swift */; };
+		C0AB5EEB1D23D34C0012894F /* AWIrmProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5EEA1D23D34C0012894F /* AWIrmProtocol.swift */; };
+		C0AB5EF11D23D3D20012894F /* AWMSIrmDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5EEF1D23D3D20012894F /* AWMSIrmDataProvider.swift */; };
+		C0AB5EF21D23D3D20012894F /* AWMSIrmFileOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5EF01D23D3D20012894F /* AWMSIrmFileOperation.swift */; };
+		C0AB5EF51D23D3F50012894F /* AWMSIrmConsent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5EF31D23D3F50012894F /* AWMSIrmConsent.swift */; };
+		C0AB5EF61D23D3F50012894F /* AWMSIrmPolicyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB5EF41D23D3F50012894F /* AWMSIrmPolicyParser.swift */; };
+		C0F9FE511D376B26008387CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C043D9931D365D8500071E80 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,39 +41,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6492263B1E0A0A64F042A7BF /* Pods-AWIrmFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWIrmFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWIrmFramework/Pods-AWIrmFramework.debug.xcconfig"; sourceTree = "<group>"; };
-		8E44BC4FFFF6FEBFF1F2354D /* Pods-AWIrmFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWIrmFrameworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWIrmFrameworkTests/Pods-AWIrmFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
-		A29390D8DD1B0639544646B5 /* Pods-AWIrmFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWIrmFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWIrmFramework/Pods-AWIrmFramework.release.xcconfig"; sourceTree = "<group>"; };
+		0EE2BC4B6A3889F90B9CD91E /* Pods-AWIrmFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWIrmFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWIrmFramework/Pods-AWIrmFramework.release.xcconfig"; sourceTree = "<group>"; };
+		BAA3B105DB2823CFEB177C64 /* Pods-AWIrmFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWIrmFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWIrmFramework/Pods-AWIrmFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		C01CAC4D1D25316A0093423B /* AWIrmFramework.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = AWIrmFramework.modulemap; sourceTree = "<group>"; };
 		C01CAC4E1D2531BD0093423B /* AWIrmFramework-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AWIrmFramework-Bridging-Header.h"; sourceTree = "<group>"; };
+		C01CAC511D25324C0093423B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C01CAC531D2532510093423B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C01CAC551D2532550093423B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C01CAC571D2532590093423B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C01CAC591D2533C00093423B /* AWIrmFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWIrmFramework.h; sourceTree = "<group>"; };
-		C03F47971D5499B200CDFF43 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
-		C03F47991D5499BB00CDFF43 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		C03F479B1D5499C300CDFF43 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		C03F479D1D5499CA00CDFF43 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		C03F479F1D5499D100CDFF43 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		C06914191D55F630003A98D7 /* AuthenticationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationHandler.swift; sourceTree = "<group>"; };
-		C0735E131D545C4200446C54 /* MSPolicyParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSPolicyParser.swift; sourceTree = "<group>"; };
-		C0735E151D545C4B00446C54 /* MSProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSProvider.swift; sourceTree = "<group>"; };
-		C0735E161D545C4B00446C54 /* MSItemHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSItemHandle.swift; sourceTree = "<group>"; };
-		C0735E191D545C6300446C54 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		C0735E1A1D545C6300446C54 /* InternalProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternalProtocol.swift; sourceTree = "<group>"; };
-		C0735E1D1D545C6F00446C54 /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
-		C0735E1E1D545C6F00446C54 /* Permissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Permissions.swift; sourceTree = "<group>"; };
-		C0735E1F1D545C6F00446C54 /* ProviderRegistry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProviderRegistry.swift; sourceTree = "<group>"; };
-		C0735E201D545C6F00446C54 /* ItemHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemHandle.swift; sourceTree = "<group>"; };
-		C0735E271D545FF600446C54 /* MSRightsManagementResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MSRightsManagementResources.bundle; sourceTree = "<group>"; };
-		C0735E281D545FF600446C54 /* MSRightsManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MSRightsManagement.framework; sourceTree = "<group>"; };
-		C08A38481D54679100F5A407 /* MSItemHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSItemHelper.swift; sourceTree = "<group>"; };
-		C08A384A1D54699F00F5A407 /* MSProtectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSProtectionType.swift; sourceTree = "<group>"; };
-		C08A384C1D5481AE00F5A407 /* MSConsent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSConsent.swift; sourceTree = "<group>"; };
+		C043D98F1D364CF800071E80 /* MSRightsManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MSRightsManagement.framework; sourceTree = "<group>"; };
+		C043D9911D364D0500071E80 /* MSRightsManagementResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MSRightsManagementResources.bundle; sourceTree = "<group>"; };
+		C043D9931D365D8500071E80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C04976721D2E480B0026BB07 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		C0AB5DFB1D2379430012894F /* AWIrmFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AWIrmFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0AB5E001D2379430012894F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0AB5E051D2379430012894F /* AWIrmFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWIrmFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0AB5E0A1D2379430012894F /* AWIrmFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWIrmFrameworkTests.swift; sourceTree = "<group>"; };
 		C0AB5E0C1D2379430012894F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF3CF412675A78D14CB4A499 /* Pods_AWIrmFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWIrmFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E82EDE55893A35591C3D03B7 /* Pods-AWIrmFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWIrmFrameworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWIrmFrameworkTests/Pods-AWIrmFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F5498162B8AEED8F7F86811F /* Pods_AWIrmFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWIrmFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0AB5EDF1D23D3100012894F /* AWIrmDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWIrmDataProvider.swift; sourceTree = "<group>"; };
+		C0AB5EE01D23D3100012894F /* AWIrmOperationFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWIrmOperationFactory.swift; sourceTree = "<group>"; };
+		C0AB5EE11D23D3100012894F /* AWIrmProviderType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWIrmProviderType.swift; sourceTree = "<group>"; };
+		C0AB5EE21D23D3100012894F /* AWIrmResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWIrmResponse.swift; sourceTree = "<group>"; };
+		C0AB5EE31D23D3100012894F /* AWIrmUserPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWIrmUserPolicy.swift; sourceTree = "<group>"; };
+		C0AB5EEA1D23D34C0012894F /* AWIrmProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWIrmProtocol.swift; sourceTree = "<group>"; };
+		C0AB5EEF1D23D3D20012894F /* AWMSIrmDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWMSIrmDataProvider.swift; sourceTree = "<group>"; };
+		C0AB5EF01D23D3D20012894F /* AWMSIrmFileOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWMSIrmFileOperation.swift; sourceTree = "<group>"; };
+		C0AB5EF31D23D3F50012894F /* AWMSIrmConsent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWMSIrmConsent.swift; sourceTree = "<group>"; };
+		C0AB5EF41D23D3F50012894F /* AWMSIrmPolicyParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWMSIrmPolicyParser.swift; sourceTree = "<group>"; };
+		CE7A4E252A6F00BB6A12D49C /* Pods_AWIrmFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWIrmFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,13 +77,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C03F47A01D5499D100CDFF43 /* MessageUI.framework in Frameworks */,
-				C03F479E1D5499CA00CDFF43 /* CoreData.framework in Frameworks */,
-				C03F479C1D5499C300CDFF43 /* Security.framework in Frameworks */,
-				C03F479A1D5499BB00CDFF43 /* SystemConfiguration.framework in Frameworks */,
-				C03F47981D5499B200CDFF43 /* libresolv.tbd in Frameworks */,
-				C0735E2A1D545FF600446C54 /* MSRightsManagement.framework in Frameworks */,
-				0FF7F393A3FE00045918378E /* Pods_AWIrmFramework.framework in Frameworks */,
+				C0F9FE511D376B26008387CE /* Foundation.framework in Frameworks */,
+				C043D9901D364CF800071E80 /* MSRightsManagement.framework in Frameworks */,
+				C04976731D2E480B0026BB07 /* libresolv.tbd in Frameworks */,
+				C01CAC581D2532590093423B /* SystemConfiguration.framework in Frameworks */,
+				C01CAC561D2532550093423B /* Security.framework in Frameworks */,
+				C01CAC541D2532510093423B /* CoreData.framework in Frameworks */,
+				C01CAC521D25324C0093423B /* MessageUI.framework in Frameworks */,
+				458B14DACD0F181DC16E1903 /* Pods_AWIrmFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,43 +93,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0AB5E061D2379430012894F /* AWIrmFramework.framework in Frameworks */,
-				1C343C519D770D550AEF4C14 /* Pods_AWIrmFrameworkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		406D38AAC6559D98AE883F36 /* Pods */ = {
+		7256CABE0F22B246A38DCCAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6492263B1E0A0A64F042A7BF /* Pods-AWIrmFramework.debug.xcconfig */,
-				A29390D8DD1B0639544646B5 /* Pods-AWIrmFramework.release.xcconfig */,
-				E82EDE55893A35591C3D03B7 /* Pods-AWIrmFrameworkTests.debug.xcconfig */,
-				8E44BC4FFFF6FEBFF1F2354D /* Pods-AWIrmFrameworkTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		8235669D9684E9554EFEAACC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C03F479F1D5499D100CDFF43 /* MessageUI.framework */,
-				C03F479D1D5499CA00CDFF43 /* CoreData.framework */,
-				C03F479B1D5499C300CDFF43 /* Security.framework */,
-				C03F47991D5499BB00CDFF43 /* SystemConfiguration.framework */,
-				C03F47971D5499B200CDFF43 /* libresolv.tbd */,
-				F5498162B8AEED8F7F86811F /* Pods_AWIrmFramework.framework */,
-				DF3CF412675A78D14CB4A499 /* Pods_AWIrmFrameworkTests.framework */,
+				C043D9931D365D8500071E80 /* Foundation.framework */,
+				C04976721D2E480B0026BB07 /* libresolv.tbd */,
+				CE7A4E252A6F00BB6A12D49C /* Pods_AWIrmFramework.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91262E15116E46CBB504EE56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAA3B105DB2823CFEB177C64 /* Pods-AWIrmFramework.debug.xcconfig */,
+				0EE2BC4B6A3889F90B9CD91E /* Pods-AWIrmFramework.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		C01CAC481D2531500093423B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0735E271D545FF600446C54 /* MSRightsManagementResources.bundle */,
-				C0735E281D545FF600446C54 /* MSRightsManagement.framework */,
+				C043D9911D364D0500071E80 /* MSRightsManagementResources.bundle */,
+				C043D98F1D364CF800071E80 /* MSRightsManagement.framework */,
+				C01CAC571D2532590093423B /* SystemConfiguration.framework */,
+				C01CAC551D2532550093423B /* Security.framework */,
+				C01CAC531D2532510093423B /* CoreData.framework */,
+				C01CAC511D25324C0093423B /* MessageUI.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -146,8 +137,8 @@
 				C0AB5DFD1D2379430012894F /* AWIrmFramework */,
 				C0AB5E091D2379430012894F /* AWIrmFrameworkTests */,
 				C0AB5DFC1D2379430012894F /* Products */,
-				406D38AAC6559D98AE883F36 /* Pods */,
-				8235669D9684E9554EFEAACC /* Frameworks */,
+				91262E15116E46CBB504EE56 /* Pods */,
+				7256CABE0F22B246A38DCCAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,6 +160,7 @@
 				C0AB5EE91D23D3330012894F /* Internal */,
 				C0AB5E001D2379430012894F /* Info.plist */,
 				C01CAC4E1D2531BD0093423B /* AWIrmFramework-Bridging-Header.h */,
+				C01CAC4D1D25316A0093423B /* AWIrmFramework.modulemap */,
 				C01CAC591D2533C00093423B /* AWIrmFramework.h */,
 			);
 			path = AWIrmFramework;
@@ -186,10 +178,11 @@
 		C0AB5EDE1D23D2DD0012894F /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				C0735E1D1D545C6F00446C54 /* Provider.swift */,
-				C0735E1E1D545C6F00446C54 /* Permissions.swift */,
-				C0735E1F1D545C6F00446C54 /* ProviderRegistry.swift */,
-				C0735E201D545C6F00446C54 /* ItemHandle.swift */,
+				C0AB5EDF1D23D3100012894F /* AWIrmDataProvider.swift */,
+				C0AB5EE01D23D3100012894F /* AWIrmOperationFactory.swift */,
+				C0AB5EE11D23D3100012894F /* AWIrmProviderType.swift */,
+				C0AB5EE21D23D3100012894F /* AWIrmResponse.swift */,
+				C0AB5EE31D23D3100012894F /* AWIrmUserPolicy.swift */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -197,9 +190,7 @@
 		C0AB5EE91D23D3330012894F /* Internal */ = {
 			isa = PBXGroup;
 			children = (
-				C0735E191D545C6300446C54 /* Constants.swift */,
-				C0735E1A1D545C6300446C54 /* InternalProtocol.swift */,
-				C06914191D55F630003A98D7 /* AuthenticationHandler.swift */,
+				C0AB5EEA1D23D34C0012894F /* AWIrmProtocol.swift */,
 			);
 			path = Internal;
 			sourceTree = "<group>";
@@ -215,8 +206,8 @@
 		C0AB5EED1D23D3880012894F /* Microsoft */ = {
 			isa = PBXGroup;
 			children = (
-				C0735E151D545C4B00446C54 /* MSProvider.swift */,
-				C0735E161D545C4B00446C54 /* MSItemHandle.swift */,
+				C0AB5EEF1D23D3D20012894F /* AWMSIrmDataProvider.swift */,
+				C0AB5EF01D23D3D20012894F /* AWMSIrmFileOperation.swift */,
 				C0AB5EEE1D23D3960012894F /* Internal */,
 			);
 			path = Microsoft;
@@ -225,10 +216,8 @@
 		C0AB5EEE1D23D3960012894F /* Internal */ = {
 			isa = PBXGroup;
 			children = (
-				C0735E131D545C4200446C54 /* MSPolicyParser.swift */,
-				C08A38481D54679100F5A407 /* MSItemHelper.swift */,
-				C08A384A1D54699F00F5A407 /* MSProtectionType.swift */,
-				C08A384C1D5481AE00F5A407 /* MSConsent.swift */,
+				C0AB5EF31D23D3F50012894F /* AWMSIrmConsent.swift */,
+				C0AB5EF41D23D3F50012894F /* AWMSIrmPolicyParser.swift */,
 			);
 			path = Internal;
 			sourceTree = "<group>";
@@ -250,12 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0AB5E0F1D2379430012894F /* Build configuration list for PBXNativeTarget "AWIrmFramework" */;
 			buildPhases = (
-				E38581146164DBD1BAD79B75 /* [CP] Check Pods Manifest.lock */,
+				159B4AFE629ED7253EB0A214 /* [CP] Check Pods Manifest.lock */,
 				C0AB5DF61D2379430012894F /* Sources */,
 				C0AB5DF71D2379430012894F /* Frameworks */,
 				C0AB5DF81D2379430012894F /* Headers */,
 				C0AB5DF91D2379430012894F /* Resources */,
-				182DF75B5276A284997548DD /* [CP] Copy Pods Resources */,
+				D772012EC0A92AE2B4A5B43E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,12 +259,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0AB5E121D2379430012894F /* Build configuration list for PBXNativeTarget "AWIrmFrameworkTests" */;
 			buildPhases = (
-				8F1BB412AC744650FD011621 /* [CP] Check Pods Manifest.lock */,
 				C0AB5E011D2379430012894F /* Sources */,
 				C0AB5E021D2379430012894F /* Frameworks */,
 				C0AB5E031D2379430012894F /* Resources */,
-				D483228B8ED78B3C94DC194F /* [CP] Embed Pods Frameworks */,
-				88BE0A69F6587EB96F5B8E6D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -328,7 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0735E291D545FF600446C54 /* MSRightsManagementResources.bundle in Resources */,
+				C043D9921D364D0500071E80 /* MSRightsManagementResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +328,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		182DF75B5276A284997548DD /* [CP] Copy Pods Resources */ = {
+		159B4AFE629ED7253EB0A214 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D772012EC0A92AE2B4A5B43E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -357,66 +358,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWIrmFramework/Pods-AWIrmFramework-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		88BE0A69F6587EB96F5B8E6D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWIrmFrameworkTests/Pods-AWIrmFrameworkTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8F1BB412AC744650FD011621 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		D483228B8ED78B3C94DC194F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWIrmFrameworkTests/Pods-AWIrmFrameworkTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E38581146164DBD1BAD79B75 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -424,19 +365,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0735E221D545C6F00446C54 /* Permissions.swift in Sources */,
-				C0735E1C1D545C6300446C54 /* InternalProtocol.swift in Sources */,
-				C0735E171D545C4B00446C54 /* MSProvider.swift in Sources */,
-				C0735E241D545C6F00446C54 /* ItemHandle.swift in Sources */,
-				C08A384D1D5481AE00F5A407 /* MSConsent.swift in Sources */,
-				C0735E141D545C4200446C54 /* MSPolicyParser.swift in Sources */,
-				C0735E181D545C4B00446C54 /* MSItemHandle.swift in Sources */,
-				C0735E231D545C6F00446C54 /* ProviderRegistry.swift in Sources */,
-				C0735E211D545C6F00446C54 /* Provider.swift in Sources */,
-				C0735E1B1D545C6300446C54 /* Constants.swift in Sources */,
-				C069141A1D55F630003A98D7 /* AuthenticationHandler.swift in Sources */,
-				C08A38491D54679100F5A407 /* MSItemHelper.swift in Sources */,
-				C08A384B1D54699F00F5A407 /* MSProtectionType.swift in Sources */,
+				C0AB5EF11D23D3D20012894F /* AWMSIrmDataProvider.swift in Sources */,
+				C0AB5EF61D23D3F50012894F /* AWMSIrmPolicyParser.swift in Sources */,
+				C0AB5EF51D23D3F50012894F /* AWMSIrmConsent.swift in Sources */,
+				C0AB5EE51D23D3100012894F /* AWIrmOperationFactory.swift in Sources */,
+				C0AB5EF21D23D3D20012894F /* AWMSIrmFileOperation.swift in Sources */,
+				C0AB5EEB1D23D34C0012894F /* AWIrmProtocol.swift in Sources */,
+				C0AB5EE41D23D3100012894F /* AWIrmDataProvider.swift in Sources */,
+				C0AB5EE71D23D3100012894F /* AWIrmResponse.swift in Sources */,
+				C0AB5EE61D23D3100012894F /* AWIrmProviderType.swift in Sources */,
+				C0AB5EE81D23D3100012894F /* AWIrmUserPolicy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,8 +490,9 @@
 		};
 		C0AB5E101D2379430012894F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6492263B1E0A0A64F042A7BF /* Pods-AWIrmFramework.debug.xcconfig */;
+			baseConfigurationReference = BAA3B105DB2823CFEB177C64 /* Pods-AWIrmFramework.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -565,7 +504,22 @@
 				);
 				INFOPLIST_FILE = AWIrmFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"resolv\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					MSRightsManagement,
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.airwatch.AWIrmFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -576,8 +530,9 @@
 		};
 		C0AB5E111D2379430012894F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A29390D8DD1B0639544646B5 /* Pods-AWIrmFramework.release.xcconfig */;
+			baseConfigurationReference = 0EE2BC4B6A3889F90B9CD91E /* Pods-AWIrmFramework.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -589,8 +544,23 @@
 				);
 				INFOPLIST_FILE = AWIrmFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.air-watch.AWIrmFramework";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"resolv\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					MSRightsManagement,
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.airwatch.AWIrmFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "AWIrmFramework/AWIrmFramework-Bridging-Header.h";
@@ -599,22 +569,20 @@
 		};
 		C0AB5E131D2379430012894F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E82EDE55893A35591C3D03B7 /* Pods-AWIrmFrameworkTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = AWIrmFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.air-watch.AWIrmFrameworkTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airwatch.AWIrmFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		C0AB5E141D2379430012894F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E44BC4FFFF6FEBFF1F2354D /* Pods-AWIrmFrameworkTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = AWIrmFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.air-watch.AWIrmFrameworkTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airwatch.AWIrmFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

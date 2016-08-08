@@ -8,9 +8,9 @@ s.summary = "This framework does all IRM operations."
 s.requires_arc = true
 
 s.dependency 'ADAL', '~> 2.2.2'
+#s.dependency 'CompoundFileReader'
 
-
-s.version = "0.0.20"
+s.version = "0.0.21"
 
 
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -19,7 +19,7 @@ s.author = { "VMWare Airwatch" => "adityaprasad@vmware.com" }
 
 
 
-s.homepage = "https://stash.air-watch.com/users/aprasad/repos/awirmframework"
+s.homepage = "https://github.com/adisagar/AwIRMFramework"
 
 
 s.source = { :git => "'https://github.com/adisagar/AwIRMFramework.git'", :tag => "#{s.version}"}

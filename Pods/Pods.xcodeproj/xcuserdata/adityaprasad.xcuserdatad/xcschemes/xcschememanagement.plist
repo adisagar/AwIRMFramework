@@ -14,20 +14,10 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AWIrmFrameworkTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>B1BFEC21F8E1EE945C0C626FE57AA405</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>EBC9D578EB46266E7988FF2DAFECBF14</key>
 		<dict>
 			<key>primary</key>
 			<true/>

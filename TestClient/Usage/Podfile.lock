@@ -4,29 +4,26 @@ PODS:
   - ADAL/app-lib (2.2.2):
     - ADAL/tokencacheheader
   - ADAL/tokencacheheader (2.2.2)
-  - AWIrmFramework (0.0.43):
+  - AWIrmFramework (0.0.20):
     - ADAL (~> 2.2.2)
-    - CompoundFileReader
-  - CompoundFileReader (0.0.5)
 
 DEPENDENCIES:
-  - AWIrmFramework (from `ssh://git@stash.air-watch.com:7999/~aprasad/awirmframework.git`, tag `0.0.43`)
+  - AWIrmFramework (from `https://github.com/adisagar/AwIRMFramework.git`, tag `0.0.20`)
 
 EXTERNAL SOURCES:
   AWIrmFramework:
-    :git: ssh://git@stash.air-watch.com:7999/~aprasad/awirmframework.git
-    :tag: 0.0.43
+    :git: https://github.com/adisagar/AwIRMFramework.git
+    :tag: 0.0.20
 
 CHECKOUT OPTIONS:
   AWIrmFramework:
-    :git: ssh://git@stash.air-watch.com:7999/~aprasad/awirmframework.git
-    :tag: 0.0.43
+    :git: https://github.com/adisagar/AwIRMFramework.git
+    :tag: 0.0.20
 
 SPEC CHECKSUMS:
   ADAL: b396ada3fe9a19d6d357650da9835045e0fe631e
-  AWIrmFramework: 898962cc76d0fa41f45d10d36d6a22035a296609
-  CompoundFileReader: 542fa098509b3de76437f4ad815eb1239017b29e
+  AWIrmFramework: 280de2d8719117f54e419dd1da8fd15017810a26
 
-PODFILE CHECKSUM: 66d97d8468fbd297b6ac69cf7518e423699f2874
+PODFILE CHECKSUM: 93383db094468fba7128ee23e584a8241b37b427
 
 COCOAPODS: 1.0.1

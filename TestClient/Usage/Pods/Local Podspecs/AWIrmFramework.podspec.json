@@ -8,12 +8,9 @@
   "dependencies": {
     "ADAL": [
       "~> 2.2.2"
-    ],
-    "CompoundFileReader": [
-
     ]
   },
-  "version": "0.0.43",
+  "version": "0.0.20",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -23,8 +20,8 @@
   },
   "homepage": "https://stash.air-watch.com/users/aprasad/repos/awirmframework",
   "source": {
-    "git": "ssh://git@stash.air-watch.com:7999/~aprasad/awirmframework.git",
-    "tag": "0.0.43"
+    "git": "'https://github.com/adisagar/AwIRMFramework.git'",
+    "tag": "0.0.20"
   },
   "frameworks": [
     "CoreData",
