@@ -15,7 +15,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
             endingLineNumber = "66"
-            landmarkName = "canProvide(_:)"
+            landmarkName = "canProvide(_:error:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

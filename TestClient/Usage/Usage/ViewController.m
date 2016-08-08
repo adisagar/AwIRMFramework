@@ -18,19 +18,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString *filename = @"FileOneNonAD";
+    NSString *filename = @"Generic";
     // NSString *filename = @"ETicket";
-     NSString* newPath = [[NSBundle mainBundle] pathForResource:filename  ofType:@"ppdf"];
+     NSString* newPath = [[NSBundle mainBundle] pathForResource:filename  ofType:@"pfile"];
     
      BOOL fileExists = [[NSFileManager defaultManager] fileExistsAtPath:newPath];
    // [self plainDataFromProtectedFile:newPath];
+    
     ProviderRegistry* registry = [ProviderRegistry instance];
     NSURL *url = [NSURL fileURLWithPath:newPath];
-    id<AWIrmProvider>_Nullable irmOperation =  [registry providerFor:url];
+     NSError* err=nil;
+    
+    id<AWIrmProvider>_Nullable irmOperation =  [registry providerFor:url error:&err];
     NSString *str = irmOperation.identifier;
     
     irmOperation = [registry provider:str];
-    NSString *userId = @"airwatchinboxdev1@airwatchpm.onmicrosoft.com";
+    NSString *userId = @"airwatchinboxdev2@airwatchpm.onmicrosoft.com";
     NSString *bundleId = @"com.airwatch.Usage";
     
     

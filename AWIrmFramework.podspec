@@ -13,13 +13,13 @@ s.requires_arc = true
 
 s.dependency 'ADAL', '~> 2.2.2'
 
-s.version = "0.0.27"
+s.version = "0.0.28"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 
-s.author = { "VMWare Airwatch" => "adityaprasad@vmware.com" }
+s.author = { "DL.Dev.IOS.SCL" => "DL.Dev.IOS.SCL@air-watch.com" }
 
-s.homepage = "https://github.com/adisagar/AwIRMFramework"
+s.homepage = "https://air-watch.com"
 
 s.source = { :git => "'https://github.com/adisagar/AwIRMFramework.git'", :tag => "#{s.version}"}
 
