@@ -18,27 +18,27 @@ public class ProviderRegistry: NSObject {
     //Static properties in Swift are implicitly lazy
     public static let instance = ProviderRegistry()
     
-      /// Looks up a Provider by its identifier
+    /// Looks up a Provider by its identifier
     public func provider(identifier:String) -> Provider? {
-        
         switch identifier {
         case Constants.ProviderIdentifiers.MicrosoftIrmProvider:
             return MSIrmProvider()
         default:
             return nil
         }
-        
     }
     
     // Finds a Provider for the specified file
     public func provider(for item:NSURL) -> Provider? {
-        
         let msProvider = MSIrmProvider()
-        if msProvider.canProvide(item) {
-            return msProvider
+        do {
+            if try msProvider.canProvide(item) {
+                return msProvider
+            }
+        } catch _{
+            NSLog("AWIrmFramework error occured while parsing the file to detect microsoft protection")
         }
-        
-        return nil 
+        return nil
     }
     
     /// Enables / Disables a Provider

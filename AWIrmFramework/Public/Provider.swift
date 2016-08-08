@@ -13,13 +13,21 @@
 
 import Foundation
 
+//Protocol to be conformed by all Irm providers.
 @objc(AWIrmProvider)
 public protocol Provider {
     
     /// Unique identifier for the Provider
     var identifier: String { get }
     
-    ///This method should return provider to read the decrypted data.
-    ///Before that this should take care of authenticating the user and other preprocessing steps if present.
-    func irmItemHandle(forReading item: NSURL, userId:String, clientId:String,completionBlock:(ItemHandle?,NSError?)->Void)
+    /*This method will return provider to read the decrypted data.
+     Before that this will take care of authenticating the user and other preprocessing steps if present.
+     @param  item: url of the item/file
+     @param  userId: user id of the user to fetch polices/decrypt
+     @param  clientId: identifier of the provider.
+     */
+    func irmItemHandle(forReading item: NSURL,
+                                  userId:String,
+                                  clientId:String,
+                                  completionBlock:(ItemHandle?,NSError?)->Void)
 }

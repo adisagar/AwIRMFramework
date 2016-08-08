@@ -41,34 +41,34 @@ class MSItemHandle: ItemHandle {
     }
     
     //Fetches decrypted data within the range.
-    @objc func plainDataBytesWithRange(range: NSRange) throws -> NSData {
+    @objc func plainDataBytesWithRange(range: NSRange, error : NSErrorPointer)  -> NSData {
         do {
-            return  protectedData.subdataWithRange(range)
+            return  try protectedData.subdataWithRange(range)
         }
         catch _{
-            throw NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.DataDecryptionError, userInfo: nil)
+            error.memory = NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.DataDecryptionError, userInfo: nil)
         }
         
     }
     
-    //Populates buffer within the range.
-    @objc func plainDataBytes(buffer: UnsafeMutablePointer<Void>, range: NSRange) throws {
+    //Populates buffer with data of lenght.
+    @objc func plainDataBytes(buffer: UnsafeMutablePointer<Void>, length: UInt, error:NSErrorPointer)  {
         do {
-            try  self.protectedData.getBytes(buffer, range: range)
-            
+            try self.protectedData.getBytes(buffer, length: length)
         }
         catch _{
-            throw NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.DataDecryptionError, userInfo: nil)
+            error.memory = NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.DataDecryptionError, userInfo: nil)
         }
     }
     
-    //Populates buffer with data of lenght.
-    @objc func plainDataBytes(buffer: UnsafeMutablePointer<Void>, length: UInt) throws {
+    //Populates buffer within the range.
+    @objc func plainDataBytes(buffer: UnsafeMutablePointer<Void>, range: NSRange, error:NSErrorPointer) {
         do {
-            try  self.protectedData.getBytes(buffer, length: length)
+            try self.protectedData.getBytes(buffer, range: range)
         }
         catch _{
-            throw NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.DataDecryptionError, userInfo: nil)
+            error.memory = NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.DataDecryptionError, userInfo: nil)
         }
     }
+    
 }

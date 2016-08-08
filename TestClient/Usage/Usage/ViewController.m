@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString *filename = @"FileOneAD";
+    NSString *filename = @"FileOneNonAD";
     // NSString *filename = @"ETicket";
      NSString* newPath = [[NSBundle mainBundle] pathForResource:filename  ofType:@"ppdf"];
     

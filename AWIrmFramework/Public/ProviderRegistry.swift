@@ -18,7 +18,9 @@ public class ProviderRegistry: NSObject {
     //Static properties in Swift are implicitly lazy
     public static let instance = ProviderRegistry()
     
-    /// Looks up a Provider by its identifier
+    /* Looks up a Provider by its identifier
+     @param  identifier: unique identifier of the provider
+     */
     public func provider(identifier:String) -> Provider? {
         switch identifier {
         case Constants.ProviderIdentifiers.MicrosoftIrmProvider:
@@ -28,7 +30,9 @@ public class ProviderRegistry: NSObject {
         }
     }
     
-    // Finds a Provider for the specified file
+    /* Finds a Provider for the specified file
+     @param  item: url of the item/file
+     */
     public func provider(for item:NSURL) -> Provider? {
         let msProvider = MSIrmProvider()
         do {
