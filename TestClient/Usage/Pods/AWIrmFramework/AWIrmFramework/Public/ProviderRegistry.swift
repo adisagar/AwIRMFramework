@@ -21,7 +21,7 @@ public class ProviderRegistry: NSObject {
     /* Looks up a Provider by its identifier
      @param  identifier: unique identifier of the provider
      */
-    public func provider(identifier:String) -> Provider? {
+    public func provider(identifier:String) throws -> Provider? {
         switch identifier {
         case Constants.ProviderIdentifiers.MicrosoftIrmProvider:
             return MSIrmProvider()
