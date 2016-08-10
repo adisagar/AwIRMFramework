@@ -10,7 +10,7 @@
       "~> 2.2.2"
     ]
   },
-  "version": "0.0.36",
+  "version": "0.0.37",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -21,7 +21,7 @@
   "homepage": "https://air-watch.com",
   "source": {
     "git": "'https://github.com/adisagar/AwIRMFramework.git'",
-    "tag": "0.0.36"
+    "tag": "0.0.37"
   },
   "frameworks": [
     "CoreData",

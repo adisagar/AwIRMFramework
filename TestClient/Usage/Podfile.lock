@@ -4,29 +4,29 @@ PODS:
   - ADAL/app-lib (2.2.2):
     - ADAL/tokencacheheader
   - ADAL/tokencacheheader (2.2.2)
-  - AWIrmFramework (0.0.36):
+  - AWIrmFramework (0.0.37):
     - ADAL (~> 2.2.2)
   - CompoundFileReader (1.0.0)
 
 DEPENDENCIES:
-  - AWIrmFramework (from `https://github.com/adisagar/AwIRMFramework.git`, tag `0.0.36`)
+  - AWIrmFramework (from `https://github.com/adisagar/AwIRMFramework.git`, tag `0.0.37`)
   - CompoundFileReader
 
 EXTERNAL SOURCES:
   AWIrmFramework:
     :git: https://github.com/adisagar/AwIRMFramework.git
-    :tag: 0.0.36
+    :tag: 0.0.37
 
 CHECKOUT OPTIONS:
   AWIrmFramework:
     :git: https://github.com/adisagar/AwIRMFramework.git
-    :tag: 0.0.36
+    :tag: 0.0.37
 
 SPEC CHECKSUMS:
   ADAL: b396ada3fe9a19d6d357650da9835045e0fe631e
-  AWIrmFramework: 796e440e9e0a1ccb4ab016df70667a9a9e5f445a
+  AWIrmFramework: 5fdeac771edd367c4915104fe2a7a69e8bd401cd
   CompoundFileReader: a15947e5aafab6f22a0968c1c057132010af2602
 
-PODFILE CHECKSUM: afa8a2a55c8ecfca17acf6e07e2f1a42bb64b0d7
+PODFILE CHECKSUM: 5c3c957c5cdded14b2ba61f270da673c9db50f66
 
 COCOAPODS: 1.0.1

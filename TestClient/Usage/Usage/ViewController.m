@@ -29,7 +29,7 @@
     NSURL *url = [NSURL fileURLWithPath:newPath];
      NSError* err=nil;
     
-    id<AWIrmProvider>_Nullable irmOperation = [registry provider:<#(NSString * _Nonnull)#>
+    id<AWIrmProvider>_Nullable irmOperation  [registry setProvider:<#(NSString * _Nonnull)#> enabled:<#(BOOL)#>
     NSString *str = irmOperation.identifier;
     
     irmOperation = [registry provider:str];
