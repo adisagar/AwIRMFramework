@@ -12,6 +12,7 @@
 		C069141E1D585861003A98D7 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C069141D1D585861003A98D7 /* libresolv.tbd */; };
 		C069143A1D588279003A98D7 /* FileOneAD.ppdf in Resources */ = {isa = PBXBuildFile; fileRef = C06914391D588279003A98D7 /* FileOneAD.ppdf */; };
 		C069144B1D58B7C5003A98D7 /* Generic.pfile in Resources */ = {isa = PBXBuildFile; fileRef = C069144A1D58B7C5003A98D7 /* Generic.pfile */; };
+		C069146B1D5B80B6003A98D7 /* Test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C069146A1D5B80B6003A98D7 /* Test.pdf */; };
 		C0F9FEC81D38B973008387CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F9FEC71D38B973008387CE /* main.m */; };
 		C0F9FECB1D38B973008387CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F9FECA1D38B973008387CE /* AppDelegate.m */; };
 		C0F9FECE1D38B973008387CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F9FECD1D38B973008387CE /* ViewController.m */; };
@@ -48,6 +49,7 @@
 		C069141D1D585861003A98D7 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		C06914391D588279003A98D7 /* FileOneAD.ppdf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FileOneAD.ppdf; sourceTree = "<group>"; };
 		C069144A1D58B7C5003A98D7 /* Generic.pfile */ = {isa = PBXFileReference; lastKnownFileType = file; path = Generic.pfile; sourceTree = "<group>"; };
+		C069146A1D5B80B6003A98D7 /* Test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Test.pdf; sourceTree = "<group>"; };
 		C0F9FEC31D38B973008387CE /* Usage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Usage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F9FEC71D38B973008387CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C0F9FEC91D38B973008387CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		C0F9FEBA1D38B973008387CE = {
 			isa = PBXGroup;
 			children = (
+				C069146A1D5B80B6003A98D7 /* Test.pdf */,
 				C069144A1D58B7C5003A98D7 /* Generic.pfile */,
 				C06914391D588279003A98D7 /* FileOneAD.ppdf */,
 				C069141B1D58511F003A98D7 /* FileOneNonAD.ppdf */,
@@ -292,6 +295,7 @@
 				C0F9FED11D38B973008387CE /* Main.storyboard in Resources */,
 				C069141C1D58511F003A98D7 /* FileOneNonAD.ppdf in Resources */,
 				C069143A1D588279003A98D7 /* FileOneAD.ppdf in Resources */,
+				C069146B1D5B80B6003A98D7 /* Test.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

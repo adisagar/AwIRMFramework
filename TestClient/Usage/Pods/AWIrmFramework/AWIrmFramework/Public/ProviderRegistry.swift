@@ -37,7 +37,7 @@ public class ProviderRegistry: NSObject {
     /* Finds a Provider for the specified file
      @param  item: url of the item/file
      */
-    public func provider(for item:NSURL)  throws -> Provider {
+    public func provider(for item:NSURL) throws -> Provider {
         let msProvider = MSIrmProvider()
     
         do {
@@ -48,7 +48,7 @@ public class ProviderRegistry: NSObject {
         } catch _{
             throw NSError(domain: Constants.Framework.BundleId, code:Constants.ErrorCodes.FileParsingError, userInfo: nil)
         }
-    return msProvider
+     throw NSError(domain: Constants.Framework.BundleId, code:Constants.ErrorCodes.ProtectionNotDetected, userInfo: nil)
     }
     
     /// Enables / Disables a Provider

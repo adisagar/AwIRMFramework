@@ -18,9 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString *filename = @"Generic";
-    // NSString *filename = @"ETicket";
-     NSString* newPath = [[NSBundle mainBundle] pathForResource:filename  ofType:@"pfile"];
+    //NSString *filename = @"Test";
+     NSString *filename = @"FileOneNonAD";
+     NSString* newPath = [[NSBundle mainBundle] pathForResource:filename  ofType:@"ppdf"];
     
      BOOL fileExists = [[NSFileManager defaultManager] fileExistsAtPath:newPath];
    // [self plainDataFromProtectedFile:newPath];
