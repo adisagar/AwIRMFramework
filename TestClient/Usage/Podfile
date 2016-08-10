@@ -6,7 +6,7 @@ target 'Usage' do
   use_frameworks!
 source 'ssh://git@stash.air-watch.com:7999/~aprasad/msirmpodspec.git'
 source 'https://github.com/CocoaPods/Specs.git'
-pod 'AWIrmFramework', :git => 'https://github.com/adisagar/AwIRMFramework.git' , :tag => ‘0.0.28’
+pod 'AWIrmFramework', :git => 'https://github.com/adisagar/AwIRMFramework.git' , :tag => ‘0.0.29’
 #pod 'AWIrmFramework', :git => 'ssh://git@stash.air-watch.com:7999/~aprasad/awirmframework.git' , :tag => ‘0.0.43'
 
 end
