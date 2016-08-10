@@ -37,7 +37,7 @@ public class ProviderRegistry: NSObject {
     /* Finds a Provider for the specified file
      @param  item: url of the item/file
      */
-    public func providerFor(item:NSURL) throws -> Provider? {
+    public func getProviderFor(item:NSURL) throws -> Provider? {
         let msProvider = MSIrmProvider()
         
       
