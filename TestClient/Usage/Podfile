@@ -9,7 +9,7 @@ source 'ssh://git@stash.air-watch.com:7999/icpd/specs.git'
 
 
 source 'https://github.com/CocoaPods/Specs.git'
-pod 'AWIrmFramework', :git => 'https://github.com/adisagar/AwIRMFramework.git' , :tag => ‘0.0.37’
+pod 'AWIrmFramework', :git => 'https://github.com/adisagar/AwIRMFramework.git' , :tag => ‘0.0.38’
 pod 'CompoundFileReader'
 
 #pod 'AWIrmFramework', :git => 'ssh://git@stash.air-watch.com:7999/~aprasad/awirmframework.git' , :tag => ‘0.0.43'

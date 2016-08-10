@@ -13,6 +13,7 @@
 import Foundation
  
 //Factory class
+@objc(AWIrmProviderRegistry)
 public class ProviderRegistry: NSObject {
     
     //Static properties in Swift are implicitly lazy
