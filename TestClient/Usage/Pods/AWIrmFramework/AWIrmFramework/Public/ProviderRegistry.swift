@@ -35,15 +35,10 @@ public class ProviderRegistry: NSObject {
      */
     public func provider(for item:NSURL, error:NSErrorPointer) -> Provider? {
         let msProvider = MSIrmProvider()
-        do {
-//            var x : NSMutableArray = NSMutableArray()
-//            x.addObject("ad")
-//           try x.objectAtIndex(1)
-            if try msProvider.canProvide(item) {
-                return msProvider
-            }
-        } catch _{
-            error.memory = NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.FileParsingError, userInfo: nil)
+ 
+            let error:NSErrorPointer=nil
+            if  msProvider.canProvide(item,error: error) {
+                return msProvider 
         }
         return nil
     }

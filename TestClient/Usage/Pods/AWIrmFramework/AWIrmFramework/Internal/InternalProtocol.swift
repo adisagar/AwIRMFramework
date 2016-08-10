@@ -16,5 +16,5 @@ import Foundation
 internal protocol InternalProtocol {
 
     /// Returns true if the specified file is owned by the Provider
-    func canProvide(item: NSURL) throws -> Bool
+    func canProvide(item:NSURL, error:NSErrorPointer)  -> Bool
 }

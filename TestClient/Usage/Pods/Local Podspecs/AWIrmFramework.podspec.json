@@ -10,18 +10,18 @@
       "~> 2.2.2"
     ]
   },
-  "version": "0.0.27",
+  "version": "0.0.28",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "VMWare Airwatch": "adityaprasad@vmware.com"
+    "DL.Dev.IOS.SCL": "DL.Dev.IOS.SCL@air-watch.com"
   },
-  "homepage": "https://github.com/adisagar/AwIRMFramework",
+  "homepage": "https://air-watch.com",
   "source": {
     "git": "'https://github.com/adisagar/AwIRMFramework.git'",
-    "tag": "0.0.27"
+    "tag": "0.0.28"
   },
   "frameworks": [
     "CoreData",

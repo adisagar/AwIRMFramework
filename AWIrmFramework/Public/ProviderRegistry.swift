@@ -33,13 +33,18 @@ public class ProviderRegistry: NSObject {
     /* Finds a Provider for the specified file
      @param  item: url of the item/file
      */
-    public func provider(for item:NSURL, error:NSErrorPointer) -> Provider? {
+    public func provider(for item:NSURL) -> Provider? {
         let msProvider = MSIrmProvider()
  
-            let error:NSErrorPointer=nil
-            if  msProvider.canProvide(item,error: error) {
-                return msProvider 
-        }
+           // let error:NSErrorPointer=nil
+        do{
+            if  try msProvider.canProvide(item) {
+                return msProvider
+            }
+        }catch _{
+                
+            }
+        
         return nil
     }
     

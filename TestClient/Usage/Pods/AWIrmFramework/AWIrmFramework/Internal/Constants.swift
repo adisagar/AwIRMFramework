@@ -26,11 +26,11 @@ struct Constants {
     }
     
     struct ErrorCodes {
-        static let UserCancelledAuthentication = 100
-        static let AuthenticationError = 101
-        static let ViewPermissionDenied = 102
-        static let FileParsingError = 103
-        static let DataDecryptionError = 104
-        static let ProtectionNotDetected = 105
+        static let UserCancelledAuthentication = 1000
+        static let AuthenticationError = 1001
+        static let ViewPermissionDenied = 1002
+        static let FileParsingError = 1003
+        static let DataDecryptionError = 1004
+        static let ProtectionNotDetected = 1005
     }
 }

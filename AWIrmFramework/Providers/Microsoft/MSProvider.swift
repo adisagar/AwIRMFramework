@@ -60,7 +60,7 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
     //MARK: InternalProtocol
     
     //Determine whether file is protected
-    internal func canProvide(item: NSURL,error:NSErrorPointer) -> Bool {
+    internal func canProvide(item: NSURL) throws -> Bool {
         var canProvide = false
         do {
             let itemHelper = MSItemHelper(url: item)
@@ -70,7 +70,7 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
                 canProvide = true
             }
         } catch _{
-            error.memory = NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.FileParsingError, userInfo: nil)
+            throw  NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.FileParsingError, userInfo: nil)
         }
         return canProvide
     }

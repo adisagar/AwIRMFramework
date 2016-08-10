@@ -47,7 +47,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "46"
             endingLineNumber = "46"
-            landmarkName = "plainDataBytesWithRange(_:)"
+            landmarkName = "plainDataBytesWithRange(_:error:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -63,7 +63,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "57"
             endingLineNumber = "57"
-            landmarkName = "plainDataBytes(_:range:)"
+            landmarkName = "plainDataBytes(_:length:error:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -90,7 +90,7 @@
                   moduleName = "Usage"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/adityaprasad/Documents/SCL_WorkSpace/SCL_Repo/AWIrmFrameworkCode/TestClient/Usage/Usage/ViewController.m"
-                  timestampString = "492353521.560613"
+                  timestampString = "492365316.831263"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "40"
@@ -105,7 +105,7 @@
                   moduleName = "Usage"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/adityaprasad/Documents/SCL_WorkSpace/SCL_Repo/AWIrmFrameworkCode/TestClient/Usage/Usage/ViewController.m"
-                  timestampString = "492353521.560733"
+                  timestampString = "492365316.831413"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "41"
@@ -127,7 +127,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "70"
             endingLineNumber = "70"
-            landmarkName = "plainDataBytes(_:length:)"
+            landmarkName = "plainDataBytes(_:range:error:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -159,7 +159,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "74"
             endingLineNumber = "74"
-            landmarkName = "canProvide(_:)"
+            landmarkName = "canProvide(_:error:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -223,8 +223,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "46"
             endingLineNumber = "46"
-            landmarkName = "provider(for:error:)"
-            landmarkType = "5">
+            landmarkName = "ProviderRegistry"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

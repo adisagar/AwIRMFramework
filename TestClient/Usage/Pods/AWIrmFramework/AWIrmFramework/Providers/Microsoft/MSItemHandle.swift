@@ -35,7 +35,6 @@ class MSItemHandle: ItemHandle {
     //Returns completed decrypted data.
     @objc var completePlainData: NSData {
         get {
-            //Implimentation goes here
             return protectedData.retrieveData()
         }
     }

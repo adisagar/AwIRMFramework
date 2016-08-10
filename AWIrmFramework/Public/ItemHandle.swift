@@ -20,24 +20,24 @@ public protocol ItemHandle {
     //Lenght of the decrypted data
     var decryptedDataLength : Int64 {get} ;
     
-    //Should return complete plain data
+    //Will return complete plain data
     var completePlainData : NSData {get};
     
-    /*Should return plain data within the range
+    /*Will return plain data within the range
      @param range:Range of the data required
      */
-    func plainDataBytesWithRange(range:NSRange, error:NSErrorPointer) -> NSData
+    func plainDataBytesWithRange(range:NSRange) throws -> NSData
     
     /*Populates buffer within the range.
      @param buffer: byte* for holding decrypted data
      @param range: Range of the data required
      */
-    func plainDataBytes(buffer: UnsafeMutablePointer<Void>, range: NSRange, error:NSErrorPointer)
+    func plainDataBytes(buffer: UnsafeMutablePointer<Void>, range: NSRange) throws
     
     /*Populates buffer with data of lenght.
      @param buffer: byte* for holding decrypted data
      @param length: length of the data required
      */
-    func plainDataBytes(buffer: UnsafeMutablePointer<Void>, length: UInt, error:NSErrorPointer)
+    func plainDataBytes(buffer: UnsafeMutablePointer<Void>, length: UInt) throws
     
 }

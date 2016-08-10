@@ -19,54 +19,62 @@ class MSItemHandle: ItemHandle {
     var protectedData : MSProtectedData
     
     
-    init(msprotectedData : MSProtectedData){
+    init(msprotectedData:MSProtectedData){
         protectedData = msprotectedData
     }
     
     
     
     //Length of the decypted data
-    @objc var decryptedDataLength: Int64 {
+    @objc var decryptedDataLength:Int64 {
         get {
             return protectedData.length(nil)
         }
     }
     
     //Returns completed decrypted data.
-    @objc var completePlainData: NSData {
+    @objc var completePlainData:NSData {
         get {
             return protectedData.retrieveData()
         }
     }
     
-    //Fetches decrypted data within the range.
-    @objc func plainDataBytesWithRange(range: NSRange, error : NSErrorPointer)  -> NSData {
+    /*Will return plain data within the range
+     @param range:Range of the data required
+     */
+    @objc func plainDataBytesWithRange(range:NSRange) throws -> NSData {
         do {
             return  try protectedData.subdataWithRange(range)
         }
         catch _{
-            error.memory = NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.DataDecryptionError, userInfo: nil)
+           throw NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.DataDecryptionError, userInfo: nil)
         }
         
     }
     
-    //Populates buffer with data of lenght.
-    @objc func plainDataBytes(buffer: UnsafeMutablePointer<Void>, length: UInt, error:NSErrorPointer)  {
+    /*Populates buffer with data of lenght.
+     @param buffer: byte* for holding decrypted data
+     @param length: length of the data required
+     */
+    @objc func plainDataBytes(buffer: UnsafeMutablePointer<Void>, length:UInt) throws  {
         do {
             try self.protectedData.getBytes(buffer, length: length)
         }
         catch _{
-            error.memory = NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.DataDecryptionError, userInfo: nil)
+            throw NSError(domain: Constants.Framework.BundleId, code:Constants.ErrorCodes.DataDecryptionError, userInfo: nil)
         }
     }
     
-    //Populates buffer within the range.
-    @objc func plainDataBytes(buffer: UnsafeMutablePointer<Void>, range: NSRange, error:NSErrorPointer) {
+    /*Populates buffer within the range.
+     @param buffer: byte* for holding decrypted data
+     @param range: Range of the data required
+     */
+    @objc func plainDataBytes(buffer: UnsafeMutablePointer<Void>, range:NSRange) throws {
         do {
             try self.protectedData.getBytes(buffer, range: range)
         }
         catch _{
-            error.memory = NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.DataDecryptionError, userInfo: nil)
+            throw NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.DataDecryptionError, userInfo: nil)
         }
     }
     
