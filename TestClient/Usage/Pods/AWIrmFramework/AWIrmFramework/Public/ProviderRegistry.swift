@@ -13,7 +13,6 @@
 import Foundation
  
 //Factory class
-@objc(AWIrmProviderRegistry)
 public class ProviderRegistry: NSObject {
     
     //Static properties in Swift are implicitly lazy
@@ -22,7 +21,7 @@ public class ProviderRegistry: NSObject {
     /* Looks up a Provider by its identifier
      @param  identifier: unique identifier of the provider
      */
-    public func getprovider(identifier:String) throws -> Provider? {
+    public func provider(identifier:String) -> Provider? {
         switch identifier {
         case Constants.ProviderIdentifiers.MicrosoftIrmProvider:
             return MSIrmProvider()
@@ -38,16 +37,16 @@ public class ProviderRegistry: NSObject {
     /* Finds a Provider for the specified file
      @param  item: url of the item/file
      */
-    public func getProviderFor(item:NSURL) throws -> Provider? {
+    public func provider(for item:NSURL, error:NSErrorPointer) -> Provider? {
         let msProvider = MSIrmProvider()
         
-      
+        let error:NSErrorPointer=nil
         do{
         if try msProvider.canProvide(item) {
             return msProvider
         }
         }catch _{
-            throw NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.DataDecryptionError, userInfo: nil)
+            
         }
         return nil
     }

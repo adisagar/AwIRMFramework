@@ -17,7 +17,7 @@ import Foundation
 class MSItemHandle: ItemHandle {
     
     var protectedData : MSProtectedData
-    
+    var irmProvider = MSIrmProvider();
     
     init(msprotectedData:MSProtectedData){
         protectedData = msprotectedData

@@ -1,0 +1,6 @@
+framework module Pods_AWIrmFrameworkTests {
+  umbrella header "Pods-AWIrmFrameworkTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
