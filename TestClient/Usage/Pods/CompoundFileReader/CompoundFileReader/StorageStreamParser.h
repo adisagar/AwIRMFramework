@@ -23,5 +23,7 @@
 - (BOOL)readFile:(NSError *__autoreleasing*)error;
 - (void)closeFile;
 - (NSData *)loadDataOfDirectoryEntryID:(NSInteger)sIdentifier;
+- (BOOL)checkDirectoryEntryPresent:(NSString*)directoryName ;
+- (BOOL)processFile:(NSError *__autoreleasing*)error;
 
 @end

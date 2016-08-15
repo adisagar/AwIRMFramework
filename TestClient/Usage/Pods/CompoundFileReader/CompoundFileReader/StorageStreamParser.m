@@ -182,11 +182,13 @@
         [difatSectorChain addObject:sector];
         
         while (validationCount > 0) {
-            
+            //Refer page number 21 in below link. Files of < 6.8MB does not have DIFAT sector(So this is not executed). For file above this size, the last 4 bytes of 512 bytes has the next Sec ID.
+            //http://download.microsoft.com/download/9/5/E/95EF66AF-9026-4BB0-A41D-A4F81802D92C/[MS-CFB].pdf
             Byte *present = (Byte *)malloc(4 * sizeof(Byte));
-            [sector.getData getBytes:present length:4];
-            if (present) {
-                nextSecID = [self getIntFromBytes:present];
+            NSData* sectorData = [sector getData];
+            if (present && [sectorData length] > 4) {
+                NSData *nextSecIdData = [sectorData subdataWithRange:NSMakeRange([sectorData length] -4, 4)];
+                [nextSecIdData getBytes:&nextSecID length:sizeof(nextSecID)];
                 
                 if (nextSecID == FREESECT || nextSecID == ENDOFCHAIN) {
                     free(present);
@@ -421,6 +423,8 @@
         
         //Load the entire storage deep first...
         [self loadSiblings:(DirectoryEntry *)[self.directoryEntries pointerAtIndex:rootEntry.child] inStorage:_rootStorage];
+
+
     }
 }
 
@@ -501,6 +505,117 @@
     _sectorCollection = nil;
     _header = nil;
     _rootStorage = nil;
+}
+
+- (BOOL)processFile:(NSError *__autoreleasing*)error
+{
+    @try {
+        if (![self isValidHeader:error]) {
+            return NO;
+        }
+        [self populateDirectories];
+        [self loadRBBinaryTreeFromDirectories];
+        return YES;
+    } @catch (NSException *exception) {
+        return NO;
+    }
+}
+
+
+- (void)loadRBBinaryTreeFromDirectories
+{
+    DirectoryEntry *rootEntry = (DirectoryEntry *)[self.directoryEntries pointerAtIndex:0];
+    if (rootEntry.child != NOSTREAM) {
+        if ( rootEntry.nodeType == NodeTypeInvalid) {
+            return;
+        }
+        _childSID = rootEntry.child;
+        
+        _rootStorage = [[Storage alloc] initWithStorageDirectoryEntry:rootEntry];
+        _rootStorage.storageName = @"Root Entry";
+        
+        //Load the entire storage deep first...
+        [self loadChildSiblings:(DirectoryEntry *)[self.directoryEntries pointerAtIndex:rootEntry.child] childId:rootEntry.child]; //todo_Irm temp changes
+    }
+}
+
+- (BOOL) checkDirectoryEntryPresent : (NSString*)directoryName {
+    
+    @try {
+        if (![self.directoryEntries count]) {
+            
+            if (![self isValidHeader:nil]) {
+                return NO;
+            }
+            
+            [self populateDirectories];
+        }
+        int count = [self.directoryEntries count];
+        for(int index = 0; index <count ; index++)
+        {
+            NSString* name = [(DirectoryEntry *)[self.directoryEntries pointerAtIndex:index] name];
+            if ([name isEqualToString:directoryName]) {
+                return YES;
+            }
+        }
+        return NO;
+    } @catch (NSException *exception) {
+        return  NO;
+    } 
+}
+
+- (void)loadChildSiblings:(DirectoryEntry *)directoryEntry childId : (NSInteger)childSID
+{
+    if (directoryEntry.leftSibling != NOSTREAM) {
+        [self loadChildSiblingsFromEntry:(DirectoryEntry *)[self.directoryEntries pointerAtIndex:directoryEntry.leftSibling] childId:childSID ];
+    }
+    
+    if ([(DirectoryEntry *)[self.directoryEntries pointerAtIndex:childSID] nodeType] == NodeTypeStream) {
+        Stream *stream = [[Stream alloc] init];
+        stream.sIdentifier = childSID;
+        stream.propertyKey = [(DirectoryEntry *)[self.directoryEntries pointerAtIndex:childSID] name];
+        [self.rootStorage addStream:stream];
+    } else if ([(DirectoryEntry *)[self.directoryEntries pointerAtIndex:childSID] nodeType] == NodeTypeStorage) {
+        DirectoryEntry *dirEntry = (DirectoryEntry *)[self.directoryEntries pointerAtIndex:childSID];
+        Storage *storage = [[Storage alloc] initWithStorageDirectoryEntry:dirEntry];
+        storage.storageName = [dirEntry name];
+        [self.rootStorage addStorage:storage];
+        if (dirEntry.child != FREESECT) {
+            childSID = dirEntry.child;
+            [self loadChildSiblings:(DirectoryEntry *)[self.directoryEntries pointerAtIndex:dirEntry.child] childId:childSID  ];
+        }
+    }
+    
+    if (directoryEntry.rightSibling != NOSTREAM) {
+        [self loadChildSiblingsFromEntry:(DirectoryEntry *)[self.directoryEntries pointerAtIndex:directoryEntry.rightSibling] childId:childSID ];
+    }
+}
+
+- (void)loadChildSiblingsFromEntry:(DirectoryEntry *)directoryEntry childId : (NSInteger)childSID
+{
+    if ([self isValidEntry:directoryEntry.leftSibling]) {
+        [self loadChildSiblingsFromEntry:(DirectoryEntry *)[self.directoryEntries pointerAtIndex:directoryEntry.leftSibling] childId:childSID ];
+    }
+    
+    if ([(DirectoryEntry *)[self.directoryEntries pointerAtIndex:directoryEntry.sIdentifier] nodeType] == NodeTypeStream) {
+        Stream *stream = [[Stream alloc] init];
+        stream.sIdentifier = directoryEntry.sIdentifier;
+        stream.propertyKey = [(DirectoryEntry *)[self.directoryEntries pointerAtIndex:directoryEntry.sIdentifier] name];
+        [self.rootStorage addStream:stream];
+    } else if ([(DirectoryEntry *)[self.directoryEntries pointerAtIndex:directoryEntry.sIdentifier] nodeType] == NodeTypeStorage) {
+        DirectoryEntry *dirEntry = (DirectoryEntry *)[self.directoryEntries pointerAtIndex:directoryEntry.sIdentifier];
+        Storage *storage = [[Storage alloc] initWithStorageDirectoryEntry:dirEntry];
+        storage.storageName = [dirEntry name];
+        [self.rootStorage addStorage:storage];
+        if (dirEntry.child != FREESECT) {
+            childSID = dirEntry.child;
+            [self loadChildSiblings:(DirectoryEntry *)[self.directoryEntries pointerAtIndex:dirEntry.child] childId:childSID  ];
+        }
+    }
+    
+    if ([self isValidEntry:directoryEntry.rightSibling]) {
+        [self loadChildSiblingsFromEntry:(DirectoryEntry *)[self.directoryEntries pointerAtIndex:directoryEntry.rightSibling] childId:childSID  ];
+    }
 }
 
 @end

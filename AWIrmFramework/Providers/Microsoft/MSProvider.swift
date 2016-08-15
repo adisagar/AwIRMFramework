@@ -41,8 +41,8 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
         
         do {
             protectionType = try itemHelper.protectionType()
-        } catch _{
-            completionBlock(nil,NSError(domain: Constants.Framework.BundleId, code:  Constants.ErrorCodes.FileParsingError, userInfo: nil))
+        } catch let error as NSError {
+            completionBlock(nil,error)
             return
         }
         //For non-office files.
@@ -69,8 +69,8 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
             if protectionType != .MSProtectionNone {
                 canProvide = true
             }
-        } catch _{
-            throw  NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.FileParsingError, userInfo: nil)
+        } catch let error as NSError {
+            throw error
         }
         return canProvide
     }

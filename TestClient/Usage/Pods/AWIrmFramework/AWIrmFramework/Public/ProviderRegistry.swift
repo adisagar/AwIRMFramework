@@ -39,7 +39,7 @@ public class ProviderRegistry: NSObject {
      */
     public func provider(for item:NSURL) throws -> Provider {
         let msProvider = MSIrmProvider()
-    
+        
         do {
             if try msProvider.canProvide(item) {
                 return msProvider
@@ -48,7 +48,7 @@ public class ProviderRegistry: NSObject {
         } catch _{
             throw NSError(domain: Constants.Framework.BundleId, code:Constants.ErrorCodes.FileParsingError, userInfo: nil)
         }
-     throw NSError(domain: Constants.Framework.BundleId, code:Constants.ErrorCodes.ProtectionNotDetected, userInfo: nil)
+        throw NSError(domain: Constants.Framework.BundleId, code:Constants.ErrorCodes.ProtectionNotDetected, userInfo: nil)
     }
     
     /// Enables / Disables a Provider

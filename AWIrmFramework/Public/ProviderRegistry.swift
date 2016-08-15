@@ -30,9 +30,6 @@ public class ProviderRegistry: NSObject {
         }
     }
     
-    /* Finds a Provider for the specified file
-     @param  item: url of the item/file
-     */
     
     /* Finds a Provider for the specified file
      @param  item: url of the item/file
@@ -45,9 +42,10 @@ public class ProviderRegistry: NSObject {
                 return msProvider
             }
             
-        } catch _{
-            throw NSError(domain: Constants.Framework.BundleId, code:Constants.ErrorCodes.FileParsingError, userInfo: nil)
+        } catch let error as NSError{
+            throw error
         }
+        //Note:We cannot return nil here. Because when a func with optional return type 'throws', it will not map to obj-C
         throw NSError(domain: Constants.Framework.BundleId, code:Constants.ErrorCodes.ProtectionNotDetected, userInfo: nil)
     }
     
