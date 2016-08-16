@@ -36,13 +36,13 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
     ///Before that this should take care of authenticating the user and other preprocessing steps if present.
     @objc func irmItemHandle(forReading item: NSURL, userId:String, clientId:String,completionBlock:(ItemHandle?,NSError?)->Void) {
         self.clientId = clientId
-        let itemHelper = MSItemHelper(url: item)
+        let itemHelper = MSItemHelper(path: item.path!)
         var protectionType = MSProtectionType.MSProtectionNone
         
         do {
             protectionType = try itemHelper.protectionType()
-        } catch let error as NSError {
-            completionBlock(nil,error)
+        } catch _{
+            completionBlock(nil,NSError(domain: Constants.Framework.BundleId, code:  Constants.ErrorCodes.FileParsingError, userInfo: nil))
             return
         }
         //For non-office files.
@@ -51,7 +51,9 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
                 completionBlock(itemHandle,error)
             })
         } else if(protectionType == .MSCustomProtection) {
-            //Todo handle office files.
+            plainDataFromOfficeFiles(item.path!, userId: userId, clientId: clientId, completionBlock: { (itemHandle:ItemHandle?,error: NSError?) in
+                completionBlock(itemHandle,error)
+            }) 
         } else {
             completionBlock(nil,NSError(domain: Constants.Framework.BundleId, code:  Constants.ErrorCodes.ProtectionNotDetected, userInfo: nil))
         }
@@ -63,14 +65,14 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
     internal func canProvide(item: NSURL) throws -> Bool {
         var canProvide = false
         do {
-            let itemHelper = MSItemHelper(url: item)
+            let itemHelper = MSItemHelper(path: item.path!)
             let protectionType = try itemHelper.protectionType()
             
             if protectionType != .MSProtectionNone {
                 canProvide = true
             }
-        } catch let error as NSError {
-            throw error
+        } catch _{
+            throw  NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.FileParsingError, userInfo: nil)
         }
         return canProvide
     }
@@ -108,6 +110,47 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
             let itemHandle = MSItemHandle(msprotectedData:protectedData)
             completionBlock(itemHandle: itemHandle, nil)
         }
+    }
+    
+    func plainDataFromOfficeFiles(filePath:String,
+                                  userId:String,
+                                  clientId:String,
+                                  completionBlock : (itemHandle:ItemHandle?,NSError?)->Void  ) {
+        
+        let itemHelper = MSItemHelper(path: filePath)
+        let result =  itemHelper.primaryAndEncryptedData()
+        let primaryPackage = result.0
+        let encryptedPackage = result.1
+        
+        MSUserPolicy.userPolicyWithSerializedPolicy(primaryPackage,
+                                                    userId: nil,
+                                                    authenticationCallback: self,
+                                                    consentCallback: self.consent,
+                                                    options: Default)
+        { (userPolicy:MSUserPolicy!, error:NSError!) in
+            
+            if error != nil {
+                completionBlock(itemHandle: nil, error)
+            }
+            else if userPolicy == nil {
+                completionBlock(itemHandle: nil, error)
+            }
+                
+            else {
+                MSCustomProtectedData.customProtectedDataWithPolicy(userPolicy,
+                                                                    protectedData: encryptedPackage!,
+                                                                    contentStartPosition: 8,
+                                                                    contentSize: UInt(encryptedPackage!.length - 8) , completionBlock:
+                    { (customProtectedData : MSCustomProtectedData!,  error:NSError!) in
+                        
+                        let itemHandle = MSItemHandle(msprotectedData:customProtectedData)
+                        completionBlock(itemHandle: itemHandle, nil)
+                        
+                })
+            }
+            
+        }
+        
     }
     
 }

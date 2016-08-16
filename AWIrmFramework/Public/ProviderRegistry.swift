@@ -42,8 +42,8 @@ public class ProviderRegistry: NSObject {
                 return msProvider
             }
             
-        } catch let error as NSError{
-            throw error
+        } catch _{
+            throw NSError(domain: Constants.Framework.BundleId, code:Constants.ErrorCodes.FileParsingError, userInfo: nil)
         }
         //Note:We cannot return nil here. Because when a func with optional return type 'throws', it will not map to obj-C
         throw NSError(domain: Constants.Framework.BundleId, code:Constants.ErrorCodes.ProtectionNotDetected, userInfo: nil)

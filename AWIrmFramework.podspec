@@ -12,8 +12,9 @@ s.summary = "This framework does all IRM operations"
 s.requires_arc = true
 
 s.dependency 'ADAL', '~> 2.2.2'
+s.dependency 'CompoundFileReader'
 
-s.version = "0.0.44"
+s.version = "0.0.45"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 

@@ -38,8 +38,8 @@ class MSItemHelper {
                 protectionType = MSProtectionType.MSCustomProtection
             }
             
-        }  catch _{
-            throw NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.FileParsingError, userInfo: nil)
+        }  catch let error as NSError? { 
+            throw NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.FileParsingError, userInfo:error?.userInfo)
         }
         return protectionType
     }

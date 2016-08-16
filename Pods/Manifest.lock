@@ -4,13 +4,16 @@ PODS:
   - ADAL/app-lib (2.2.2):
     - ADAL/tokencacheheader
   - ADAL/tokencacheheader (2.2.2)
+  - CompoundFileReader (2.0.0)
 
 DEPENDENCIES:
   - ADAL (~> 2.2.2)
+  - CompoundFileReader
 
 SPEC CHECKSUMS:
   ADAL: b396ada3fe9a19d6d357650da9835045e0fe631e
+  CompoundFileReader: 000d3360602413b2ce83093f4d0ee987d8a79970
 
-PODFILE CHECKSUM: 9fbd789b1494f0e96066a3ee18810870dc1e7aeb
+PODFILE CHECKSUM: f1be58fb7d3cc73c607d368ba1f6a3568dac1068
 
 COCOAPODS: 1.0.1

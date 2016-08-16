@@ -18,8 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    //NSString *filename = @"Test";
-     NSString *filename = @"FileOneNonAD";
+   //   NSString *filename = @"Test";
+   NSString *filename = @"FileOneNonAD";
      NSString* newPath = [[NSBundle mainBundle] pathForResource:filename  ofType:@"ppdf"];
     
      BOOL fileExists = [[NSFileManager defaultManager] fileExistsAtPath:newPath];
@@ -38,10 +38,31 @@
     
     
     [irmOperation irmItemHandleForReading:url userId:userId clientId:bundleId completionBlock:^(id<AWIrmItemHandle> _Nullable itemHandle, NSError* _Nullable error) {
-        long length = [itemHandle decryptedDataLength];
-        Byte *byteData= (Byte*)malloc(length );
-        NSError* err=nil;
-        [itemHandle plainDataBytes:nil length:length+10 error:&error];
+        long decryptedLength = [itemHandle decryptedDataLength];
+        NSMutableData *plainData = [[NSMutableData alloc] init];
+        int chunkSize = 1024;
+        
+        int bufferLength = chunkSize;
+        int segments = decryptedLength/bufferLength;
+        int reminder = decryptedLength % bufferLength;
+        int startrange = 0;
+        Byte *byteData= (Byte*)malloc(bufferLength);
+        
+        for (int index = 0; index <= segments; index++) {
+            @autoreleasepool {
+                if (index == segments) {
+                    bufferLength = reminder;
+                    byteData= (Byte*)malloc(bufferLength);
+                }
+                //uint8_t buffer[chunkSize];
+                //Byte *byteData= (Byte*)malloc(bufferLength);
+                NSRange fetchRange =NSMakeRange(startrange,bufferLength);
+                NSData* data = [itemHandle plainDataBytesWith:fetchRange error:nil];
+                [plainData appendData:data];
+                startrange += bufferLength;
+            }
+        }
+
         
     }];
 

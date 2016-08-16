@@ -39,29 +39,20 @@ class MSItemHandle: ItemHandle {
         }
     }
     
-    /*Will return plain data within the range
-     @param range:Range of the data required
-     */
-    @objc func plainDataBytesWithRange(range:NSRange) throws -> NSData {
-        do {
-            return  try protectedData.subdataWithRange(range)
-        }
-        catch _{
-           throw NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.DataDecryptionError, userInfo: nil)
-        }
-        
-    }
     
     /*Populates buffer with data of lenght.
      @param buffer: byte* for holding decrypted data
      @param length: length of the data required
      */
-    @objc func plainDataBytes(buffer: UnsafeMutablePointer<Void>, length:UInt) throws  {
+    @objc func plainDataBytes(length:UInt) throws -> NSData {
         do {
+            let buffer : UnsafeMutablePointer<Void> = malloc(Int(length))
             try self.protectedData.getBytes(buffer, length: length)
+            let plainData = NSData(bytes: buffer, length:Int(length))
+            return plainData
         }
-        catch _{
-            throw NSError(domain: Constants.Framework.BundleId, code:Constants.ErrorCodes.DataDecryptionError, userInfo: nil)
+        catch let error as NSError?{
+            throw NSError(domain: Constants.Framework.BundleId, code:Constants.ErrorCodes.DataDecryptionError, userInfo: error?.userInfo)
         }
     }
     
@@ -69,12 +60,15 @@ class MSItemHandle: ItemHandle {
      @param buffer: byte* for holding decrypted data
      @param range: Range of the data required
      */
-    @objc func plainDataBytes(buffer: UnsafeMutablePointer<Void>, range:NSRange) throws {
+    @objc func plainDataBytes(with range:NSRange) throws -> NSData {
         do {
+            let buffer : UnsafeMutablePointer<Void> = malloc(range.length)
             try self.protectedData.getBytes(buffer, range: range)
+            let plainData = NSData(bytes: buffer, length: range.length)
+            return plainData
         }
-        catch _{
-            throw NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.DataDecryptionError, userInfo: nil)
+        catch let error as NSError?{
+            throw NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.DataDecryptionError, userInfo: error?.userInfo)
         }
     }
     

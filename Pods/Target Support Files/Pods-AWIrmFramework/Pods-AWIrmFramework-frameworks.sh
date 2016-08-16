@@ -85,7 +85,9 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/ADAL/ADAL.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/CompoundFileReader/CompoundFileReader.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/ADAL/ADAL.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/CompoundFileReader/CompoundFileReader.framework"
 fi
