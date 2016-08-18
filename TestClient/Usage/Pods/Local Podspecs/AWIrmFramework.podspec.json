@@ -8,9 +8,12 @@
   "dependencies": {
     "ADAL": [
       "~> 2.2.2"
+    ],
+    "CompoundFileReader": [
+
     ]
   },
-  "version": "0.0.44",
+  "version": "0.0.45",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -21,7 +24,7 @@
   "homepage": "https://air-watch.com",
   "source": {
     "git": "'https://github.com/adisagar/AwIRMFramework.git'",
-    "tag": "0.0.44"
+    "tag": "0.0.45"
   },
   "frameworks": [
     "CoreData",

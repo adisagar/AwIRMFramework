@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '429886FC717844354AFE873FAA243D44'
+               BlueprintIdentifier = 'C00AB9E2DFEDD4DB096B35D29CAB113E'
                BlueprintName = 'CompoundFileReader'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'CompoundFileReader.framework'>

@@ -56,7 +56,7 @@ class MSItemHelper {
             let cfbfParser  = StorageStreamParser.sharedInstance()
             cfbfParser.setFilePath(itemPath)
             try cfbfParser.processFile()
-            let primaryPackage = cfbfParser.rootStorage.getDataFromPropertyKey("Primary")
+            let primaryPackage = cfbfParser.rootStorage.getDataFromPropertyKey(PrimaryPackageName)
             
             if(primaryPackage != nil) {
                 let tempData =  primaryPackage!.subdataWithRange(NSMakeRange(176, primaryPackage!.length - 176))  // [pldata

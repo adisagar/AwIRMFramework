@@ -7,280 +7,281 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0030EBC5E522CBB91A54B06AB4EE8982 /* MSSecureCodableObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5933DB30A3C02A6A61C56BA092567828 /* MSSecureCodableObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00C8170A740ABBFA5073B4C02937C0F0 /* ADAuthenticationRequest+AcquireAssertion.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE6380854A4DA3A9BAEB491ACBDF323 /* ADAuthenticationRequest+AcquireAssertion.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0238129DA91D158F6242E935BDB1FF16 /* DomObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B00CCD7DD573289483CC218B04AFC4 /* DomObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		027991289B33CF1EE61E3F4081F5D1F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779B57EB4494C783BDC741531FAC8FC2 /* Constants.swift */; };
 		028F9CC82B22B8397CC8E2D8AF3463FC /* ADNTLMUIPrompt.h in Headers */ = {isa = PBXBuildFile; fileRef = 42CA51E22CE3D2F240D5FA990AE188B3 /* ADNTLMUIPrompt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		029510C686907140E9EDF650EE199E13 /* Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = C30C9EE14023B89F915CB8703FA897AA /* Stream.m */; };
 		02A5A1FB30B6D4A3CE9204964DEDD537 /* ADKeychainTokenCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C8F4185BB12A67BBD7DC57BC99EBE4 /* ADKeychainTokenCache.m */; };
-		044B67AD5098197B34BC7FE604B49416 /* FontTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C775A20A1D7DDB5D5D39103F66DE08 /* FontTable.m */; };
-		04C281A47602CAAA1D18F3596F6713F3 /* StreamReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CD4AEEC0510C9F7E9033A6AF472282 /* StreamReader.m */; };
-		05841D34657AF4D9499BD4CAE6A0784F /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D8C141013DA52E84D1AAC18B91A0A7B /* Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		064271679312845882CB31E47A94F143 /* MSSdkErrorCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 19EFF8932B70935311F00C482DA2366E /* MSSdkErrorCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		068747B4ED6BA16E475A074B0BE66EC4 /* NSURL+ADExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6DD75A62773905263B33ABBBE295A /* NSURL+ADExtensions.m */; };
 		08700BAB281AC928F7700053B4C1078B /* ADTokenCacheKey.m in Sources */ = {isa = PBXBuildFile; fileRef = D51930155E999CA32D6D4D8986E65F1B /* ADTokenCacheKey.m */; };
-		08F373D43F7F7CABB562FDA60DDA1986 /* MSItemHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B354D17F68A1A674BBA5DB0F7C80D3 /* MSItemHandle.swift */; };
 		08FBE7A98CE90D514D186174029A064D /* ADTokenCacheItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E1A03952D71CB7F37027FBBE60365B /* ADTokenCacheItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0925F43E8862778827674BE94746E036 /* ADURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 23FF61FE7C02A6FD4A5DA2578ABFF7DA /* ADURLProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0A0C745C5FEB07F8971F8AB781214957 /* Header.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB209058567DF1589B81218C1F6DF42 /* Header.m */; };
-		0A67F9F62126C21F563611A1DB7DD617 /* StreamHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D3C95C3EA483E8DC518AB09AE48940C /* StreamHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C9E3AD794D851A585B1CCA18C8A4995 /* DomShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB6D3126FEE369BC76D78D67E2D5CEB /* DomShape.m */; };
+		0C9EDA0D4097BD884544FF27A403D7D5 /* MSUserRoles.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC25E7F9B0744B3C883C4FD90D8D994 /* MSUserRoles.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CAEAD34A4BF7D087A0EF9B92BA82A26 /* DomHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4AD3187DC2140E7B185FFAAA57A4D8 /* DomHeader.m */; };
 		0CC2CB6FEC6DD15D39F9A8B5254F4223 /* ADAuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 265C26C7BF61807A6A2A93394982D178 /* ADAuthenticationViewController.m */; };
 		0CD828433063B5E4F4EB97E0F21CC761 /* ADTokenCacheDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = E147E59CD6D4ECF82DA29D465C1966B3 /* ADTokenCacheDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0D672BB2FA46D3FF8033388570A61899 /* DomElement.h in Headers */ = {isa = PBXBuildFile; fileRef = FACB5EC23A6F6C29F683774D69D5CAD7 /* DomElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D97118A2196CC676C6612A25BFDF14A /* Storage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA601F9618FD331A57C7EBBD800AF9 /* Storage.m */; };
-		0DACBEF61AE676DDB5D9DF88847201C0 /* DomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D46AA1D039706E23F80CCC7EEADB7F81 /* DomTableCell.m */; };
+		0DA425F22782D283C16FF67415FB8B9A /* MSItemHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B354D17F68A1A674BBA5DB0F7C80D3 /* MSItemHandle.swift */; };
+		0DE68BD787732BAB952FCEC3258D1FE3 /* ProviderRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BD9BEF0582E040CA3DF84BF60F092 /* ProviderRegistry.swift */; };
 		0E2D78F27F4C6FFC56902974A213FBB3 /* ADHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB386EB6C97360B07CBA2D9BE2F0278 /* ADHelpers.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0E7426B74C9EB15EBFCD813EAA972A6C /* Attribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BD8395A12C9CAA6F62B1115696E95B /* Attribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E8C33E654CFB25595498A48AE90A9FE /* AttributeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBF75B2F6671FBFEE6FE3972F22C7FB /* AttributeList.m */; };
+		0E4EF167558E97E51535E1342178EFC5 /* TextConatiner.m in Sources */ = {isa = PBXBuildFile; fileRef = 87979D55FFB8C28D9EB7C86FD17AAEEB /* TextConatiner.m */; };
 		0E8EBB8885D2E4B7A07AB9A2738F1AC6 /* ADAuthenticationRequest+WebRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E4331633FEDF9E1E5C9111BC769C768 /* ADAuthenticationRequest+WebRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		10BA871F297F77CF6FC5781D2E0D6F3F /* ColorTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A74FF9429C0DF35D789E8B55B9A0A6A /* ColorTable.m */; };
-		10FE4BE858C8CFFDD3D5918FBC311005 /* MSAuthenticationCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = E1BFE303441EBB9447242CBCA12DA942 /* MSAuthenticationCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		117219C87AFD09B030D839F790314B24 /* ADAuthenticationRequest+AcquireAssertion.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B476F387D35C0248A3071B525F041B9 /* ADAuthenticationRequest+AcquireAssertion.m */; };
 		12A9E43389F32C70B060571DA727D6C4 /* ADTokenCacheAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDE2965B1F3C55897A432744418482E /* ADTokenCacheAccessor.m */; };
 		12C4AC6E9ED55D8E171576C74F4E5CA6 /* ADAuthenticationContext+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7215B1A58DCC051F50E6A4B8493E1356 /* ADAuthenticationContext+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		12F2581932E5217D49A51D44A50DF46F /* LayerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B1240AE3F778C597694147BB734BD8 /* LayerInfo.m */; };
 		138B042312628D03045ADA59FE3E9C26 /* ADWebResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 66CF1502811E53AB804253C0A012BFFA /* ADWebResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13986C147D45E1E5E428A5A119CAA03A /* RTFEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = DFD962B216F715F40C7049F535DA5D02 /* RTFEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13E42547B46F8581A8704FE80F74E62E /* ADBrokerNotificationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F50325C393C72F58168CC4A085AB31 /* ADBrokerNotificationManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1575188A2CA06441E6C180E25500776C /* DomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1579008DBDC28256002AFBCC9495433F /* DomObject.m */; };
+		144D75517AE0A86EBE5EE22D36F814FB /* MSConsent.h in Headers */ = {isa = PBXBuildFile; fileRef = 86B4DFCCF7DA192620DA300CE5D09249 /* MSConsent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1684E4780A4093EDAA3911066CCC1FAB /* ADWebRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C347266B30B622CF8D7997A0D1D4577 /* ADWebRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		16F939AB82A1055E0C4A75CEC9562639 /* Sector.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F4CFFB21CB31819017A4F59A1BFE10 /* Sector.m */; };
-		1742303B478BBD4D5C26815DA0CD428B /* StreamReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2229E52A06AA3C6ED1400377C467E313 /* StreamReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17567AE0139013279B36DAFE08067278 /* Pods-Usage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B63097B3B7113AD0A0B55B9641CCDCAE /* Pods-Usage-dummy.m */; };
 		1840117BBBD788690E8BBB9F34902BF2 /* ADClientMetrics.h in Headers */ = {isa = PBXBuildFile; fileRef = 32CCD5248C76872AA1632DF9EB9925D5 /* ADClientMetrics.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		18D398A76CF704EE9E4C876B7B3E6182 /* ADBrokerKeyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6DF6D2975EAFA6BEB13469B1AC2FBD /* ADBrokerKeyHelper.m */; };
 		18FFBB32566043C4A89086EDA363A550 /* ADAL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 200F381EA8DAA6EC778F07EB6011CA24 /* ADAL-dummy.m */; };
-		1B316580B7F4F033790268937196A49C /* Message.h in Headers */ = {isa = PBXBuildFile; fileRef = C0A4A758E9DCD45703C8EB970975A413 /* Message.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B40A17A6FF075C8372349544145275C /* MSRightsManagementResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 91D95C44121AE78D603B163AA83415D4 /* MSRightsManagementResources.bundle */; };
 		1C0A321DE02754424F9755851830A2FE /* ADLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8294F9511BC5F2746C2E54942475A2 /* ADLogger.m */; };
 		1C5731DAA622E2950693F40164B48A81 /* ADALFrameworkUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B907A03984AB8009829FAB0469BB819 /* ADALFrameworkUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1C823A9710F1B9D214CAF7278FB6D1AE /* MappedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BED3286CCD352359E3A0F5FC8B2AD47B /* MappedObject.m */; };
 		1C9AF9383C3560BDE82D30F081C3D505 /* NSDictionary+ADExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E75A17930CF3F13E070C0B5F4C7B744 /* NSDictionary+ADExtensions.m */; };
 		1CC740EF991690A1FE57CBA960507814 /* ADAuthenticationSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = F198CAD880ED5831D9B6C9BD48CE99D4 /* ADAuthenticationSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CEF0AEF4B08F7AB8D328B722B6B39B9 /* DomDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8AE47C2B4F3CF4869E6D7B8D96728F /* DomDocument.m */; };
 		1D59BEE77A0E76B61C18FD62EE5F1974 /* ADWebAuthRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD9FFE969970B65F5E8C2BCB1603625 /* ADWebAuthRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1D76B6847A46F28A95172D93565CD1E7 /* Stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 92A7BE04F49D8C9B4AE6FFF08A70C89E /* Stream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F7FBD2AD99201FBD5A6C06D0598F7A6 /* ADInstanceDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A637C02B6AA8BB8EE9CB37E0A6EC402 /* ADInstanceDiscovery.m */; };
-		206AB6C701E7834254CFE3FA7DA2C4AE /* MSCustomProtection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D18267CC7D697FDCDD4E1ADAE9D1441 /* MSCustomProtection.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		2311490373C77765D7C74076279D2074 /* ADWebAuthController+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC337248F9A4749B8AC0DBC2D044D21 /* ADWebAuthController+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		233E254EF3B59BDF37CFFD471F64E0C1 /* ADAuthenticationError.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A016223FB83D388CF7D6457BD645B /* ADAuthenticationError.m */; };
 		236FC54615ACA263F9A3E61A46666F1D /* ADAuthenticationResult.h in Headers */ = {isa = PBXBuildFile; fileRef = F18950F8BE15E35FD118C1816567DDA3 /* ADAuthenticationResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2385B4CA96F37B28DBA980D69AB24504 /* DomDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 436BEAAB8F4510D639859D47EE7F07DF /* DomDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		239A4F7D52362656160983837E38A318 /* ADWebAuthRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238DCB745C5238BC635F7E2D570535B /* ADWebAuthRequest.m */; };
-		23BCFF3827848E3E87A458166C9B11EE /* DomImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB5AF5159FA39FD72D47D578B05942D /* DomImage.m */; };
-		245996D1E7F69FCB59FEE1F8999534D8 /* MapiPropertyParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 60919401788B6CC8853A8F35A04F862B /* MapiPropertyParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2540A2793A03F4686CDC900BBF9FE6FC /* ADJwtHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5483FA2F6D1BD66FAF42E89020474DBF /* ADJwtHelper.m */; };
-		25EC16B5BC517F5E6D8EC78919CF1814 /* Attachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C029A9DCADEA93B5E480CFF1251FEC3 /* Attachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29607ECFEAED8A43A1C4B3F79CCCEAF2 /* DomBookmark.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A03C7EC2EB015902701176899217CC4 /* DomBookmark.m */; };
 		29C396D6934DAE1E4CB1AAC148A1FFF0 /* ADTokenCacheItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FF53F6EF3AD18AB09E153765220FEA /* ADTokenCacheItem.m */; };
-		2A0E2B11335C1FB529EBC7AB410E17EB /* ListOverride.m in Sources */ = {isa = PBXBuildFile; fileRef = B001AF47C8BD52636366E0B9A8085921 /* ListOverride.m */; };
-		2B267E1C3DB1B8BA1EC76AA0A1CCA293 /* Mapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A79A9B2D91EC84673BBC8B0B9D0B0B59 /* Mapper.m */; };
+		2A58FB429E64141807250BAC7B4E100F /* Permissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4B0B5313B3DF173D1FA248EC5B1935 /* Permissions.swift */; };
 		2B7DFBC2C2C9376902F7BFFD8E9BF9E9 /* ADKeychainTokenCache+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 18C8F79552345AE3254E078498CF5B0F /* ADKeychainTokenCache+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2CA37769ED9F1F3E985D59532F178E83 /* DomText.h in Headers */ = {isa = PBXBuildFile; fileRef = B50D9DCC6BD5C9A8169FE84F8094C61C /* DomText.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CEDF647CC25872D74BBC4990D04F233 /* MSItemHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9822108B28FDBBD46BEFA5C26B107CC /* MSItemHelper.swift */; };
-		2D82052764122A7C198B0465D00C30D0 /* MSOfflineCacheLifetimeConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = AD69CE5385CDB2F69006DFE30E722784 /* MSOfflineCacheLifetimeConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F030CA678D9D83F14D8D52BD3136FA6 /* DomShapeGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B9CD36D74BC1875E9705D0C1D4D7F /* DomShapeGroup.m */; };
-		30C44DAFFBDE179C7940FC73A7EA9DE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4655EBBA168D0FA55A3C2073898D43 /* Foundation.framework */; };
+		2ECB9999FF803A129F1A172333D77169 /* MSAuthenticationCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = E1BFE303441EBB9447242CBCA12DA942 /* MSAuthenticationCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F3BC1079D0438A981A235C2C9B8E345 /* MSRight.h in Headers */ = {isa = PBXBuildFile; fileRef = A36D4CD14B54797ED278CFC357A324B8 /* MSRight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		318462B3BDB69002C0B33BBD9B846E23 /* InternalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E32C65EF1AAAC48F1FC393FFA89741 /* InternalProtocol.swift */; };
 		31E26FE727ADF9D214E65A89E380D660 /* UIAlertView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = B3579DB1992D6ECF6FD0970E067978C8 /* UIAlertView+Additions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3317FF593827E46F5E048B0F38DD95EC /* DomShape.h in Headers */ = {isa = PBXBuildFile; fileRef = F301278A74669BB7A8949F484BA5C73E /* DomShape.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31E5A0FC9F671942765757ABC8C24B75 /* MSCustomProtectedData.h in Headers */ = {isa = PBXBuildFile; fileRef = D188A2BE83745EA122681610EEDFC6F3 /* MSCustomProtectedData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		336DBCD3D058F35840DE5810FB6A1A01 /* ADAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 794C2067BDF780A21B384F636B30CFD3 /* ADAuthenticationRequest.m */; };
-		3438DF3932837CCEE8C86253897F8B25 /* DomLineBreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E4B80F7998057DB4F12F1AE3FAC578 /* DomLineBreak.m */; };
-		3461A9923EDBDBF5884425F173D689D0 /* CompoundFileReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E9EE755F4E9C71368294E35DF1E66 /* CompoundFileReader-dummy.m */; };
+		3504776E6C1C8697A295E79DC96FBFA9 /* DirectoryEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = DF136C50BEC8B40DB54C83E9232B2742 /* DirectoryEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3643A388CCD80BF85E2D0B13A93870D6 /* ADLogger+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 66218C5D94415ECEB5EBFD809BB68F60 /* ADLogger+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		36C2A9E7F15721E0C0C4299D59D20FE4 /* MSPolicyDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D8B2198DE024C36A6CBDE3426B0DEC /* MSPolicyDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36A5211957DDFB422E4282883A48E924 /* DomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D46AA1D039706E23F80CCC7EEADB7F81 /* DomTableCell.m */; };
 		3703314D3114DA5A9173B78F34E1FE4E /* ADAuthenticationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 36E3DBA0FD443D321E2BD8E8AE48F613 /* ADAuthenticationViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3737A17414E6044BAAB4D406723AB79C /* DomBookmark.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A03C7EC2EB015902701176899217CC4 /* DomBookmark.m */; };
-		37CDE310B31F1F7867F72C237532BC3F /* AuthenticationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736FB7683C3FBFD404DD25AA69CE9CA /* AuthenticationHandler.swift */; };
-		37EE7B80FF3A56B0F2DFF28499AFBCD3 /* DomParagraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F9943DF559040ECC12B3F145CB2B69 /* DomParagraph.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		395D02126ADF7D561601EDA154E5DB91 /* MSMutableProtectedData.h in Headers */ = {isa = PBXBuildFile; fileRef = FC0DB073AE9E8A48D8BDEE7CFA0BD428 /* MSMutableProtectedData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		380F5C615A1BB7B52301C8A85D216252 /* MSUserPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 903FC310C85C317D164D78283D6D74C4 /* MSUserPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		398938E61D8DCC6FA507C80A825A6F7D /* ADUserIdentifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A27878CA3A30B24FCAF120CB931504A /* ADUserIdentifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A4D7FC33D6823CE52A07B66A24E2806 /* Lex.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EE021DB358C657DC99835F789AAB0AA /* Lex.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3AC2BDF53025B51ECE5798FF7478C13E /* TextReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2464FD00E6C011BA5FD47F7FCF38F382 /* TextReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B13062197C018B9E93330539C7DFB42 /* DomTableRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B39A1A5038DCD18CE6F2EBAE415021 /* DomTableRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39F01C5C450574969E0981112AA78741 /* Token.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C0766145FE17D67510D8BA97C16588 /* Token.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39F8C2F527A05BD7B3E9061725ACB234 /* DomField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4F7184FD3F1F9E8D4DF64EB9F34631 /* DomField.m */; };
 		3BC759FDD455887E54D9BCC1821732BA /* ADKeychainUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C6354E5E7E4427E0803EA3E2C0156C /* ADKeychainUtil.m */; };
-		3E28FD4D78ED811588951E180528EFF6 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DC6C22E2D8E50EE78FE0AF79509A1E /* MessageUI.framework */; };
+		3C727A503EC478CE20E183E841E7E500 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413CDD25F8956B953D5660DB4D64DE10 /* Provider.swift */; };
+		3C8555D52E636B45D3A0330968D03AFC /* AttributeList.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BB18CA3C460864EC5E6481444150AA5 /* AttributeList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CFC680620FC4EDDCCE26A49DEAEC751 /* MSAuthenticationParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 56A780F888DC5BE21261F8B40F5F5C81 /* MSAuthenticationParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EB916E9A6414E62CB32CDA6703928E3 /* MSUserRights.h in Headers */ = {isa = PBXBuildFile; fileRef = D1ED8712FDC865B2B80BE97C62876954 /* MSUserRights.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F60D9F54BCA85DCDF8265426F0B1BBB /* UIAlertView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 424DEEAAD8EDC44A79F4D9C2D0C191EE /* UIAlertView+Additions.m */; };
-		3FB89FF11FE168A5AC24F02C4DCE13DB /* Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD1EB7C2CFC12108B870CF12696E44 /* Font.m */; };
 		401A771DFF57E9BA831C2679A456D400 /* ADAuthenticationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 83FBED3F1D87C563A146088483D5B0A8 /* ADAuthenticationRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		402B21E721A34E62CF8DEF0487A0171A /* MSProtector.h in Headers */ = {isa = PBXBuildFile; fileRef = 2136E8F478300371241AD5A39C724FC4 /* MSProtector.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42425A9C6D599BFA3888E541D3514C29 /* MSAsyncControl.h in Headers */ = {isa = PBXBuildFile; fileRef = E7FE478CB9CDA2DAED7307973AAC272A /* MSAsyncControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		413963697049DE238CA9889B1BB21A18 /* AuthenticationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736FB7683C3FBFD404DD25AA69CE9CA /* AuthenticationHandler.swift */; };
+		430D3CD2D5BA50652911B6AB983B5496 /* RTFDecompressor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC4ACB6117E34A95807DE1718B1636A /* RTFDecompressor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43A19C9D1B912D423424B70A7ED8E1BB /* ADWebResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6CB29F940A15A23352E8C4D9352134 /* ADWebResponse.m */; };
 		44161A39F861437D8E64F5DD892A9CF6 /* ADRegistrationInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 33663769C6344E9E65021DF39103C7CA /* ADRegistrationInformation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		45B319BA18EEC20679171AA1C498914D /* DomTableRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B39A1A5038DCD18CE6F2EBAE415021 /* DomTableRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4603962475507B8690313BAAAB338E2F /* Attachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C029A9DCADEA93B5E480CFF1251FEC3 /* Attachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4636717726E9EF83319096A7F1517DDD /* ADTokenCacheItem+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 818E5C9095F4DF2EDF303CAAC3557C49 /* ADTokenCacheItem+Internal.m */; };
+		46C032D947A07E7947529A8892EC8B68 /* Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD1EB7C2CFC12108B870CF12696E44 /* Font.m */; };
+		46C5A031E089DF2F6033E79138B118EF /* Attribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B8CBDEAA0700E3F23603B0D72040DA /* Attribute.m */; };
 		4702C066CF2C502ED46B7B167AB55297 /* ADNTLMHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = ECFFC81E0816A6D952BD872C5D42F869 /* ADNTLMHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		47B33F50E6DD24A38775C5E39179D9A9 /* MSProtection.h in Headers */ = {isa = PBXBuildFile; fileRef = E3B523E50BBB52865FB92654097D5387 /* MSProtection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49152934DEA3C4910225FDFCC53551F0 /* ADAuthenticationResult+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC5A5AACF8DFFED0584302474369D72 /* ADAuthenticationResult+Internal.m */; };
-		492A75B4C8D36D1828A17FD032EB7A77 /* Reader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7032AE99E1ED598E2C7FE3368EA4F8DA /* Reader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BE8DAD0B3C790D3AE542D0BFB468B7B /* DomPageBreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 123C02F9D4A58EBF4ECA81BE5474E2EE /* DomPageBreak.m */; };
-		4DB009554EB3BDD3B9C31D36FA91751D /* AWIrmFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B9C092C0BC34A281AE5E089A97E1034 /* AWIrmFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BAC3EF03BD6BCD6BF5A8C7349868A7E /* DomObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B00CCD7DD573289483CC218B04AFC4 /* DomObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D5467560CC63C4B84927DC56B73ADF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4408C48EC33626E26BB797C85DE17208 /* Foundation.framework */; };
+		4D9B3E6DAF5F60CEA23A01955A14C23C /* DomFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E4C1D29F1F06BCC3E82C216CD09EED /* DomFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E0830094BDE836C7B6829194A71C279 /* MSCustomProtection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D18267CC7D697FDCDD4E1ADAE9D1441 /* MSCustomProtection.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4E7626B310CEE585FF0653551F3DA7E8 /* ADAuthenticationRequest+AcquireToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A70660442792CC12AA4C5A1EC217E46 /* ADAuthenticationRequest+AcquireToken.m */; };
-		5024D4A02D7F033B95A1D413EC0E31FA /* Lex.m in Sources */ = {isa = PBXBuildFile; fileRef = 944545E1A14F78A904B46BC4CD1048A5 /* Lex.m */; };
-		503E97EB04CAD2E55A5C3401FA27D094 /* DomHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4AD3187DC2140E7B185FFAAA57A4D8 /* DomHeader.m */; };
+		4EBFB210A779DD072220512D13191ED2 /* DomLineBreak.h in Headers */ = {isa = PBXBuildFile; fileRef = DC8704969808542FA57EC74CC8B7496C /* DomLineBreak.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50A7D1E9654045249B15B73FDB8AEE4D /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A5E8B9B9318FD4D80B7BB4BD71C672 /* Message.m */; };
+		52D4BE09966139A8EB383EA779018062 /* StreamReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CD4AEEC0510C9F7E9033A6AF472282 /* StreamReader.m */; };
+		541A00645219702FA57F5F9E42CFCC71 /* StreamReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2229E52A06AA3C6ED1400377C467E313 /* StreamReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		542A97F31B3C34F771A8B2D0ABC6022C /* ADAuthenticationRequest+AcquireToken.h in Headers */ = {isa = PBXBuildFile; fileRef = B2EC02991049F80EB39A0BF90677183F /* ADAuthenticationRequest+AcquireToken.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		54C0F89420EA0C6441BDB8A979785F5A /* ADWebAuthController.h in Headers */ = {isa = PBXBuildFile; fileRef = 14603CDD6798995EDA244594AB840350 /* ADWebAuthController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5566264626C3FEDDCFB0306DC326A6DD /* DomTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4DE039AD7A36E51E937A00EE1E5CCE /* DomTableRow.m */; };
 		599749F90A77568C4EA8664969F1E91A /* ADInstanceDiscovery.h in Headers */ = {isa = PBXBuildFile; fileRef = 3688A1FAD4662B063CA14243662D98B9 /* ADInstanceDiscovery.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		59F332C9BBD4091821ACAE50911E4AC0 /* DomFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E4C1D29F1F06BCC3E82C216CD09EED /* DomFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BC6E84E5DF8A1AC4997C6CB232BA05B /* ADTokenCacheKey.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6B973CC4E076F1CD2CEDE897B9F596 /* ADTokenCacheKey.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5D2CB734F7A4E2D3955668DFD086F551 /* ADAuthenticationParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 0807D13E742B4701AA2B4F0D144FEBF4 /* ADAuthenticationParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60399B8237D9478CE76841F6402C6987 /* MSPolicyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A31280071F4A93281D0B5BF5652E2D1 /* MSPolicyParser.swift */; };
+		5EFB6345BD3E6F6D918591C0FFFFD91C /* CompoundFileReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 79AF21F77114A45EC053084386CFE706 /* CompoundFileReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F0E75A04D6D8C645535850EEA984CAE /* AWIrmFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B9C092C0BC34A281AE5E089A97E1034 /* AWIrmFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6097B8EAC36F81D5A23CEC00E610BD4B /* ColorTable.h in Headers */ = {isa = PBXBuildFile; fileRef = A4364E83B898B694853ED0BBBAFF501E /* ColorTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60E8917792F12740DBC094CE647920AC /* Stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 92A7BE04F49D8C9B4AE6FFF08A70C89E /* Stream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60EBF50AAB43B65FF06C833E051E825D /* UIApplication+ADExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C1B2A5990B27850DE3E05D50CDFF090 /* UIApplication+ADExtensions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		627E01BB33EB05665615BE1D24D3D689 /* DirectoryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3C940345170EB62E647F21E5E32597 /* DirectoryEntry.m */; };
-		62A774F1198D7C6F7933B0412F796C03 /* Sector.h in Headers */ = {isa = PBXBuildFile; fileRef = B614B48C68F7F890D6CDD07C490F48F8 /* Sector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61882D903E263B42537EA15DD93B84AE /* DocumentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EC01E0FDF2B33FA6276E34F4D2D0E0 /* DocumentInfo.m */; };
+		6284B1A6EE7F5D504B3D1A321D8A6902 /* DomParagraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F9943DF559040ECC12B3F145CB2B69 /* DomParagraph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63D49EB437EA061FF5EA1215D06C305D /* DomShapeGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B9CD36D74BC1875E9705D0C1D4D7F /* DomShapeGroup.m */; };
+		64F9DBDF2FE8A54025EE6B8866BBFC5B /* ElementContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAA67127401C17B1DE97C090ACBB024 /* ElementContainer.m */; };
 		64FE42D35B31F1DED94B94D77130D371 /* ADWebAuthResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D1ABE20A952F8410096E8D42F9BF47AD /* ADWebAuthResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		65B4CBA7CB10FF42BD25D30537D0E4DF /* MappedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FD85D3C8C0B203CB1F0F77564C3E563 /* MappedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6646FB0E532751192316786061D27F66 /* MSProtector.h in Headers */ = {isa = PBXBuildFile; fileRef = 2136E8F478300371241AD5A39C724FC4 /* MSProtector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		682E55038CA7F2DD050AF1E29A4462C9 /* ADPkeyAuthHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 263EFCAA92A7C76C877B2DCD50E7C006 /* ADPkeyAuthHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		69E6BFBA1336C9DE2927F370874B69E0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779B57EB4494C783BDC741531FAC8FC2 /* Constants.swift */; };
-		6B747A1361A49E467FDE331F25E52411 /* MSMutableCustomProtectedData.h in Headers */ = {isa = PBXBuildFile; fileRef = D733C21CB723F4A6CB8A0282E4F25C63 /* MSMutableCustomProtectedData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C51A5FF42F0322DA54EE8989D25EF9E /* MSRightsManagementResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 91D95C44121AE78D603B163AA83415D4 /* MSRightsManagementResources.bundle */; };
-		6E8727352BD76DA9341139FAF3A18298 /* ADAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7541FB59C0FA00F40A6E19BA38BF1A /* ADAL.framework */; };
+		6861D14DD14E7F2EC59C3F2544FEC77D /* Message.h in Headers */ = {isa = PBXBuildFile; fileRef = C0A4A758E9DCD45703C8EB970975A413 /* Message.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		693AC9CECD4C1438ADE217B25ED8EFCB /* Storage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0190DC24B05F981768907951A2FE9DDF /* Storage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AB1BA8BAB4094562577CF0C47D0607B /* DocumentFormatInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9008A0B4A813A4EFF23A6E6E77CC2F /* DocumentFormatInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E6754376720F1C3BD51E3FB25486D23 /* MSProtectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF77AD7DDDACA9ECE6200A0CACFE673A /* MSProtectionType.swift */; };
+		6E8F332AFED4FB5E04E44A59F3C024E5 /* MSMutableProtectedData.h in Headers */ = {isa = PBXBuildFile; fileRef = FC0DB073AE9E8A48D8BDEE7CFA0BD428 /* MSMutableProtectedData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F51970F5756B9773961EDDADB70DE42 /* ADTokenCacheItem+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CDA61C4BCBDB847EFFC8A8E5A370BD /* ADTokenCacheItem+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6FFBB34DD2C386F277ED606EBDCE3ED8 /* DomField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4F7184FD3F1F9E8D4DF64EB9F34631 /* DomField.m */; };
+		6FAB568BCF8B97C926A5D386AC7687BF /* Header.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB209058567DF1589B81218C1F6DF42 /* Header.m */; };
 		71E1AB27591A7CF1E8DE19D00D50241E /* ADTokenCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACC70FEB33A70D4CFBB6D36DCD7DE18 /* ADTokenCache.m */; };
-		71E86EB9E1F6132F801D330F0843321A /* ListTable.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2ACE88A10657CC6B3FF5954B96532E /* ListTable.m */; };
 		72776EEA28EC9A0C098DF581DCC6BF71 /* ADAuthenticationSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FB80494E3F1062E5EFEA782A3B426 /* ADAuthenticationSettings.m */; };
-		728367EB6A9380019040B3EC5712B3F0 /* DomFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B2B91DCA657E86E9ACF080DC1F886E /* DomFooter.m */; };
-		73691AAAF2A56213B29AB2D72BC9F1EE /* CompoundFileReader-Prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 26FFFFE0B42A590824251A68DCBD360B /* CompoundFileReader-Prefix.pch */; };
+		74ECE7D35BA39ECD20CE1A72D7518E22 /* MSConsentCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 462BA892CEEA6A716C03F554B351B312 /* MSConsentCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75588CEFEF4E482388B9B3123ED96266 /* DomLineBreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E4B80F7998057DB4F12F1AE3FAC578 /* DomLineBreak.m */; };
 		758F708D3D21396FD3DC16776803514B /* ADALFrameworkUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6223F9DE5ACCED3FD3482ADAA4ECF120 /* ADALFrameworkUtils.m */; };
-		75E302AA1D0838A39663F20B41D32289 /* DomElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E7F14AE63EFE2471AE43B62CA394C8 /* DomElement.m */; };
-		78B441A45C6EE93478BF2AF613240345 /* MSProtection.h in Headers */ = {isa = PBXBuildFile; fileRef = E3B523E50BBB52865FB92654097D5387 /* MSProtection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78FEBFF4773F7BCCA755B48A953931A5 /* Attachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AFECF3D056BC24C20A612BAE53B9C1 /* Attachment.m */; };
+		77A429C980B85C3690A45E3414E19491 /* ElementContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E77B2CB85644944893B306F54F44D0 /* ElementContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77D73F57E27BAC01B3B9540FADF09919 /* ItemHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1337EAFDBCD78BC4A37A37244E009A /* ItemHandle.swift */; };
+		787FAF7725DD2D098F66759680330E81 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9415368039BB402D441F59FE563A680A /* SystemConfiguration.framework */; };
+		797D59FBCF0E416AF25E39CB159C5B0C /* MSTemplateDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 167530EFB5F669592ED1CB7FE2EDCA12 /* MSTemplateDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7AFDE16B45CE6C2FCFEEC2AFC7B12785 /* ADWebRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD1030C9E2151AE24EF52C536E35814 /* ADWebRequest.m */; };
 		7BDD0C2DBB9D8DE4ACF57631AE0CC7DA /* UIApplication+ADExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 350B877A60B7012956457B5C03CB7BBF /* UIApplication+ADExtensions.m */; };
+		7C4D25C024AB984D9C2C6E65ED4081F1 /* Attribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BD8395A12C9CAA6F62B1115696E95B /* Attribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EE771E51A848FD773F229787129A856 /* Lex.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EE021DB358C657DC99835F789AAB0AA /* Lex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EFA56ED9DB8B6C5EA2144D611A9D930 /* ADLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D393D2FAF2553E50A0C3D11BB1A1E692 /* ADLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FFA4700C5FE2BFA2425E4993B6B092A /* DomField.h in Headers */ = {isa = PBXBuildFile; fileRef = E3A16FE68D603010544F2DFD36AAD1E6 /* DomField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F75471B70E4DD7A225057EE184166B7 /* StreamHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D3C95C3EA483E8DC518AB09AE48940C /* StreamHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8046270F85767EC8DFC4D3B63613FCB1 /* ADAuthenticationContext+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA68A32CE6BF25C9142B785A2BFA18 /* ADAuthenticationContext+Internal.m */; };
-		81BF3CD02056AA5776CDEB82B2E0689D /* DocumentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EC01E0FDF2B33FA6276E34F4D2D0E0 /* DocumentInfo.m */; };
-		8287C97613B7ACD2900365A3D2AD93A3 /* ListTable.h in Headers */ = {isa = PBXBuildFile; fileRef = D0764D51003ECCA56C0D12DC6A32576A /* ListTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82B1E3D7116C39E113F3D14DBBDB46B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4655EBBA168D0FA55A3C2073898D43 /* Foundation.framework */; };
-		83DE6077C2A9C837B96885C964AC572B /* ElementContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAA67127401C17B1DE97C090ACBB024 /* ElementContainer.m */; };
-		8476D178429F8F1B8696C9159AC2204F /* AWIrmFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2A70AB967E37D6A56A5316BDEF7B5C5 /* AWIrmFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85C23917F17AFBA73035371BFA83ECE5 /* DomBookmark.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F471BAFBCB2B16EFBD0F5B9211B2C0E /* DomBookmark.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85CB2AAB5945C09452A134E37A7488A5 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A5E8B9B9318FD4D80B7BB4BD71C672 /* Message.m */; };
+		81A9F3762D7BFE840CC08CC6975F1B36 /* MSAsyncControl.h in Headers */ = {isa = PBXBuildFile; fileRef = E7FE478CB9CDA2DAED7307973AAC272A /* MSAsyncControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81B431DF6BA653D1BFBEFE3BA5D4E7E7 /* DomShape.h in Headers */ = {isa = PBXBuildFile; fileRef = F301278A74669BB7A8949F484BA5C73E /* DomShape.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		828265CF543F9B2D514C32E7B221266C /* MSPolicyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A31280071F4A93281D0B5BF5652E2D1 /* MSPolicyParser.swift */; };
+		82AA6888CAA652755AD83853D12699C9 /* Attachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AFECF3D056BC24C20A612BAE53B9C1 /* Attachment.m */; };
+		82B1E3D7116C39E113F3D14DBBDB46B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4408C48EC33626E26BB797C85DE17208 /* Foundation.framework */; };
+		82B9B155292D1CE09E2109F0341A37FB /* MSSdkErrorCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 19EFF8932B70935311F00C482DA2366E /* MSSdkErrorCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83294E88C274629FA488098C9C418148 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28246DEBC9535C358DFA395FA6D94F5 /* MessageUI.framework */; };
+		862E5FD89C35B32B73F514E21B8F5BE7 /* MappedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FD85D3C8C0B203CB1F0F77564C3E563 /* MappedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		865CCF0DC1D9415C5D31B628625A4B2F /* ADURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0110A9AB9AE06B868314448A5FC2A7 /* ADURLProtocol.m */; };
-		868775D0635C7590A11C7B3F64C7A2D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4655EBBA168D0FA55A3C2073898D43 /* Foundation.framework */; };
+		8679F0C5428E50F28C4F8CEBDFBFB7E1 /* MSLicenseMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9568003145494B990DE57A0C109532 /* MSLicenseMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86DE20185DF20FA0C32BDD00423F38AA /* ADAuthenticationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 536ED82ADC3B755761D728390FF651F9 /* ADAuthenticationContext.m */; };
-		8742A44667247998AC9C67818F5BA618 /* PropertyTag.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B4405BA8389D0B37FAF6BC50DDDCFB /* PropertyTag.m */; };
-		87F868D10D8846F4CEFE9C8530C531CB /* AWIrmFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C9FFE13359FEF4006AEA121074011D /* AWIrmFramework-dummy.m */; };
+		87E62A1E1A76544364A0A8A214B5815D /* DomDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8AE47C2B4F3CF4869E6D7B8D96728F /* DomDocument.m */; };
 		88C6293233BFB7E74502C6007F5FC6C8 /* ADAcquireTokenSilentHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 04ECDD50335B7766512E247D783FE595 /* ADAcquireTokenSilentHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8ABAB782EDC76E8485E078635A47AB86 /* Permissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4B0B5313B3DF173D1FA248EC5B1935 /* Permissions.swift */; };
+		89245A0EFE7D5B2FF95EBCB10670494F /* Reader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7032AE99E1ED598E2C7FE3368EA4F8DA /* Reader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8966B87250303CEEDFD6183A633F2024 /* Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = C30C9EE14023B89F915CB8703FA897AA /* Stream.m */; };
 		8B7F9D7A65EEC9FCB717C4F4B7EA609D /* ADBrokerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DA78F97367AAD0759C4ECDDB3DB214 /* ADBrokerHelper.m */; };
 		8C7B3EC673972FC3E49A50219FACD929 /* NSString+ADHelperMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 531298EDE6AAFFEF672AC73106697066 /* NSString+ADHelperMethods.m */; };
 		8CC0BFA3908635D12D5BBA964EC1271B /* ADUserInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E49CD86FA9CE761C931F0ECF3D85312 /* ADUserInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CC81112C1AF2C269CA29E94BC26CF32 /* Token.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D5EF7477053A384FEFE7361A2C9093 /* Token.m */; };
 		8D35BA240AFF9BF6D51370307571C360 /* NSString+ADHelperMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 6406DC76B57825FC92469BD3BD6E9D82 /* NSString+ADHelperMethods.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8D510DDFAAB0CFCE8AA25709397359E5 /* ADAuthenticationParameters+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8C4BBD15055A90EFA79D1D2E93F7B1 /* ADAuthenticationParameters+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8DB4C17709DD10AE79C10ECA0D296A5E /* MSRight.h in Headers */ = {isa = PBXBuildFile; fileRef = A36D4CD14B54797ED278CFC357A324B8 /* MSRight.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DCA849246DE426B023A08C1CA452B47 /* CompoundFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3338D176BFF2687A730C63E783C27F /* CompoundFileReader.m */; };
+		8D6EA35876EC816EB8941A11D4095764 /* ListOverrideTable.h in Headers */ = {isa = PBXBuildFile; fileRef = CDAD89ABFD4E93C6D761F963DD4598E2 /* ListOverrideTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E5FE6057D99AD08B60A06762B4CCDB5 /* AWIrmFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2A70AB967E37D6A56A5316BDEF7B5C5 /* AWIrmFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E779F500D7B44AF59361E92E209E646 /* ADAuthenticationError+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E85972D2447C743D22F628C09168C30 /* ADAuthenticationError+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8F1DC35B5C4F206D96F7092688BFD740 /* DomParagraph.m in Sources */ = {isa = PBXBuildFile; fileRef = CF234CE4561011041235414E4A349DFB /* DomParagraph.m */; };
+		8F71262E1B85AD04A5449CC0552716A1 /* Sector.h in Headers */ = {isa = PBXBuildFile; fileRef = B614B48C68F7F890D6CDD07C490F48F8 /* Sector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F85BA2D99CDA3DAA5F7C534D335D471 /* CompoundFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3338D176BFF2687A730C63E783C27F /* CompoundFileReader.m */; };
+		8FDD5B30ECAFB94617C3E331784517FA /* StreamHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2286570C65EDD5037688FB8FA4DE8899 /* StreamHandle.m */; };
 		90322C7A4CF0AF846601C423571F180E /* NSDictionary+ADExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 445A313B08E65E6F0FDD65A655839791 /* NSDictionary+ADExtensions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		907ADA777BFE0088FBFA31EA78E0697C /* ADWorkPlaceJoinUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 647DFD62E078177A352F073067CC034A /* ADWorkPlaceJoinUtil.m */; };
 		911B94B4EE371172010AE21643C5D050 /* ADUserInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F926DEC3B4DA8841861D77D8F6B9D3 /* ADUserInformation.m */; };
 		9210C31D66849CA40894A537FEE8EC99 /* ADPkeyAuthHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E14856FAC0C2B8DA1118622851B3A5A /* ADPkeyAuthHelper.m */; };
 		9261F3E4BBE62EFBCE3A56210EBBC150 /* ADAuthenticationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 29407A6B2689343AB7097F886AC65D56 /* ADAuthenticationResult.m */; };
-		936D4F0B03D31AF69A698A41B6E92A93 /* MSConsent.h in Headers */ = {isa = PBXBuildFile; fileRef = 86B4DFCCF7DA192620DA300CE5D09249 /* MSConsent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9429F772BD01AF38F6C7D6699475BA1B /* CFileReaderError.m in Sources */ = {isa = PBXBuildFile; fileRef = 163028880AEBEA30099FCA24DA68410B /* CFileReaderError.m */; };
-		9458166868E8B61BADB3C2785BD5E9D5 /* MSLicenseMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9568003145494B990DE57A0C109532 /* MSLicenseMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		947D834E8FA7E5561BBA8C65FA70FD95 /* MSUserPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 903FC310C85C317D164D78283D6D74C4 /* MSUserPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95D3F71468D610D306494C7A1EAF6B4C /* ListTable.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2ACE88A10657CC6B3FF5954B96532E /* ListTable.m */; };
+		95F0210CD3039504A7CCB44AA8551A58 /* ListOverrideTable.m in Sources */ = {isa = PBXBuildFile; fileRef = BB97F7AEE1B04A57B8AA0F119040A8A9 /* ListOverrideTable.m */; };
 		960662DD9AF1561FAE5EC88C179E3C4D /* ADAuthenticationParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 8333FF03001A96EFC63098403E9DB3DB /* ADAuthenticationParameters.m */; };
-		96B05A980055FB49C4E012B96E2591BF /* DocumentFormatInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9008A0B4A813A4EFF23A6E6E77CC2F /* DocumentFormatInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		978469608EAF1636154EF6CBEE9D3CC3 /* ADAuthenticationResult+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E09F079A2302637688CB84B46700FD /* ADAuthenticationResult+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		98E46D37E5EE9CDEE9212581A1907397 /* ADAuthenticationRequest+Broker.h in Headers */ = {isa = PBXBuildFile; fileRef = E00C012742C2113B6A45B73F4DA655CE /* ADAuthenticationRequest+Broker.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9A2E53718B1EF20F0EB8CF96C03E6EE5 /* ADBrokerNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF98770BA6A9CCE9FD7A5758530B87B /* ADBrokerNotificationManager.m */; };
+		9A6D21EE71B4E048D0E9C983FD5B9078 /* DomImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B41E6F1FF7B941C9A8833B0A34BF452 /* DomImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9AC62D35802D7ADBB5CC150F2DB3256E /* ADOAuth2Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = D041DCCE70BE3562663CD6CF01DDFF3C /* ADOAuth2Constants.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9E227F5A46D74D337721B42173D1586C /* MSRole.h in Headers */ = {isa = PBXBuildFile; fileRef = 495CE29485B96272868C30E4D9C53331 /* MSRole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E0CCD6A4197A0707F09F4005270EB0F /* MapiPropertyParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F8170B331D7281646E8E107437F650 /* MapiPropertyParser.m */; };
+		A0801E4DD3A869E713A31CEC8C445F11 /* RtfObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 27339656D0D75A9BAE9D24C9D3C9E067 /* RtfObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0CAEB2EFFF9E07FAE22ACC69BEFB3FB /* Sector.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F4CFFB21CB31819017A4F59A1BFE10 /* Sector.m */; };
 		A0F6F503F6CA07064ABCB9C362CCE4F6 /* ADHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F64332C91A99B54697159744E4CC5D6 /* ADHelpers.m */; };
-		A29021FFF5709CA23E006FD42907A1FC /* MapiPropertyParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F8170B331D7281646E8E107437F650 /* MapiPropertyParser.m */; };
+		A1CC365B12E78CDFF45CD5E8863E4A30 /* CFileReaderError.h in Headers */ = {isa = PBXBuildFile; fileRef = 66030D767C3F3D725DDA88635DEBEA67 /* CFileReaderError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1E5A11904754C658EDE27BD711FAB2B /* FontTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C775A20A1D7DDB5D5D39103F66DE08 /* FontTable.m */; };
+		A208365576F26B4B0725174B69EA17FE /* DomImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB5AF5159FA39FD72D47D578B05942D /* DomImage.m */; };
 		A2A8EC16A1BA31A2A343E4860D406BF8 /* ADAuthenticationContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 90DD77CD0C1A559295CBE53DBA5526C0 /* ADAuthenticationContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3EC030EBCCA0F764BC11D064DAF1FE4 /* DomText.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D00808DD62DBA314CE6C309E3769AA /* DomText.m */; };
 		A47DADA80652554CAAFBC85093E62489 /* ADWebAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9E4F342E9A6E9343A3BB633CDBA207 /* ADWebAuthController.m */; };
-		A5C111A27DA4FC415B42F22FAE9D4D7A /* DomLineBreak.h in Headers */ = {isa = PBXBuildFile; fileRef = DC8704969808542FA57EC74CC8B7496C /* DomLineBreak.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6CBAED8CC6B0645D2C26D4E491AEE21 /* Token.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D5EF7477053A384FEFE7361A2C9093 /* Token.m */; };
-		A7E3B029BC6EF6386AA8A930AC1B87B2 /* Reader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE68A0D556278959E0282988965AC1B /* Reader.m */; };
+		A60D1DFE301368DE523AAFDDBE04F360 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1159A77F7FAF08E69F610009C1CA3B1 /* CoreData.framework */; };
+		A777081D6EF326D9E4563A69C29E8C29 /* ColorTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A74FF9429C0DF35D789E8B55B9A0A6A /* ColorTable.m */; };
+		A81A145D4152C877E367759BCE537FBA /* DomText.h in Headers */ = {isa = PBXBuildFile; fileRef = B50D9DCC6BD5C9A8169FE84F8094C61C /* DomText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A825C2D409ED137A900EA2E8BF0225DB /* MSProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1AE3656773FE116DD8E944BD210334 /* MSProvider.swift */; };
 		A841438A4C5B9676D42188E13BC58F29 /* ADAuthenticationRequest+WebRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6E83D1D220EEEBE0892B9F011666AB /* ADAuthenticationRequest+WebRequest.m */; };
 		A84143DF6CDAEE46758A0EF70C707949 /* NSUUID+ADExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9AB7F4417F6D202F79D05C10B1886D /* NSUUID+ADExtensions.m */; };
-		A8E769138356997970EBAADA8C60340F /* MSUserRights.h in Headers */ = {isa = PBXBuildFile; fileRef = D1ED8712FDC865B2B80BE97C62876954 /* MSUserRights.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB532D8E3F62B47B8C36D79C3A743362 /* MSSecureCodableObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5933DB30A3C02A6A61C56BA092567828 /* MSSecureCodableObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A92917FF0A581159DA00D8F3BD49CC01 /* DocumentFormatInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7BEA35E927F77D8AC497A36EA6CBC3 /* DocumentFormatInfo.m */; };
+		A99D330A818DFBFCBDB3A98A9E79A696 /* ADAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA12729A276CCCAF7CE6CAD4BA5BABC /* ADAL.framework */; };
+		A9EB7F8C26ACF5E3A842451D05042D4C /* Reader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE68A0D556278959E0282988965AC1B /* Reader.m */; };
+		AA071A1D4DC323D5D7A54323FE1475B8 /* DomBookmark.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F471BAFBCB2B16EFBD0F5B9211B2C0E /* DomBookmark.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACC45DF7EB4B9065E6E3DD7773211A1B /* ADAL.h in Headers */ = {isa = PBXBuildFile; fileRef = 40BA0B32498C7199ACB5AD4A0058B56B /* ADAL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ACEEB663D12F615CFECE6135F353275D /* LayerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B1240AE3F778C597694147BB734BD8 /* LayerInfo.m */; };
-		AD4BEEE29429468FBBA079F98105BD1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4655EBBA168D0FA55A3C2073898D43 /* Foundation.framework */; };
-		ADA7785B5B43F029CFD15A2A44BA6355 /* ItemHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1337EAFDBCD78BC4A37A37244E009A /* ItemHandle.swift */; };
+		AD4BEEE29429468FBBA079F98105BD1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4408C48EC33626E26BB797C85DE17208 /* Foundation.framework */; };
+		ADAD2D2C8845334D3A4CA70B384E0341 /* DomPageBreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 123C02F9D4A58EBF4ECA81BE5474E2EE /* DomPageBreak.m */; };
 		AE0C352E6C1A230BF84D6D1BD51B0595 /* ADUserIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A4C6204FDCE7F05630467459BF5089 /* ADUserIdentifier.m */; };
-		AE38CF0534B7E31D504FA638E1FB2450 /* CFileReaderError.h in Headers */ = {isa = PBXBuildFile; fileRef = 66030D767C3F3D725DDA88635DEBEA67 /* CFileReaderError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEE7487B5259B872359665A24EBC4EB7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07D8A36DC94020494C2562A8F87211E /* CoreData.framework */; };
-		AFE76C500A3A8E02987F98EBBC0A2926 /* MSAuthenticationParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 56A780F888DC5BE21261F8B40F5F5C81 /* MSAuthenticationParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1B7E59F30ACB50A24E1DD58796F68B3 /* MSProtectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF77AD7DDDACA9ECE6200A0CACFE673A /* MSProtectionType.swift */; };
+		AF9A9AB4A61B902DB7F80D6CE31B9194 /* MSOfflineCacheLifetimeConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = AD69CE5385CDB2F69006DFE30E722784 /* MSOfflineCacheLifetimeConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFB8F5E032E1D0101E4DFBA5800CEB19 /* DomField.h in Headers */ = {isa = PBXBuildFile; fileRef = E3A16FE68D603010544F2DFD36AAD1E6 /* DomField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B07E0C28873ADA05B9A155E2BCDBA04E /* MSMutableCustomProtectedData.h in Headers */ = {isa = PBXBuildFile; fileRef = D733C21CB723F4A6CB8A0282E4F25C63 /* MSMutableCustomProtectedData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B44259EA0685117BE2A904E82DFCC474 /* CFileReaderError.m in Sources */ = {isa = PBXBuildFile; fileRef = 163028880AEBEA30099FCA24DA68410B /* CFileReaderError.m */; };
+		B48F2CFFC948826EBD043964D397DF1C /* Mapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A79A9B2D91EC84673BBC8B0B9D0B0B59 /* Mapper.m */; };
 		B514375D58AF1C1E3E6851D891C4989D /* ADAcquireTokenSilentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A37F459786CFBDB4943F71013AEB124 /* ADAcquireTokenSilentHandler.m */; };
-		B6CC844FE65A0C12C472865542A4F661 /* ProviderRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8BD9BEF0582E040CA3DF84BF60F092 /* ProviderRegistry.swift */; };
-		B81AB6418428E17A9E5C303DC7C7FE68 /* Attribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B8CBDEAA0700E3F23603B0D72040DA /* Attribute.m */; };
+		B59C1B39AA4D02F307135631FFABFDDE /* CompoundFileReader-Prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 26FFFFE0B42A590824251A68DCBD360B /* CompoundFileReader-Prefix.pch */; };
+		B6086ECDC0C0F2A82148D7C2A3574C59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4408C48EC33626E26BB797C85DE17208 /* Foundation.framework */; };
+		B66935EE2D5D896D5DD56760B8AAA7CF /* MSPolicyDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D8B2198DE024C36A6CBDE3426B0DEC /* MSPolicyDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B70F4311CE72511667B73398647BC53F /* TextConatiner.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A901BAEF40B4C4192828EF5BFA5ABF4 /* TextConatiner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B78E87CB1047F4CF801391DF9EAE1219 /* DomText.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D00808DD62DBA314CE6C309E3769AA /* DomText.m */; };
+		B8226DF1B6A13848DDA7757099C8FF56 /* PropertyTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 847456E326E3DB4D23FA4D01DB2D304E /* PropertyTag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B83AD656AFE2149F60B96E312EFFB1C9 /* CompoundFileReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E9EE755F4E9C71368294E35DF1E66 /* CompoundFileReader-dummy.m */; };
 		B84B6268FEC2BEE713DD2077F976A4BF /* ADNTLMUIPrompt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8E36BFDFA28C6C8756267E2F1D7E65 /* ADNTLMUIPrompt.m */; };
 		B8DAC942C1EE5644548BE0FB4A30C9B9 /* ADCustomHeaderHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3285ADC90973DF5D8F804B9160480DE7 /* ADCustomHeaderHandler.m */; };
 		B90D69067068E0E7878BA71E3784369F /* ADAL_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 86FDE3F193E7D8500ECCAE02CDAB10BF /* ADAL_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BA2E38C413A80232BFAB260A93A161C1 /* MSProtectedData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AE9273AB3C9F1616F8948E1EC0E2754 /* MSProtectedData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BAF4AE8E42090857A35486E4076D82D7 /* ADJwtHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E06B5BE33C7379E2AA4162A6E7B92B9 /* ADJwtHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BC07D5B961F68B376E7F44E879D7FB4D /* StorageStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F766EB2120EE09D2795CC7546B4A01F7 /* StorageStreamParser.m */; };
-		BC356968958F11200B65911F6DC12E62 /* DomShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB6D3126FEE369BC76D78D67E2D5CEB /* DomShape.m */; };
-		BDF779B3A67053D73006ADF410427DED /* TextConatiner.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A901BAEF40B4C4192828EF5BFA5ABF4 /* TextConatiner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB4C1327697B400226490E9E3FBD7D64 /* StorageStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F766EB2120EE09D2795CC7546B4A01F7 /* StorageStreamParser.m */; };
+		BB565C89941A6BD525CA956D736AE736 /* PropertyTag.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B4405BA8389D0B37FAF6BC50DDDCFB /* PropertyTag.m */; };
+		BB694556DA4A11F5BBD465703946D1DA /* MSConsentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A192DDC3FD5EA2CE791EE240A3171E23 /* MSConsentHandler.swift */; };
 		BE297C2846C3A2738D7AD9EA9EA12823 /* ADOAuth2Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA494C8C276AE644495042C030C4FC2 /* ADOAuth2Constants.m */; };
-		BEF4A26C1D577112C7EA1B3DA598E271 /* RtfObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 27339656D0D75A9BAE9D24C9D3C9E067 /* RtfObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF375C54B8CD77383B64287037C26716 /* DomTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 52AA115F7A9B3F7ADC90F78065D501E3 /* DomTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF575DF0318C68FBB9EFD54C5DADCDDF /* ADTokenCache+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 12303D075D1DDD1418096AA5CBB8B9FA /* ADTokenCache+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C10A65FE3094BAE427C3A8AE9367D87F /* MSRole.h in Headers */ = {isa = PBXBuildFile; fileRef = 495CE29485B96272868C30E4D9C53331 /* MSRole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C13B02F49DB6F9A57E4703751FCB12E5 /* RTFDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 996C617D90B6409BF0F836F5614DD515 /* RTFDecompressor.m */; };
 		C22370254C4D66C873C26A68047DF8BE /* ADAuthenticationRequest+Broker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D42B8F18CE1E36476A2B5CB0538AC6C /* ADAuthenticationRequest+Broker.m */; };
-		C30BCF25441F0C994E5F72119567EE7A /* InternalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E32C65EF1AAAC48F1FC393FFA89741 /* InternalProtocol.swift */; };
+		C31E7EFF24C15442EC9F1C7FE097AB00 /* AttributeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBF75B2F6671FBFEE6FE3972F22C7FB /* AttributeList.m */; };
 		C3737A6F198931C246F53AB8742A3E4A /* ADBrokerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 36203BF0B35930C4FE5B81A2D0B503BC /* ADBrokerHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C3B18BC7812FE6122B9740322DFA4DF1 /* DomShapeGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 75968F94A298BC8CA9108937FC4C9A27 /* DomShapeGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3BF9E45880834B6C7D4BB9E867FA664 /* TextConatiner.m in Sources */ = {isa = PBXBuildFile; fileRef = 87979D55FFB8C28D9EB7C86FD17AAEEB /* TextConatiner.m */; };
-		C3C5AFEA04307F018EA0F78AA67D8BAE /* RTFEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = DFD962B216F715F40C7049F535DA5D02 /* RTFEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C45005B6BB3FA5AB4FE640CB86DE9A20 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFB8D75F9C4BA48A18B899DE3A90051 /* SystemConfiguration.framework */; };
+		C508B28A22D4CFACF8B88A25E0A26514 /* Mapper.h in Headers */ = {isa = PBXBuildFile; fileRef = F63B67537CA1CD239C1F0C2ADBBB834A /* Mapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5350E2E9D822233843E2707862E0401 /* ADNTLMHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D8096D54DAC5E659BF14BDC042EF37A2 /* ADNTLMHandler.m */; };
-		C851E763537B8E70AE077B8FB1718B2D /* MSProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1AE3656773FE116DD8E944BD210334 /* MSProvider.swift */; };
+		C61395517FF1B9D4CDBED43684003E35 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D8C141013DA52E84D1AAC18B91A0A7B /* Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8683F6898DFFADC4BA9A563522F8FB5 /* Font.h in Headers */ = {isa = PBXBuildFile; fileRef = D4AAA5805C699BC0130FDA9CCEF07F01 /* Font.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C872CA700BAE4C2595F2BE42B3EAA24A /* ADBrokerKeyHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 86BC85E2A730ACE68D7FB2DF281E4A52 /* ADBrokerKeyHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CBB37E0BFB28E24A6CD44694C75762F7 /* Token.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C0766145FE17D67510D8BA97C16588 /* Token.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBD64F5E4E3A7330CDD0EA61BD511D7E /* Storage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0190DC24B05F981768907951A2FE9DDF /* Storage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC7737682F2ABD6CB5FD7F6DC4BE9989 /* MSConsentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A192DDC3FD5EA2CE791EE240A3171E23 /* MSConsentHandler.swift */; };
-		CD145857FC2D01811825179B8CA6B747 /* ListOverrideTable.h in Headers */ = {isa = PBXBuildFile; fileRef = CDAD89ABFD4E93C6D761F963DD4598E2 /* ListOverrideTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFF8244A0E6DCA694A64B68377E78CC4 /* DomPageBreak.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F86E08565D64CBE02438DB8594E862E /* DomPageBreak.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D40B16FCB789D012B0BE9A10AFF724AB /* ListOverrideTable.m in Sources */ = {isa = PBXBuildFile; fileRef = BB97F7AEE1B04A57B8AA0F119040A8A9 /* ListOverrideTable.m */; };
-		D464074D3E4F7A69DB1223D997F9C18D /* ColorTable.h in Headers */ = {isa = PBXBuildFile; fileRef = A4364E83B898B694853ED0BBBAFF501E /* ColorTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C93C38557305B26B3BBF3C8189DA311C /* CompoundFileReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A21B1CCAF26D436F6538C34664EA1C9 /* CompoundFileReader.framework */; };
+		CA6FBFFE07CB6063C18BCEFDDE66378D /* CompoundFileReader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9583801EED51851119DACB064AE7F159 /* CompoundFileReader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA7769054366AF5BE8BF481C32E802F2 /* MSProtectedData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AE9273AB3C9F1616F8948E1EC0E2754 /* MSProtectedData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBED1F7678A0E77B2DBD26F2AEEB32B5 /* ListTable.h in Headers */ = {isa = PBXBuildFile; fileRef = D0764D51003ECCA56C0D12DC6A32576A /* ListTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDD89B2F3F35E04B9FA1D8E510E77884 /* ListOverride.m in Sources */ = {isa = PBXBuildFile; fileRef = B001AF47C8BD52636366E0B9A8085921 /* ListOverride.m */; };
+		CEEB97B3FADCFF6D6EC4D99ED582508E /* MapiPropertyParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 60919401788B6CC8853A8F35A04F862B /* MapiPropertyParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D26499A71FC773899F8146EDB284AAED /* DocumentInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 85DCF2F1C6FEAF7D465F890EDD254F45 /* DocumentInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2958421F3DD421AAA24192E0AE6E02F /* FontTable.h in Headers */ = {isa = PBXBuildFile; fileRef = C9C0C491B4E4274AE1A430B40E94ADD6 /* FontTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4BC630D4A2A2F28FDD8587BAB5D05B8 /* ADRegistrationInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F26CC779C5FE80335E3EBF1F576D67EC /* ADRegistrationInformation.m */; };
+		D4F7E7F6D9956B8A3A1CD95420543719 /* DomShapeGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 75968F94A298BC8CA9108937FC4C9A27 /* DomShapeGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5BE0C9F45172A63F2C8571A14233DF1 /* StorageStreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = C23DCD5C811F2E0900B32932C6BEBF24 /* StorageStreamParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D64E42CA582DF5E04FFC9CA3CF67EA76 /* TextReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2464FD00E6C011BA5FD47F7FCF38F382 /* TextReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6B39C5F0A3E6549744FA7B9F466743F /* DomElement.h in Headers */ = {isa = PBXBuildFile; fileRef = FACB5EC23A6F6C29F683774D69D5CAD7 /* DomElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D74D53EF713F26DBB08AAB2C39C1B3B7 /* ADClientMetrics.m in Sources */ = {isa = PBXBuildFile; fileRef = B19F6C72B807D6C012693CE3EE380354 /* ADClientMetrics.m */; };
-		D815952085F0D6083D2DDEE8DCF8EBAB /* DocumentFormatInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7BEA35E927F77D8AC497A36EA6CBC3 /* DocumentFormatInfo.m */; };
 		D84F470FE4060B0A5EFD03E001AAAF5B /* ADKeychainUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C16C9ADAD290571B7C3490D95CB1EA /* ADKeychainUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D8C995E941F6756AE785593822C15A20 /* ADAuthenticationError.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DBF3E692AE020FD0F1140D5AE6FEA0 /* ADAuthenticationError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D94753DA9C2C06B82463098DD0398A39 /* PropertyTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 847456E326E3DB4D23FA4D01DB2D304E /* PropertyTag.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9EDA6274E8D963D4026DB246748491F /* ListOverride.h in Headers */ = {isa = PBXBuildFile; fileRef = D284F2D074B8D15986CCFF3AC1D7F79F /* ListOverride.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA72D10AFC19F01EAC89FEEA762DA665 /* StorageStreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = C23DCD5C811F2E0900B32932C6BEBF24 /* StorageStreamParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF13911096941D390B54A36BD992443 /* DirectoryEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = DF136C50BEC8B40DB54C83E9232B2742 /* DirectoryEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCF5F8CE2A1DF8E14CFC99B6C49F9683 /* CompoundFileReader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9583801EED51851119DACB064AE7F159 /* CompoundFileReader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD0F8D9D7E9ECFAE155047CB5A734D30 /* LayerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 556157EDF906F3BDC55420DBBCC8C7B5 /* LayerInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD6D976C135F72EC09D58570D113C5A6 /* Mapper.h in Headers */ = {isa = PBXBuildFile; fileRef = F63B67537CA1CD239C1F0C2ADBBB834A /* Mapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE3B1DBA3DAC49C515200CDCAFC21B94 /* DomImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B41E6F1FF7B941C9A8833B0A34BF452 /* DomImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA99D6E6B31431F50A1F85F4895B19D8 /* MSItemHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9822108B28FDBBD46BEFA5C26B107CC /* MSItemHelper.swift */; };
 		DE5B0288ECB4375BFC7708842A940F3C /* ADWorkPlaceJoinConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A8DB7F1D333A3F91E2BF0312BC569281 /* ADWorkPlaceJoinConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DEFCD710DC8D4A76C30002BB42DAA374 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F98144A04EFA5B715B76C45E2116D1 /* Security.framework */; };
-		DF45625EF6D262B8B6414444F2B78E32 /* MSUserRoles.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC25E7F9B0744B3C883C4FD90D8D994 /* MSUserRoles.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFE2AFE3E387519A4F0F6C5B12C7420D /* ADKeychainTokenCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ADE648F6F51E03244205447E4E0437A /* ADKeychainTokenCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E25049F8670803ACB56829737349B6E8 /* TextReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C43B70848E471E78C9F57C7DF2E6EF /* TextReader.m */; };
-		E2A2B43F62B3BA31792C87B6FB7330B8 /* RTFDecompressor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC4ACB6117E34A95807DE1718B1636A /* RTFDecompressor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0A991A659F0AD740917BE1D310276E5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945A374FE99560F992B129A0838D0CAE /* Security.framework */; };
+		E2BCBA6D804A708CDB8D2605CD160D4D /* Storage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA601F9618FD331A57C7EBBD800AF9 /* Storage.m */; };
 		E33E5D7312E85282972E4248E063E450 /* NSURL+ADExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB815C898210E75CAAC9CD2EB5FF98B /* NSURL+ADExtensions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E3EE688E72DF3B9732C7C7E41BF19BC4 /* ADWorkPlaceJoinUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FEAC16EE1F89A8712C34FBB2A378CF7 /* ADWorkPlaceJoinUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E4D19A99730670AD7D44819D4D0B5F9E /* MSRightsManagement.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C3F1FA5BFDF4EBAAC58F07035DC13C3 /* MSRightsManagement.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E5E6BBC9B5770C6B52D4B4F7F45E31EF /* ADWebAuthDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F3BB0891F785CD1975EECF1E19BAC72 /* ADWebAuthDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E74193EF7E303F3C3433E803D974C254 /* RTFDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 996C617D90B6409BF0F836F5614DD515 /* RTFDecompressor.m */; };
+		E5F5C7A339F74BD893229A9F7E619F97 /* AWIrmFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C9FFE13359FEF4006AEA121074011D /* AWIrmFramework-dummy.m */; };
+		E6C30A633A7C7011C853842905C49773 /* DomElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E7F14AE63EFE2471AE43B62CA394C8 /* DomElement.m */; };
+		E6DF9B9CBA9A5338651CC5AAF14E5628 /* TextReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C43B70848E471E78C9F57C7DF2E6EF /* TextReader.m */; };
 		E75DBAF40A1F53A9FF9292720BF7A0A4 /* ADErrorCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DE5EEA59CE6156FC3A42D34D3F67E8 /* ADErrorCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E89FB0C2318D1808C92BD2961F59A015 /* ElementContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E77B2CB85644944893B306F54F44D0 /* ElementContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EABB62EDE159175A887CA1D5BC3717DE /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413CDD25F8956B953D5660DB4D64DE10 /* Provider.swift */; };
+		E78101187E99138D2C9C1610BEBB8E68 /* DomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1579008DBDC28256002AFBCC9495433F /* DomObject.m */; };
+		E799BA210B7BB3A40FEDAA6930979D64 /* Lex.m in Sources */ = {isa = PBXBuildFile; fileRef = 944545E1A14F78A904B46BC4CD1048A5 /* Lex.m */; };
+		EA29A1FEEF32B3420A39EF34A2E03E30 /* RtfObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B55F3B41855EB7D629372DA71C38D601 /* RtfObject.m */; };
 		EAE39F2597A2B9C35A77E3B8B5C31ADC /* ADTokenCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E7DABDF6F0B7F0199B90BDF9ADFE83 /* ADTokenCache.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		EC3E55551A11A66F20D78C14CF4E9EB1 /* MSCustomProtectedData.h in Headers */ = {isa = PBXBuildFile; fileRef = D188A2BE83745EA122681610EEDFC6F3 /* MSCustomProtectedData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ECA6089BFE9ACA4EBA2BF6A122D057BA /* ADAuthenticationParameters+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E743D265604A94353BFC61C29B9E0E /* ADAuthenticationParameters+Internal.m */; };
-		ECF130F9631A8CD492062677A17B0DA9 /* MSConsentCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 462BA892CEEA6A716C03F554B351B312 /* MSConsentCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE38E51B873951A4162386B329888434 /* MappedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BED3286CCD352359E3A0F5FC8B2AD47B /* MappedObject.m */; };
-		EF630BD1C4ED5E96BB7076BD46CAB03E /* DocumentInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 85DCF2F1C6FEAF7D465F890EDD254F45 /* DocumentInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F04DFB6959416C44A1F36812E5F7FFCE /* MSRightsManagement.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C3F1FA5BFDF4EBAAC58F07035DC13C3 /* MSRightsManagement.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EF560C00AEB8BB589B3AF802093A41C0 /* DomPageBreak.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F86E08565D64CBE02438DB8594E862E /* DomPageBreak.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F05F8143690ACBADCAEB4140F619367A /* NSUUID+ADExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 072FA40FEB7BF08EC8BA447BB12AE7C9 /* NSUUID+ADExtensions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F114B058596321604EE8CFB16A3D5C2E /* DomHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = DA6C0E771D397AE3F7CED432A3DD60A4 /* DomHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F13C1580EB0CE59B74E0397ED23DE776 /* ADWebAuthResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 955F861AC63D85EF46D2259D578A66CC /* ADWebAuthResponse.m */; };
-		F15E528EA0A909775ED4B381E496016E /* Font.h in Headers */ = {isa = PBXBuildFile; fileRef = D4AAA5805C699BC0130FDA9CCEF07F01 /* Font.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F21AFA6C734587D8AA4E13B4C9BB1993 /* ADCustomHeaderHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = FB3E2676B338D5FA7CFA6B88243F6537 /* ADCustomHeaderHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F2641DDE425535C34B21B5D9D46FB146 /* AttributeList.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BB18CA3C460864EC5E6481444150AA5 /* AttributeList.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3BAE3A2AFB7B22A38C2524CD8DCDF57 /* MSTemplateDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 167530EFB5F669592ED1CB7FE2EDCA12 /* MSTemplateDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F439C5CE0B011D4AC54FB7B40F01EDCB /* CompoundFileReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 79AF21F77114A45EC053084386CFE706 /* CompoundFileReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B58800F31D4744333DECAC388E3D0D /* DomTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 52AA115F7A9B3F7ADC90F78065D501E3 /* DomTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6207D1BFE90A406D07EC4BCABB37A9D /* Pods-Usage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 185B143155CA5B5D0C061F3E3822A1BB /* Pods-Usage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F728E1DF2595E0793704D8AAED783C10 /* RtfObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B55F3B41855EB7D629372DA71C38D601 /* RtfObject.m */; };
 		F742E0251B889A732D9854CA805E4166 /* ADTokenCacheAccessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 182DB73E725BD7BD465968339079FF6C /* ADTokenCacheAccessor.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F8CD47E1522605C3E61F16846AD950BC /* StreamHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2286570C65EDD5037688FB8FA4DE8899 /* StreamHandle.m */; };
-		FA5FE963C25C545C6AD811753A1F6C58 /* FontTable.h in Headers */ = {isa = PBXBuildFile; fileRef = C9C0C491B4E4274AE1A430B40E94ADD6 /* FontTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF7D4A56FC1147EE8C7250CB91239309 /* DomDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 436BEAAB8F4510D639859D47EE7F07DF /* DomDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8A11768E62AD5311C39AC410249FFA2 /* LayerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 556157EDF906F3BDC55420DBBCC8C7B5 /* LayerInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F90FAD0CEB25694FE9AE125B6FEA62EB /* DomHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = DA6C0E771D397AE3F7CED432A3DD60A4 /* DomHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB54AF539D01F11BCC23ADCF0110B73F /* DomFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B2B91DCA657E86E9ACF080DC1F886E /* DomFooter.m */; };
+		FBF39482B3C3ECD53D43C812998F04B1 /* DirectoryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3C940345170EB62E647F21E5E32597 /* DirectoryEntry.m */; };
+		FD1A91A9644374901E6245AAF61049CF /* DomParagraph.m in Sources */ = {isa = PBXBuildFile; fileRef = CF234CE4561011041235414E4A349DFB /* DomParagraph.m */; };
+		FDF92766D5BB26AD327C433C78A372BE /* DomTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4DE039AD7A36E51E937A00EE1E5CCE /* DomTableRow.m */; };
+		FF5B59D68A23FA2A698F653F098725A8 /* ListOverride.h in Headers */ = {isa = PBXBuildFile; fileRef = D284F2D074B8D15986CCFF3AC1D7F79F /* ListOverride.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -288,24 +289,31 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F806B73265A83F7B78CBE411A9764B78;
+			remoteGlobalIDString = 5F7B2F8C6171546EA80616A69DB4E74B;
 			remoteInfo = AWIrmFramework;
 		};
-		5B92C18CA554E94DC280FB8E72688106 /* PBXContainerItemProxy */ = {
+		5B0B11EB0B9C6380622CD36A12BBA16F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C00AB9E2DFEDD4DB096B35D29CAB113E;
+			remoteInfo = CompoundFileReader;
+		};
+		68990255CCE6F6AD59B03120DA27C208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C00AB9E2DFEDD4DB096B35D29CAB113E;
+			remoteInfo = CompoundFileReader;
+		};
+		6B854D16FCE537E978489AC429C470F5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B1BFEC21F8E1EE945C0C626FE57AA405;
 			remoteInfo = ADAL;
 		};
-		68990255CCE6F6AD59B03120DA27C208 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 429886FC717844354AFE873FAA243D44;
-			remoteInfo = CompoundFileReader;
-		};
-		6B854D16FCE537E978489AC429C470F5 /* PBXContainerItemProxy */ = {
+		CC0045A7ACC7599B62052E8D0013929D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -346,6 +354,7 @@
 		185B143155CA5B5D0C061F3E3822A1BB /* Pods-Usage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Usage-umbrella.h"; sourceTree = "<group>"; };
 		18C8F79552345AE3254E078498CF5B0F /* ADKeychainTokenCache+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ADKeychainTokenCache+Internal.h"; path = "ADAL/src/cache/ios/ADKeychainTokenCache+Internal.h"; sourceTree = "<group>"; };
 		19EFF8932B70935311F00C482DA2366E /* MSSdkErrorCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSSdkErrorCodes.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSSdkErrorCodes.h; sourceTree = "<group>"; };
+		1A21B1CCAF26D436F6538C34664EA1C9 /* CompoundFileReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CompoundFileReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A901BAEF40B4C4192828EF5BFA5ABF4 /* TextConatiner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TextConatiner.h; path = CompoundFileReader/TextConatiner.h; sourceTree = "<group>"; };
 		1B8E36BFDFA28C6C8756267E2F1D7E65 /* ADNTLMUIPrompt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADNTLMUIPrompt.m; path = ADAL/src/ui/ios/ADNTLMUIPrompt.m; sourceTree = "<group>"; };
 		1C029A9DCADEA93B5E480CFF1251FEC3 /* Attachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Attachment.h; path = CompoundFileReader/Attachment.h; sourceTree = "<group>"; };
@@ -392,12 +401,13 @@
 		3DAA67127401C17B1DE97C090ACBB024 /* ElementContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ElementContainer.m; path = CompoundFileReader/ElementContainer.m; sourceTree = "<group>"; };
 		3E85972D2447C743D22F628C09168C30 /* ADAuthenticationError+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ADAuthenticationError+Internal.h"; path = "ADAL/src/ADAuthenticationError+Internal.h"; sourceTree = "<group>"; };
 		3F64332C91A99B54697159744E4CC5D6 /* ADHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADHelpers.m; path = ADAL/src/utils/ADHelpers.m; sourceTree = "<group>"; };
+		3FA12729A276CCCAF7CE6CAD4BA5BABC /* ADAL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ADAL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40BA0B32498C7199ACB5AD4A0058B56B /* ADAL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADAL.h; path = ADAL/src/public/ADAL.h; sourceTree = "<group>"; };
 		413CDD25F8956B953D5660DB4D64DE10 /* Provider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Provider.swift; path = AWIrmFramework/Public/Provider.swift; sourceTree = "<group>"; };
 		424DEEAAD8EDC44A79F4D9C2D0C191EE /* UIAlertView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+Additions.m"; path = "ADAL/src/ui/ios/UIAlertView+Additions.m"; sourceTree = "<group>"; };
 		42CA51E22CE3D2F240D5FA990AE188B3 /* ADNTLMUIPrompt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADNTLMUIPrompt.h; path = ADAL/src/ui/ADNTLMUIPrompt.h; sourceTree = "<group>"; };
 		436BEAAB8F4510D639859D47EE7F07DF /* DomDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DomDocument.h; path = CompoundFileReader/DomDocument.h; sourceTree = "<group>"; };
-		43F98144A04EFA5B715B76C45E2116D1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		4408C48EC33626E26BB797C85DE17208 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		445A313B08E65E6F0FDD65A655839791 /* NSDictionary+ADExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+ADExtensions.h"; path = "ADAL/src/utils/NSDictionary+ADExtensions.h"; sourceTree = "<group>"; };
 		44A5E8B9B9318FD4D80B7BB4BD71C672 /* Message.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Message.m; path = CompoundFileReader/Message.m; sourceTree = "<group>"; };
 		462BA892CEEA6A716C03F554B351B312 /* MSConsentCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSConsentCallback.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSConsentCallback.h; sourceTree = "<group>"; };
@@ -408,7 +418,6 @@
 		4A78C430F6EE115D8F62BC79F5A46B82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BBD1EB7C2CFC12108B870CF12696E44 /* Font.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Font.m; path = CompoundFileReader/Font.m; sourceTree = "<group>"; };
 		4CDE2965B1F3C55897A432744418482E /* ADTokenCacheAccessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADTokenCacheAccessor.m; path = ADAL/src/cache/ADTokenCacheAccessor.m; sourceTree = "<group>"; };
-		4EFB8D75F9C4BA48A18B899DE3A90051 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		4FEA601F9618FD331A57C7EBBD800AF9 /* Storage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Storage.m; path = CompoundFileReader/Storage.m; sourceTree = "<group>"; };
 		52AA115F7A9B3F7ADC90F78065D501E3 /* DomTableCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DomTableCell.h; path = CompoundFileReader/DomTableCell.h; sourceTree = "<group>"; };
 		531298EDE6AAFFEF672AC73106697066 /* NSString+ADHelperMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ADHelperMethods.m"; path = "ADAL/src/utils/NSString+ADHelperMethods.m"; sourceTree = "<group>"; };
@@ -424,7 +433,6 @@
 		5A4AD3187DC2140E7B185FFAAA57A4D8 /* DomHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DomHeader.m; path = CompoundFileReader/DomHeader.m; sourceTree = "<group>"; };
 		5B9C092C0BC34A281AE5E089A97E1034 /* AWIrmFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWIrmFramework.h; path = AWIrmFramework/AWIrmFramework.h; sourceTree = "<group>"; };
 		5BBF75B2F6671FBFEE6FE3972F22C7FB /* AttributeList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AttributeList.m; path = CompoundFileReader/AttributeList.m; sourceTree = "<group>"; };
-		5E7541FB59C0FA00F40A6E19BA38BF1A /* ADAL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ADAL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB6D3126FEE369BC76D78D67E2D5CEB /* DomShape.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DomShape.m; path = CompoundFileReader/DomShape.m; sourceTree = "<group>"; };
 		5FC337248F9A4749B8AC0DBC2D044D21 /* ADWebAuthController+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ADWebAuthController+Internal.h"; path = "ADAL/src/ui/ADWebAuthController+Internal.h"; sourceTree = "<group>"; };
 		5FCA68A32CE6BF25C9142B785A2BFA18 /* ADAuthenticationContext+Internal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ADAuthenticationContext+Internal.m"; path = "ADAL/src/ADAuthenticationContext+Internal.m"; sourceTree = "<group>"; };
@@ -504,7 +512,9 @@
 		92C16C9ADAD290571B7C3490D95CB1EA /* ADKeychainUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADKeychainUtil.h; path = ADAL/src/utils/ADKeychainUtil.h; sourceTree = "<group>"; };
 		92CDA61C4BCBDB847EFFC8A8E5A370BD /* ADTokenCacheItem+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ADTokenCacheItem+Internal.h"; path = "ADAL/src/cache/ADTokenCacheItem+Internal.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9415368039BB402D441F59FE563A680A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		944545E1A14F78A904B46BC4CD1048A5 /* Lex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Lex.m; path = CompoundFileReader/Lex.m; sourceTree = "<group>"; };
+		945A374FE99560F992B129A0838D0CAE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		954D7785F35C886CD267DB1E2BDDE0D2 /* Pods-Usage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Usage.release.xcconfig"; sourceTree = "<group>"; };
 		955F861AC63D85EF46D2259D578A66CC /* ADWebAuthResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADWebAuthResponse.m; path = ADAL/src/request/ADWebAuthResponse.m; sourceTree = "<group>"; };
 		9583801EED51851119DACB064AE7F159 /* CompoundFileReader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CompoundFileReader-umbrella.h"; sourceTree = "<group>"; };
@@ -536,7 +546,6 @@
 		B55F3B41855EB7D629372DA71C38D601 /* RtfObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RtfObject.m; path = CompoundFileReader/RtfObject.m; sourceTree = "<group>"; };
 		B614B48C68F7F890D6CDD07C490F48F8 /* Sector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sector.h; path = CompoundFileReader/Sector.h; sourceTree = "<group>"; };
 		B63097B3B7113AD0A0B55B9641CCDCAE /* Pods-Usage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Usage-dummy.m"; sourceTree = "<group>"; };
-		B6DC6C22E2D8E50EE78FE0AF79509A1E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
 		B9B4405BA8389D0B37FAF6BC50DDDCFB /* PropertyTag.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PropertyTag.m; path = CompoundFileReader/PropertyTag.m; sourceTree = "<group>"; };
 		BA0110A9AB9AE06B868314448A5FC2A7 /* ADURLProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADURLProtocol.m; path = ADAL/src/urlprotocol/ADURLProtocol.m; sourceTree = "<group>"; };
 		BA8C4BBD15055A90EFA79D1D2E93F7B1 /* ADAuthenticationParameters+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ADAuthenticationParameters+Internal.h"; path = "ADAL/src/ADAuthenticationParameters+Internal.h"; sourceTree = "<group>"; };
@@ -548,6 +557,7 @@
 		BED3286CCD352359E3A0F5FC8B2AD47B /* MappedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MappedObject.m; path = CompoundFileReader/MappedObject.m; sourceTree = "<group>"; };
 		C0A4A758E9DCD45703C8EB970975A413 /* Message.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Message.h; path = CompoundFileReader/Message.h; sourceTree = "<group>"; };
 		C23DCD5C811F2E0900B32932C6BEBF24 /* StorageStreamParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StorageStreamParser.h; path = CompoundFileReader/StorageStreamParser.h; sourceTree = "<group>"; };
+		C28246DEBC9535C358DFA395FA6D94F5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
 		C2E32C65EF1AAAC48F1FC393FFA89741 /* InternalProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternalProtocol.swift; path = AWIrmFramework/Internal/InternalProtocol.swift; sourceTree = "<group>"; };
 		C30C9EE14023B89F915CB8703FA897AA /* Stream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Stream.m; path = CompoundFileReader/Stream.m; sourceTree = "<group>"; };
 		C8EC01E0FDF2B33FA6276E34F4D2D0E0 /* DocumentInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DocumentInfo.m; path = CompoundFileReader/DocumentInfo.m; sourceTree = "<group>"; };
@@ -558,6 +568,7 @@
 		CF234CE4561011041235414E4A349DFB /* DomParagraph.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DomParagraph.m; path = CompoundFileReader/DomParagraph.m; sourceTree = "<group>"; };
 		D041DCCE70BE3562663CD6CF01DDFF3C /* ADOAuth2Constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADOAuth2Constants.h; path = ADAL/src/ADOAuth2Constants.h; sourceTree = "<group>"; };
 		D0764D51003ECCA56C0D12DC6A32576A /* ListTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ListTable.h; path = CompoundFileReader/ListTable.h; sourceTree = "<group>"; };
+		D1159A77F7FAF08E69F610009C1CA3B1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
 		D188A2BE83745EA122681610EEDFC6F3 /* MSCustomProtectedData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSCustomProtectedData.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSCustomProtectedData.h; sourceTree = "<group>"; };
 		D1ABE20A952F8410096E8D42F9BF47AD /* ADWebAuthResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADWebAuthResponse.h; path = ADAL/src/request/ADWebAuthResponse.h; sourceTree = "<group>"; };
 		D1ED8712FDC865B2B80BE97C62876954 /* MSUserRights.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSUserRights.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSUserRights.h; sourceTree = "<group>"; };
@@ -577,7 +588,6 @@
 		DF136C50BEC8B40DB54C83E9232B2742 /* DirectoryEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DirectoryEntry.h; path = CompoundFileReader/DirectoryEntry.h; sourceTree = "<group>"; };
 		DFD962B216F715F40C7049F535DA5D02 /* RTFEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTFEnums.h; path = CompoundFileReader/RTFEnums.h; sourceTree = "<group>"; };
 		E00C012742C2113B6A45B73F4DA655CE /* ADAuthenticationRequest+Broker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ADAuthenticationRequest+Broker.h"; path = "ADAL/src/request/ADAuthenticationRequest+Broker.h"; sourceTree = "<group>"; };
-		E07D8A36DC94020494C2562A8F87211E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
 		E0E7F14AE63EFE2471AE43B62CA394C8 /* DomElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DomElement.m; path = CompoundFileReader/DomElement.m; sourceTree = "<group>"; };
 		E147E59CD6D4ECF82DA29D465C1966B3 /* ADTokenCacheDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADTokenCacheDataSource.h; path = ADAL/src/cache/ADTokenCacheDataSource.h; sourceTree = "<group>"; };
 		E1BFE303441EBB9447242CBCA12DA942 /* MSAuthenticationCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSAuthenticationCallback.h; path = AWIrmFramework/Frameworks/MSRightsManagement.framework/Headers/MSAuthenticationCallback.h; sourceTree = "<group>"; };
@@ -590,7 +600,6 @@
 		EC9DCE07E4A5A9A06F7BD120F4A22943 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECFFC81E0816A6D952BD872C5D42F869 /* ADNTLMHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADNTLMHandler.h; path = ADAL/src/urlprotocol/ADNTLMHandler.h; sourceTree = "<group>"; };
 		EE2ACE88A10657CC6B3FF5954B96532E /* ListTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ListTable.m; path = CompoundFileReader/ListTable.m; sourceTree = "<group>"; };
-		EE4655EBBA168D0FA55A3C2073898D43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EF77AD7DDDACA9ECE6200A0CACFE673A /* MSProtectionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSProtectionType.swift; path = AWIrmFramework/Providers/Microsoft/Internal/MSProtectionType.swift; sourceTree = "<group>"; };
 		EF869D884C96643909A37140CD0F30B7 /* ADAL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADAL.xcconfig; sourceTree = "<group>"; };
 		F0BF7A0B34F81CEBD99E0509997D172B /* Pods-Usage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Usage-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -623,24 +632,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35B13318662D9CD48E9AE7C3B61D9C94 /* Frameworks */ = {
+		2C280D94729F242CF80A7E9C83C36F2C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E8727352BD76DA9341139FAF3A18298 /* ADAL.framework in Frameworks */,
-				AEE7487B5259B872359665A24EBC4EB7 /* CoreData.framework in Frameworks */,
-				30C44DAFFBDE179C7940FC73A7EA9DE9 /* Foundation.framework in Frameworks */,
-				3E28FD4D78ED811588951E180528EFF6 /* MessageUI.framework in Frameworks */,
-				DEFCD710DC8D4A76C30002BB42DAA374 /* Security.framework in Frameworks */,
-				C45005B6BB3FA5AB4FE640CB86DE9A20 /* SystemConfiguration.framework in Frameworks */,
+				B6086ECDC0C0F2A82148D7C2A3574C59 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1BCB135DC5D3D1CF31BC96E543420BC /* Frameworks */ = {
+		744B48139A8F27373A7A9BE3BFFCD2FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				868775D0635C7590A11C7B3F64C7A2D1 /* Foundation.framework in Frameworks */,
+				A99D330A818DFBFCBDB3A98A9E79A696 /* ADAL.framework in Frameworks */,
+				C93C38557305B26B3BBF3C8189DA311C /* CompoundFileReader.framework in Frameworks */,
+				A60D1DFE301368DE523AAFDDBE04F360 /* CoreData.framework in Frameworks */,
+				4D5467560CC63C4B84927DC56B73ADF9 /* Foundation.framework in Frameworks */,
+				83294E88C274629FA488098C9C418148 /* MessageUI.framework in Frameworks */,
+				E0A991A659F0AD740917BE1D310276E5 /* Security.framework in Frameworks */,
+				787FAF7725DD2D098F66759680330E81 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -815,13 +825,16 @@
 			path = CompoundFileReader;
 			sourceTree = "<group>";
 		};
-		2F0CC587DF1023EB480942EA48D83D67 /* Frameworks */ = {
+		38F478AF1DA22DD16664A715476EFDCC /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5E7541FB59C0FA00F40A6E19BA38BF1A /* ADAL.framework */,
-				888BF43CF929D53E4442DBD67A839843 /* iOS */,
+				D1159A77F7FAF08E69F610009C1CA3B1 /* CoreData.framework */,
+				4408C48EC33626E26BB797C85DE17208 /* Foundation.framework */,
+				C28246DEBC9535C358DFA395FA6D94F5 /* MessageUI.framework */,
+				945A374FE99560F992B129A0838D0CAE /* Security.framework */,
+				9415368039BB402D441F59FE563A680A /* SystemConfiguration.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		5669D334FD1B258340CBC3615DB1A3F8 /* Support Files */ = {
@@ -890,7 +903,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				2F0CC587DF1023EB480942EA48D83D67 /* Frameworks */,
+				87A71EE4A2F74D586209980B3025FA88 /* Frameworks */,
 				D8489716E64F74378E6A0FD2067A07C0 /* Pods */,
 				816B7C2690DC6F7EA60E24AE439F1A58 /* Products */,
 				748FF37C23F4288DDB467AB0D483BE20 /* Targets Support Files */,
@@ -918,16 +931,14 @@
 			path = ADAL;
 			sourceTree = "<group>";
 		};
-		888BF43CF929D53E4442DBD67A839843 /* iOS */ = {
+		87A71EE4A2F74D586209980B3025FA88 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E07D8A36DC94020494C2562A8F87211E /* CoreData.framework */,
-				EE4655EBBA168D0FA55A3C2073898D43 /* Foundation.framework */,
-				B6DC6C22E2D8E50EE78FE0AF79509A1E /* MessageUI.framework */,
-				43F98144A04EFA5B715B76C45E2116D1 /* Security.framework */,
-				4EFB8D75F9C4BA48A18B899DE3A90051 /* SystemConfiguration.framework */,
+				3FA12729A276CCCAF7CE6CAD4BA5BABC /* ADAL.framework */,
+				1A21B1CCAF26D436F6538C34664EA1C9 /* CompoundFileReader.framework */,
+				38F478AF1DA22DD16664A715476EFDCC /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9D3DEB4A6A9E70BA26E5D069CBE13E84 /* Frameworks */ = {
@@ -1093,104 +1104,44 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		069C413981313BAE6DD186349E965D60 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				25EC16B5BC517F5E6D8EC78919CF1814 /* Attachment.h in Headers */,
-				0E7426B74C9EB15EBFCD813EAA972A6C /* Attribute.h in Headers */,
-				F2641DDE425535C34B21B5D9D46FB146 /* AttributeList.h in Headers */,
-				AE38CF0534B7E31D504FA638E1FB2450 /* CFileReaderError.h in Headers */,
-				D464074D3E4F7A69DB1223D997F9C18D /* ColorTable.h in Headers */,
-				DCF5F8CE2A1DF8E14CFC99B6C49F9683 /* CompoundFileReader-umbrella.h in Headers */,
-				F439C5CE0B011D4AC54FB7B40F01EDCB /* CompoundFileReader.h in Headers */,
-				DAF13911096941D390B54A36BD992443 /* DirectoryEntry.h in Headers */,
-				96B05A980055FB49C4E012B96E2591BF /* DocumentFormatInfo.h in Headers */,
-				EF630BD1C4ED5E96BB7076BD46CAB03E /* DocumentInfo.h in Headers */,
-				85C23917F17AFBA73035371BFA83ECE5 /* DomBookmark.h in Headers */,
-				FF7D4A56FC1147EE8C7250CB91239309 /* DomDocument.h in Headers */,
-				0D672BB2FA46D3FF8033388570A61899 /* DomElement.h in Headers */,
-				7FFA4700C5FE2BFA2425E4993B6B092A /* DomField.h in Headers */,
-				59F332C9BBD4091821ACAE50911E4AC0 /* DomFooter.h in Headers */,
-				F114B058596321604EE8CFB16A3D5C2E /* DomHeader.h in Headers */,
-				DE3B1DBA3DAC49C515200CDCAFC21B94 /* DomImage.h in Headers */,
-				A5C111A27DA4FC415B42F22FAE9D4D7A /* DomLineBreak.h in Headers */,
-				0238129DA91D158F6242E935BDB1FF16 /* DomObject.h in Headers */,
-				CFF8244A0E6DCA694A64B68377E78CC4 /* DomPageBreak.h in Headers */,
-				37EE7B80FF3A56B0F2DFF28499AFBCD3 /* DomParagraph.h in Headers */,
-				3317FF593827E46F5E048B0F38DD95EC /* DomShape.h in Headers */,
-				C3B18BC7812FE6122B9740322DFA4DF1 /* DomShapeGroup.h in Headers */,
-				BF375C54B8CD77383B64287037C26716 /* DomTableCell.h in Headers */,
-				3B13062197C018B9E93330539C7DFB42 /* DomTableRow.h in Headers */,
-				2CA37769ED9F1F3E985D59532F178E83 /* DomText.h in Headers */,
-				E89FB0C2318D1808C92BD2961F59A015 /* ElementContainer.h in Headers */,
-				F15E528EA0A909775ED4B381E496016E /* Font.h in Headers */,
-				FA5FE963C25C545C6AD811753A1F6C58 /* FontTable.h in Headers */,
-				05841D34657AF4D9499BD4CAE6A0784F /* Header.h in Headers */,
-				DD0F8D9D7E9ECFAE155047CB5A734D30 /* LayerInfo.h in Headers */,
-				3A4D7FC33D6823CE52A07B66A24E2806 /* Lex.h in Headers */,
-				D9EDA6274E8D963D4026DB246748491F /* ListOverride.h in Headers */,
-				CD145857FC2D01811825179B8CA6B747 /* ListOverrideTable.h in Headers */,
-				8287C97613B7ACD2900365A3D2AD93A3 /* ListTable.h in Headers */,
-				245996D1E7F69FCB59FEE1F8999534D8 /* MapiPropertyParser.h in Headers */,
-				65B4CBA7CB10FF42BD25D30537D0E4DF /* MappedObject.h in Headers */,
-				DD6D976C135F72EC09D58570D113C5A6 /* Mapper.h in Headers */,
-				1B316580B7F4F033790268937196A49C /* Message.h in Headers */,
-				D94753DA9C2C06B82463098DD0398A39 /* PropertyTag.h in Headers */,
-				492A75B4C8D36D1828A17FD032EB7A77 /* Reader.h in Headers */,
-				E2A2B43F62B3BA31792C87B6FB7330B8 /* RTFDecompressor.h in Headers */,
-				C3C5AFEA04307F018EA0F78AA67D8BAE /* RTFEnums.h in Headers */,
-				BEF4A26C1D577112C7EA1B3DA598E271 /* RtfObject.h in Headers */,
-				62A774F1198D7C6F7933B0412F796C03 /* Sector.h in Headers */,
-				CBD64F5E4E3A7330CDD0EA61BD511D7E /* Storage.h in Headers */,
-				DA72D10AFC19F01EAC89FEEA762DA665 /* StorageStreamParser.h in Headers */,
-				1D76B6847A46F28A95172D93565CD1E7 /* Stream.h in Headers */,
-				0A67F9F62126C21F563611A1DB7DD617 /* StreamHandle.h in Headers */,
-				1742303B478BBD4D5C26815DA0CD428B /* StreamReader.h in Headers */,
-				BDF779B3A67053D73006ADF410427DED /* TextConatiner.h in Headers */,
-				3AC2BDF53025B51ECE5798FF7478C13E /* TextReader.h in Headers */,
-				CBB37E0BFB28E24A6CD44694C75762F7 /* Token.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		08E0208AB5BA0EF55B25A2F574BDCEFD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8476D178429F8F1B8696C9159AC2204F /* AWIrmFramework-umbrella.h in Headers */,
-				4DB009554EB3BDD3B9C31D36FA91751D /* AWIrmFramework.h in Headers */,
-				42425A9C6D599BFA3888E541D3514C29 /* MSAsyncControl.h in Headers */,
-				10FE4BE858C8CFFDD3D5918FBC311005 /* MSAuthenticationCallback.h in Headers */,
-				AFE76C500A3A8E02987F98EBBC0A2926 /* MSAuthenticationParameters.h in Headers */,
-				936D4F0B03D31AF69A698A41B6E92A93 /* MSConsent.h in Headers */,
-				ECF130F9631A8CD492062677A17B0DA9 /* MSConsentCallback.h in Headers */,
-				EC3E55551A11A66F20D78C14CF4E9EB1 /* MSCustomProtectedData.h in Headers */,
-				206AB6C701E7834254CFE3FA7DA2C4AE /* MSCustomProtection.h in Headers */,
-				9458166868E8B61BADB3C2785BD5E9D5 /* MSLicenseMetadata.h in Headers */,
-				6B747A1361A49E467FDE331F25E52411 /* MSMutableCustomProtectedData.h in Headers */,
-				395D02126ADF7D561601EDA154E5DB91 /* MSMutableProtectedData.h in Headers */,
-				2D82052764122A7C198B0465D00C30D0 /* MSOfflineCacheLifetimeConstants.h in Headers */,
-				36C2A9E7F15721E0C0C4299D59D20FE4 /* MSPolicyDescriptor.h in Headers */,
-				BA2E38C413A80232BFAB260A93A161C1 /* MSProtectedData.h in Headers */,
-				78B441A45C6EE93478BF2AF613240345 /* MSProtection.h in Headers */,
-				402B21E721A34E62CF8DEF0487A0171A /* MSProtector.h in Headers */,
-				8DB4C17709DD10AE79C10ECA0D296A5E /* MSRight.h in Headers */,
-				F04DFB6959416C44A1F36812E5F7FFCE /* MSRightsManagement.h in Headers */,
-				9E227F5A46D74D337721B42173D1586C /* MSRole.h in Headers */,
-				064271679312845882CB31E47A94F143 /* MSSdkErrorCodes.h in Headers */,
-				AB532D8E3F62B47B8C36D79C3A743362 /* MSSecureCodableObject.h in Headers */,
-				F3BAE3A2AFB7B22A38C2524CD8DCDF57 /* MSTemplateDescriptor.h in Headers */,
-				947D834E8FA7E5561BBA8C65FA70FD95 /* MSUserPolicy.h in Headers */,
-				A8E769138356997970EBAADA8C60340F /* MSUserRights.h in Headers */,
-				DF45625EF6D262B8B6414444F2B78E32 /* MSUserRoles.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4A9297521378AAC9A51E7C39196A843E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F6207D1BFE90A406D07EC4BCABB37A9D /* Pods-Usage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D9692CB66EA35CA30014F53ADD13FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5FE6057D99AD08B60A06762B4CCDB5 /* AWIrmFramework-umbrella.h in Headers */,
+				5F0E75A04D6D8C645535850EEA984CAE /* AWIrmFramework.h in Headers */,
+				81A9F3762D7BFE840CC08CC6975F1B36 /* MSAsyncControl.h in Headers */,
+				2ECB9999FF803A129F1A172333D77169 /* MSAuthenticationCallback.h in Headers */,
+				3CFC680620FC4EDDCCE26A49DEAEC751 /* MSAuthenticationParameters.h in Headers */,
+				144D75517AE0A86EBE5EE22D36F814FB /* MSConsent.h in Headers */,
+				74ECE7D35BA39ECD20CE1A72D7518E22 /* MSConsentCallback.h in Headers */,
+				31E5A0FC9F671942765757ABC8C24B75 /* MSCustomProtectedData.h in Headers */,
+				4E0830094BDE836C7B6829194A71C279 /* MSCustomProtection.h in Headers */,
+				8679F0C5428E50F28C4F8CEBDFBFB7E1 /* MSLicenseMetadata.h in Headers */,
+				B07E0C28873ADA05B9A155E2BCDBA04E /* MSMutableCustomProtectedData.h in Headers */,
+				6E8F332AFED4FB5E04E44A59F3C024E5 /* MSMutableProtectedData.h in Headers */,
+				AF9A9AB4A61B902DB7F80D6CE31B9194 /* MSOfflineCacheLifetimeConstants.h in Headers */,
+				B66935EE2D5D896D5DD56760B8AAA7CF /* MSPolicyDescriptor.h in Headers */,
+				CA7769054366AF5BE8BF481C32E802F2 /* MSProtectedData.h in Headers */,
+				47B33F50E6DD24A38775C5E39179D9A9 /* MSProtection.h in Headers */,
+				6646FB0E532751192316786061D27F66 /* MSProtector.h in Headers */,
+				2F3BC1079D0438A981A235C2C9B8E345 /* MSRight.h in Headers */,
+				E4D19A99730670AD7D44819D4D0B5F9E /* MSRightsManagement.h in Headers */,
+				C10A65FE3094BAE427C3A8AE9367D87F /* MSRole.h in Headers */,
+				82B9B155292D1CE09E2109F0341A37FB /* MSSdkErrorCodes.h in Headers */,
+				0030EBC5E522CBB91A54B06AB4EE8982 /* MSSecureCodableObject.h in Headers */,
+				797D59FBCF0E416AF25E39CB159C5B0C /* MSTemplateDescriptor.h in Headers */,
+				380F5C615A1BB7B52301C8A85D216252 /* MSUserPolicy.h in Headers */,
+				3EB916E9A6414E62CB32CDA6703928E3 /* MSUserRights.h in Headers */,
+				0C9EDA0D4097BD884544FF27A403D7D5 /* MSUserRoles.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1264,24 +1215,87 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B1CCD97C5E6A4DF7791652AA4EBAB7C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4603962475507B8690313BAAAB338E2F /* Attachment.h in Headers */,
+				7C4D25C024AB984D9C2C6E65ED4081F1 /* Attribute.h in Headers */,
+				3C8555D52E636B45D3A0330968D03AFC /* AttributeList.h in Headers */,
+				A1CC365B12E78CDFF45CD5E8863E4A30 /* CFileReaderError.h in Headers */,
+				6097B8EAC36F81D5A23CEC00E610BD4B /* ColorTable.h in Headers */,
+				CA6FBFFE07CB6063C18BCEFDDE66378D /* CompoundFileReader-umbrella.h in Headers */,
+				5EFB6345BD3E6F6D918591C0FFFFD91C /* CompoundFileReader.h in Headers */,
+				3504776E6C1C8697A295E79DC96FBFA9 /* DirectoryEntry.h in Headers */,
+				6AB1BA8BAB4094562577CF0C47D0607B /* DocumentFormatInfo.h in Headers */,
+				D26499A71FC773899F8146EDB284AAED /* DocumentInfo.h in Headers */,
+				AA071A1D4DC323D5D7A54323FE1475B8 /* DomBookmark.h in Headers */,
+				2385B4CA96F37B28DBA980D69AB24504 /* DomDocument.h in Headers */,
+				D6B39C5F0A3E6549744FA7B9F466743F /* DomElement.h in Headers */,
+				AFB8F5E032E1D0101E4DFBA5800CEB19 /* DomField.h in Headers */,
+				4D9B3E6DAF5F60CEA23A01955A14C23C /* DomFooter.h in Headers */,
+				F90FAD0CEB25694FE9AE125B6FEA62EB /* DomHeader.h in Headers */,
+				9A6D21EE71B4E048D0E9C983FD5B9078 /* DomImage.h in Headers */,
+				4EBFB210A779DD072220512D13191ED2 /* DomLineBreak.h in Headers */,
+				4BAC3EF03BD6BCD6BF5A8C7349868A7E /* DomObject.h in Headers */,
+				EF560C00AEB8BB589B3AF802093A41C0 /* DomPageBreak.h in Headers */,
+				6284B1A6EE7F5D504B3D1A321D8A6902 /* DomParagraph.h in Headers */,
+				81B431DF6BA653D1BFBEFE3BA5D4E7E7 /* DomShape.h in Headers */,
+				D4F7E7F6D9956B8A3A1CD95420543719 /* DomShapeGroup.h in Headers */,
+				F5B58800F31D4744333DECAC388E3D0D /* DomTableCell.h in Headers */,
+				45B319BA18EEC20679171AA1C498914D /* DomTableRow.h in Headers */,
+				A81A145D4152C877E367759BCE537FBA /* DomText.h in Headers */,
+				77A429C980B85C3690A45E3414E19491 /* ElementContainer.h in Headers */,
+				C8683F6898DFFADC4BA9A563522F8FB5 /* Font.h in Headers */,
+				D2958421F3DD421AAA24192E0AE6E02F /* FontTable.h in Headers */,
+				C61395517FF1B9D4CDBED43684003E35 /* Header.h in Headers */,
+				F8A11768E62AD5311C39AC410249FFA2 /* LayerInfo.h in Headers */,
+				7EE771E51A848FD773F229787129A856 /* Lex.h in Headers */,
+				FF5B59D68A23FA2A698F653F098725A8 /* ListOverride.h in Headers */,
+				8D6EA35876EC816EB8941A11D4095764 /* ListOverrideTable.h in Headers */,
+				CBED1F7678A0E77B2DBD26F2AEEB32B5 /* ListTable.h in Headers */,
+				CEEB97B3FADCFF6D6EC4D99ED582508E /* MapiPropertyParser.h in Headers */,
+				862E5FD89C35B32B73F514E21B8F5BE7 /* MappedObject.h in Headers */,
+				C508B28A22D4CFACF8B88A25E0A26514 /* Mapper.h in Headers */,
+				6861D14DD14E7F2EC59C3F2544FEC77D /* Message.h in Headers */,
+				B8226DF1B6A13848DDA7757099C8FF56 /* PropertyTag.h in Headers */,
+				89245A0EFE7D5B2FF95EBCB10670494F /* Reader.h in Headers */,
+				430D3CD2D5BA50652911B6AB983B5496 /* RTFDecompressor.h in Headers */,
+				13986C147D45E1E5E428A5A119CAA03A /* RTFEnums.h in Headers */,
+				A0801E4DD3A869E713A31CEC8C445F11 /* RtfObject.h in Headers */,
+				8F71262E1B85AD04A5449CC0552716A1 /* Sector.h in Headers */,
+				693AC9CECD4C1438ADE217B25ED8EFCB /* Storage.h in Headers */,
+				D5BE0C9F45172A63F2C8571A14233DF1 /* StorageStreamParser.h in Headers */,
+				60E8917792F12740DBC094CE647920AC /* Stream.h in Headers */,
+				7F75471B70E4DD7A225057EE184166B7 /* StreamHandle.h in Headers */,
+				541A00645219702FA57F5F9E42CFCC71 /* StreamReader.h in Headers */,
+				B70F4311CE72511667B73398647BC53F /* TextConatiner.h in Headers */,
+				D64E42CA582DF5E04FFC9CA3CF67EA76 /* TextReader.h in Headers */,
+				39F01C5C450574969E0981112AA78741 /* Token.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		429886FC717844354AFE873FAA243D44 /* CompoundFileReader */ = {
+		5F7B2F8C6171546EA80616A69DB4E74B /* AWIrmFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D58F25045062931A4621FBE67826063C /* Build configuration list for PBXNativeTarget "CompoundFileReader" */;
+			buildConfigurationList = C7E4AE371B86578F2DBD6CAC8617EE82 /* Build configuration list for PBXNativeTarget "AWIrmFramework" */;
 			buildPhases = (
-				13D72140447496EE9300CBE687E1FAEE /* Sources */,
-				C1BCB135DC5D3D1CF31BC96E543420BC /* Frameworks */,
-				069C413981313BAE6DD186349E965D60 /* Headers */,
+				502E3F63263A39E3EB83DF23B674F692 /* Sources */,
+				744B48139A8F27373A7A9BE3BFFCD2FE /* Frameworks */,
+				95D9692CB66EA35CA30014F53ADD13FD /* Headers */,
+				AD89475B1BB4407F6E87C6B90D3E0B92 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D76E2113B030F49A1D06F58F8A116AD9 /* PBXTargetDependency */,
+				436F31275E12DCC2040E77DED080DC30 /* PBXTargetDependency */,
 			);
-			name = CompoundFileReader;
-			productName = CompoundFileReader;
-			productReference = A7450F75282CD8B8F06E7CEC12F77F5E /* CompoundFileReader.framework */;
+			name = AWIrmFramework;
+			productName = AWIrmFramework;
+			productReference = 56CAEBD53C362B69FFBE0F322BF82E28 /* AWIrmFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		60082FC65F354D4BA019DB5E7922CCC5 /* Pods-Usage */ = {
@@ -1321,23 +1335,21 @@
 			productReference = 771E3FD09594BF8B729B352D4FB47D62 /* ADAL.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F806B73265A83F7B78CBE411A9764B78 /* AWIrmFramework */ = {
+		C00AB9E2DFEDD4DB096B35D29CAB113E /* CompoundFileReader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B22538F829B5EC1D5066171B7814145 /* Build configuration list for PBXNativeTarget "AWIrmFramework" */;
+			buildConfigurationList = 54D94B79673408815E1C77DDEF65AB16 /* Build configuration list for PBXNativeTarget "CompoundFileReader" */;
 			buildPhases = (
-				DD3B681B9A051941B67191F9EAFB9BEE /* Sources */,
-				35B13318662D9CD48E9AE7C3B61D9C94 /* Frameworks */,
-				08E0208AB5BA0EF55B25A2F574BDCEFD /* Headers */,
-				8874F53FE094152F42FBCAC5B02E3300 /* Resources */,
+				E3BE63F097A96FD3BE8D406F2E744F3A /* Sources */,
+				2C280D94729F242CF80A7E9C83C36F2C /* Frameworks */,
+				B1CCD97C5E6A4DF7791652AA4EBAB7C1 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D270EF252C6B13FA17CB903C326B4E4A /* PBXTargetDependency */,
 			);
-			name = AWIrmFramework;
-			productName = AWIrmFramework;
-			productReference = 56CAEBD53C362B69FFBE0F322BF82E28 /* AWIrmFramework.framework */;
+			name = CompoundFileReader;
+			productName = CompoundFileReader;
+			productReference = A7450F75282CD8B8F06E7CEC12F77F5E /* CompoundFileReader.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1362,90 +1374,51 @@
 			projectRoot = "";
 			targets = (
 				B1BFEC21F8E1EE945C0C626FE57AA405 /* ADAL */,
-				F806B73265A83F7B78CBE411A9764B78 /* AWIrmFramework */,
-				429886FC717844354AFE873FAA243D44 /* CompoundFileReader */,
+				5F7B2F8C6171546EA80616A69DB4E74B /* AWIrmFramework */,
+				C00AB9E2DFEDD4DB096B35D29CAB113E /* CompoundFileReader */,
 				60082FC65F354D4BA019DB5E7922CCC5 /* Pods-Usage */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8874F53FE094152F42FBCAC5B02E3300 /* Resources */ = {
+		AD89475B1BB4407F6E87C6B90D3E0B92 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C51A5FF42F0322DA54EE8989D25EF9E /* MSRightsManagementResources.bundle in Resources */,
+				1B40A17A6FF075C8372349544145275C /* MSRightsManagementResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		13D72140447496EE9300CBE687E1FAEE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78FEBFF4773F7BCCA755B48A953931A5 /* Attachment.m in Sources */,
-				B81AB6418428E17A9E5C303DC7C7FE68 /* Attribute.m in Sources */,
-				0E8C33E654CFB25595498A48AE90A9FE /* AttributeList.m in Sources */,
-				9429F772BD01AF38F6C7D6699475BA1B /* CFileReaderError.m in Sources */,
-				10BA871F297F77CF6FC5781D2E0D6F3F /* ColorTable.m in Sources */,
-				3461A9923EDBDBF5884425F173D689D0 /* CompoundFileReader-dummy.m in Sources */,
-				73691AAAF2A56213B29AB2D72BC9F1EE /* CompoundFileReader-Prefix.pch in Sources */,
-				8DCA849246DE426B023A08C1CA452B47 /* CompoundFileReader.m in Sources */,
-				627E01BB33EB05665615BE1D24D3D689 /* DirectoryEntry.m in Sources */,
-				D815952085F0D6083D2DDEE8DCF8EBAB /* DocumentFormatInfo.m in Sources */,
-				81BF3CD02056AA5776CDEB82B2E0689D /* DocumentInfo.m in Sources */,
-				3737A17414E6044BAAB4D406723AB79C /* DomBookmark.m in Sources */,
-				1CEF0AEF4B08F7AB8D328B722B6B39B9 /* DomDocument.m in Sources */,
-				75E302AA1D0838A39663F20B41D32289 /* DomElement.m in Sources */,
-				6FFBB34DD2C386F277ED606EBDCE3ED8 /* DomField.m in Sources */,
-				728367EB6A9380019040B3EC5712B3F0 /* DomFooter.m in Sources */,
-				503E97EB04CAD2E55A5C3401FA27D094 /* DomHeader.m in Sources */,
-				23BCFF3827848E3E87A458166C9B11EE /* DomImage.m in Sources */,
-				3438DF3932837CCEE8C86253897F8B25 /* DomLineBreak.m in Sources */,
-				1575188A2CA06441E6C180E25500776C /* DomObject.m in Sources */,
-				4BE8DAD0B3C790D3AE542D0BFB468B7B /* DomPageBreak.m in Sources */,
-				8F1DC35B5C4F206D96F7092688BFD740 /* DomParagraph.m in Sources */,
-				BC356968958F11200B65911F6DC12E62 /* DomShape.m in Sources */,
-				2F030CA678D9D83F14D8D52BD3136FA6 /* DomShapeGroup.m in Sources */,
-				0DACBEF61AE676DDB5D9DF88847201C0 /* DomTableCell.m in Sources */,
-				5566264626C3FEDDCFB0306DC326A6DD /* DomTableRow.m in Sources */,
-				A3EC030EBCCA0F764BC11D064DAF1FE4 /* DomText.m in Sources */,
-				83DE6077C2A9C837B96885C964AC572B /* ElementContainer.m in Sources */,
-				3FB89FF11FE168A5AC24F02C4DCE13DB /* Font.m in Sources */,
-				044B67AD5098197B34BC7FE604B49416 /* FontTable.m in Sources */,
-				0A0C745C5FEB07F8971F8AB781214957 /* Header.m in Sources */,
-				ACEEB663D12F615CFECE6135F353275D /* LayerInfo.m in Sources */,
-				5024D4A02D7F033B95A1D413EC0E31FA /* Lex.m in Sources */,
-				2A0E2B11335C1FB529EBC7AB410E17EB /* ListOverride.m in Sources */,
-				D40B16FCB789D012B0BE9A10AFF724AB /* ListOverrideTable.m in Sources */,
-				71E86EB9E1F6132F801D330F0843321A /* ListTable.m in Sources */,
-				A29021FFF5709CA23E006FD42907A1FC /* MapiPropertyParser.m in Sources */,
-				EE38E51B873951A4162386B329888434 /* MappedObject.m in Sources */,
-				2B267E1C3DB1B8BA1EC76AA0A1CCA293 /* Mapper.m in Sources */,
-				85CB2AAB5945C09452A134E37A7488A5 /* Message.m in Sources */,
-				8742A44667247998AC9C67818F5BA618 /* PropertyTag.m in Sources */,
-				A7E3B029BC6EF6386AA8A930AC1B87B2 /* Reader.m in Sources */,
-				E74193EF7E303F3C3433E803D974C254 /* RTFDecompressor.m in Sources */,
-				F728E1DF2595E0793704D8AAED783C10 /* RtfObject.m in Sources */,
-				16F939AB82A1055E0C4A75CEC9562639 /* Sector.m in Sources */,
-				0D97118A2196CC676C6612A25BFDF14A /* Storage.m in Sources */,
-				BC07D5B961F68B376E7F44E879D7FB4D /* StorageStreamParser.m in Sources */,
-				029510C686907140E9EDF650EE199E13 /* Stream.m in Sources */,
-				F8CD47E1522605C3E61F16846AD950BC /* StreamHandle.m in Sources */,
-				04C281A47602CAAA1D18F3596F6713F3 /* StreamReader.m in Sources */,
-				C3BF9E45880834B6C7D4BB9E867FA664 /* TextConatiner.m in Sources */,
-				E25049F8670803ACB56829737349B6E8 /* TextReader.m in Sources */,
-				A6CBAED8CC6B0645D2C26D4E491AEE21 /* Token.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4F63E6DF5A2F72F840D121A32054C3FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				17567AE0139013279B36DAFE08067278 /* Pods-Usage-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		502E3F63263A39E3EB83DF23B674F692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413963697049DE238CA9889B1BB21A18 /* AuthenticationHandler.swift in Sources */,
+				E5F5C7A339F74BD893229A9F7E619F97 /* AWIrmFramework-dummy.m in Sources */,
+				027991289B33CF1EE61E3F4081F5D1F9 /* Constants.swift in Sources */,
+				318462B3BDB69002C0B33BBD9B846E23 /* InternalProtocol.swift in Sources */,
+				77D73F57E27BAC01B3B9540FADF09919 /* ItemHandle.swift in Sources */,
+				BB694556DA4A11F5BBD465703946D1DA /* MSConsentHandler.swift in Sources */,
+				0DA425F22782D283C16FF67415FB8B9A /* MSItemHandle.swift in Sources */,
+				DA99D6E6B31431F50A1F85F4895B19D8 /* MSItemHelper.swift in Sources */,
+				828265CF543F9B2D514C32E7B221266C /* MSPolicyParser.swift in Sources */,
+				6E6754376720F1C3BD51E3FB25486D23 /* MSProtectionType.swift in Sources */,
+				A825C2D409ED137A900EA2E8BF0225DB /* MSProvider.swift in Sources */,
+				2A58FB429E64141807250BAC7B4E100F /* Permissions.swift in Sources */,
+				3C727A503EC478CE20E183E841E7E500 /* Provider.swift in Sources */,
+				0DE68BD787732BAB952FCEC3258D1FE3 /* ProviderRegistry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1509,24 +1482,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD3B681B9A051941B67191F9EAFB9BEE /* Sources */ = {
+		E3BE63F097A96FD3BE8D406F2E744F3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37CDE310B31F1F7867F72C237532BC3F /* AuthenticationHandler.swift in Sources */,
-				87F868D10D8846F4CEFE9C8530C531CB /* AWIrmFramework-dummy.m in Sources */,
-				69E6BFBA1336C9DE2927F370874B69E0 /* Constants.swift in Sources */,
-				C30BCF25441F0C994E5F72119567EE7A /* InternalProtocol.swift in Sources */,
-				ADA7785B5B43F029CFD15A2A44BA6355 /* ItemHandle.swift in Sources */,
-				CC7737682F2ABD6CB5FD7F6DC4BE9989 /* MSConsentHandler.swift in Sources */,
-				08F373D43F7F7CABB562FDA60DDA1986 /* MSItemHandle.swift in Sources */,
-				2CEDF647CC25872D74BBC4990D04F233 /* MSItemHelper.swift in Sources */,
-				60399B8237D9478CE76841F6402C6987 /* MSPolicyParser.swift in Sources */,
-				B1B7E59F30ACB50A24E1DD58796F68B3 /* MSProtectionType.swift in Sources */,
-				C851E763537B8E70AE077B8FB1718B2D /* MSProvider.swift in Sources */,
-				8ABAB782EDC76E8485E078635A47AB86 /* Permissions.swift in Sources */,
-				EABB62EDE159175A887CA1D5BC3717DE /* Provider.swift in Sources */,
-				B6CC844FE65A0C12C472865542A4F661 /* ProviderRegistry.swift in Sources */,
+				82AA6888CAA652755AD83853D12699C9 /* Attachment.m in Sources */,
+				46C5A031E089DF2F6033E79138B118EF /* Attribute.m in Sources */,
+				C31E7EFF24C15442EC9F1C7FE097AB00 /* AttributeList.m in Sources */,
+				B44259EA0685117BE2A904E82DFCC474 /* CFileReaderError.m in Sources */,
+				A777081D6EF326D9E4563A69C29E8C29 /* ColorTable.m in Sources */,
+				B83AD656AFE2149F60B96E312EFFB1C9 /* CompoundFileReader-dummy.m in Sources */,
+				B59C1B39AA4D02F307135631FFABFDDE /* CompoundFileReader-Prefix.pch in Sources */,
+				8F85BA2D99CDA3DAA5F7C534D335D471 /* CompoundFileReader.m in Sources */,
+				FBF39482B3C3ECD53D43C812998F04B1 /* DirectoryEntry.m in Sources */,
+				A92917FF0A581159DA00D8F3BD49CC01 /* DocumentFormatInfo.m in Sources */,
+				61882D903E263B42537EA15DD93B84AE /* DocumentInfo.m in Sources */,
+				29607ECFEAED8A43A1C4B3F79CCCEAF2 /* DomBookmark.m in Sources */,
+				87E62A1E1A76544364A0A8A214B5815D /* DomDocument.m in Sources */,
+				E6C30A633A7C7011C853842905C49773 /* DomElement.m in Sources */,
+				39F8C2F527A05BD7B3E9061725ACB234 /* DomField.m in Sources */,
+				FB54AF539D01F11BCC23ADCF0110B73F /* DomFooter.m in Sources */,
+				0CAEAD34A4BF7D087A0EF9B92BA82A26 /* DomHeader.m in Sources */,
+				A208365576F26B4B0725174B69EA17FE /* DomImage.m in Sources */,
+				75588CEFEF4E482388B9B3123ED96266 /* DomLineBreak.m in Sources */,
+				E78101187E99138D2C9C1610BEBB8E68 /* DomObject.m in Sources */,
+				ADAD2D2C8845334D3A4CA70B384E0341 /* DomPageBreak.m in Sources */,
+				FD1A91A9644374901E6245AAF61049CF /* DomParagraph.m in Sources */,
+				0C9E3AD794D851A585B1CCA18C8A4995 /* DomShape.m in Sources */,
+				63D49EB437EA061FF5EA1215D06C305D /* DomShapeGroup.m in Sources */,
+				36A5211957DDFB422E4282883A48E924 /* DomTableCell.m in Sources */,
+				FDF92766D5BB26AD327C433C78A372BE /* DomTableRow.m in Sources */,
+				B78E87CB1047F4CF801391DF9EAE1219 /* DomText.m in Sources */,
+				64F9DBDF2FE8A54025EE6B8866BBFC5B /* ElementContainer.m in Sources */,
+				46C032D947A07E7947529A8892EC8B68 /* Font.m in Sources */,
+				A1E5A11904754C658EDE27BD711FAB2B /* FontTable.m in Sources */,
+				6FAB568BCF8B97C926A5D386AC7687BF /* Header.m in Sources */,
+				12F2581932E5217D49A51D44A50DF46F /* LayerInfo.m in Sources */,
+				E799BA210B7BB3A40FEDAA6930979D64 /* Lex.m in Sources */,
+				CDD89B2F3F35E04B9FA1D8E510E77884 /* ListOverride.m in Sources */,
+				95F0210CD3039504A7CCB44AA8551A58 /* ListOverrideTable.m in Sources */,
+				95D3F71468D610D306494C7A1EAF6B4C /* ListTable.m in Sources */,
+				9E0CCD6A4197A0707F09F4005270EB0F /* MapiPropertyParser.m in Sources */,
+				1C823A9710F1B9D214CAF7278FB6D1AE /* MappedObject.m in Sources */,
+				B48F2CFFC948826EBD043964D397DF1C /* Mapper.m in Sources */,
+				50A7D1E9654045249B15B73FDB8AEE4D /* Message.m in Sources */,
+				BB565C89941A6BD525CA956D736AE736 /* PropertyTag.m in Sources */,
+				A9EB7F8C26ACF5E3A842451D05042D4C /* Reader.m in Sources */,
+				C13B02F49DB6F9A57E4703751FCB12E5 /* RTFDecompressor.m in Sources */,
+				EA29A1FEEF32B3420A39EF34A2E03E30 /* RtfObject.m in Sources */,
+				A0CAEB2EFFF9E07FAE22ACC69BEFB3FB /* Sector.m in Sources */,
+				E2BCBA6D804A708CDB8D2605CD160D4D /* Storage.m in Sources */,
+				BB4C1327697B400226490E9E3FBD7D64 /* StorageStreamParser.m in Sources */,
+				8966B87250303CEEDFD6183A633F2024 /* Stream.m in Sources */,
+				8FDD5B30ECAFB94617C3E331784517FA /* StreamHandle.m in Sources */,
+				52D4BE09966139A8EB383EA779018062 /* StreamReader.m in Sources */,
+				0E4EF167558E97E51535E1342178EFC5 /* TextConatiner.m in Sources */,
+				E6DF9B9CBA9A5338651CC5AAF14E5628 /* TextReader.m in Sources */,
+				8CC81112C1AF2C269CA29E94BC26CF32 /* Token.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1536,14 +1548,20 @@
 		0833C9C834C17E3477E91762AD352086 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CompoundFileReader;
-			target = 429886FC717844354AFE873FAA243D44 /* CompoundFileReader */;
+			target = C00AB9E2DFEDD4DB096B35D29CAB113E /* CompoundFileReader */;
 			targetProxy = 68990255CCE6F6AD59B03120DA27C208 /* PBXContainerItemProxy */;
 		};
-		D270EF252C6B13FA17CB903C326B4E4A /* PBXTargetDependency */ = {
+		436F31275E12DCC2040E77DED080DC30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CompoundFileReader;
+			target = C00AB9E2DFEDD4DB096B35D29CAB113E /* CompoundFileReader */;
+			targetProxy = 5B0B11EB0B9C6380622CD36A12BBA16F /* PBXContainerItemProxy */;
+		};
+		D76E2113B030F49A1D06F58F8A116AD9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ADAL;
 			target = B1BFEC21F8E1EE945C0C626FE57AA405 /* ADAL */;
-			targetProxy = 5B92C18CA554E94DC280FB8E72688106 /* PBXContainerItemProxy */;
+			targetProxy = CC0045A7ACC7599B62052E8D0013929D /* PBXContainerItemProxy */;
 		};
 		E655ADAFD396F0A133E603634C88C857 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1554,13 +1572,42 @@
 		E6CCF1E5DFE2D15253062CDC6598CE87 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AWIrmFramework;
-			target = F806B73265A83F7B78CBE411A9764B78 /* AWIrmFramework */;
+			target = 5F7B2F8C6171546EA80616A69DB4E74B /* AWIrmFramework */;
 			targetProxy = 4053702F62D4D700C626D405B0658643 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2978D337AD46CE5F02483BEAD720DBBD /* Release */ = {
+		1397834819919F8DE402A2AAD8D48088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2032606697C0E96E4C160B2A29176646 /* AWIrmFramework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AWIrmFramework/AWIrmFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AWIrmFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AWIrmFramework/AWIrmFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AWIrmFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25A8C8D097528CBEE1E77E6D9AD685A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD29A8000A66DEC4FCD3B2A5EE4585DB /* CompoundFileReader.xcconfig */;
 			buildSettings = {
@@ -1621,6 +1668,35 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		2D84BAA85E7CF2C3F669F062983E1DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD29A8000A66DEC4FCD3B2A5EE4585DB /* CompoundFileReader.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CompoundFileReader/CompoundFileReader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CompoundFileReader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CompoundFileReader/CompoundFileReader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CompoundFileReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		327C0EE6A46B843557C02539D5FF48E3 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1765,94 +1841,6 @@
 			};
 			name = Debug;
 		};
-		BC705692FDFCBF96D12F820E23304E04 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2032606697C0E96E4C160B2A29176646 /* AWIrmFramework.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AWIrmFramework/AWIrmFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AWIrmFramework/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AWIrmFramework/AWIrmFramework.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AWIrmFramework;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C29EEA531235FE3857CDBD34B4CC1542 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD29A8000A66DEC4FCD3B2A5EE4585DB /* CompoundFileReader.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CompoundFileReader/CompoundFileReader-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CompoundFileReader/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CompoundFileReader/CompoundFileReader.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CompoundFileReader;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D227994BF2352B8D83C70FB7776E3E96 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2032606697C0E96E4C160B2A29176646 /* AWIrmFramework.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AWIrmFramework/AWIrmFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AWIrmFramework/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AWIrmFramework/AWIrmFramework.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AWIrmFramework;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		EF62D87BC821D0549F38E39F14D0C12C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EF869D884C96643909A37140CD0F30B7 /* ADAL.xcconfig */;
@@ -1882,6 +1870,36 @@
 			};
 			name = Debug;
 		};
+		F5D8CE2B2E1BCE674EE08FA694378051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2032606697C0E96E4C160B2A29176646 /* AWIrmFramework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AWIrmFramework/AWIrmFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AWIrmFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AWIrmFramework/AWIrmFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AWIrmFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1894,11 +1912,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B22538F829B5EC1D5066171B7814145 /* Build configuration list for PBXNativeTarget "AWIrmFramework" */ = {
+		54D94B79673408815E1C77DDEF65AB16 /* Build configuration list for PBXNativeTarget "CompoundFileReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC705692FDFCBF96D12F820E23304E04 /* Debug */,
-				D227994BF2352B8D83C70FB7776E3E96 /* Release */,
+				2D84BAA85E7CF2C3F669F062983E1DD1 /* Debug */,
+				25A8C8D097528CBEE1E77E6D9AD685A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1921,11 +1939,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D58F25045062931A4621FBE67826063C /* Build configuration list for PBXNativeTarget "CompoundFileReader" */ = {
+		C7E4AE371B86578F2DBD6CAC8617EE82 /* Build configuration list for PBXNativeTarget "AWIrmFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C29EEA531235FE3857CDBD34B4CC1542 /* Debug */,
-				2978D337AD46CE5F02483BEAD720DBBD /* Release */,
+				F5D8CE2B2E1BCE674EE08FA694378051 /* Debug */,
+				1397834819919F8DE402A2AAD8D48088 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

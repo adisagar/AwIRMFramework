@@ -19,8 +19,10 @@
     [super viewDidLoad];
     
    //   NSString *filename = @"Test";
-   NSString *filename = @"FileOneNonAD";
-     NSString* newPath = [[NSBundle mainBundle] pathForResource:filename  ofType:@"ppdf"];
+  //  NSString *filename = @"FileOneNonAD";
+    NSString *filename = @"Office";
+
+     NSString* newPath = [[NSBundle mainBundle] pathForResource:filename  ofType:@"docx"];
     
      BOOL fileExists = [[NSFileManager defaultManager] fileExistsAtPath:newPath];
    // [self plainDataFromProtectedFile:newPath];
@@ -57,8 +59,10 @@
                 //uint8_t buffer[chunkSize];
                 //Byte *byteData= (Byte*)malloc(bufferLength);
                 NSRange fetchRange =NSMakeRange(startrange,bufferLength);
-                NSData* data = [itemHandle plainDataBytesWith:fetchRange error:nil];
-                [plainData appendData:data];
+               // NSData* data = [itemHandle plainDataBytesWith:fetchRange error:nil];
+               // [plainData appendData:data];
+                [itemHandle plainDataBytes:byteData range:fetchRange error:nil];
+                [plainData appendBytes:byteData length:bufferLength];
                 startrange += bufferLength;
             }
         }
