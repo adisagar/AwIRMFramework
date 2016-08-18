@@ -20,7 +20,7 @@ class MSItemHelper {
     let headerLength = 8
     let EncryptedPackageName = "EncryptedPackage" //For Office files >2007
     let EncryptedPackageNameOldVersion = "DRMContent" //For Office files <2007
-    let PrimaryPackageName = "\u{06}Primary"
+    let PrimaryPackageName = "Primary"
     
     var itemPath : String
     

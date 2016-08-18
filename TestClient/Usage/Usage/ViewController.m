@@ -18,11 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-   //   NSString *filename = @"Test";
-  //  NSString *filename = @"FileOneNonAD";
-    NSString *filename = @"Office";
+      NSString *filename = @"FileOneAD";
+  // NSString *filename = @"FileOneNonAD";
+   // NSString *filename = @"Office";
 
-     NSString* newPath = [[NSBundle mainBundle] pathForResource:filename  ofType:@"docx"];
+     NSString* newPath = [[NSBundle mainBundle] pathForResource:filename  ofType:@"ppdf"];
     
      BOOL fileExists = [[NSFileManager defaultManager] fileExistsAtPath:newPath];
    // [self plainDataFromProtectedFile:newPath];
@@ -35,7 +35,7 @@
     NSString *str = irmOperation.identifier;
     
     irmOperation = [registry provider:str];
-    NSString *userId = @"airwatchinboxdev2@airwatchpm.onmicrosoft.com";
+    NSString *userId = @"airwatchinboxdev1@airwatchpm.onmicrosoft.com";
     NSString *bundleId = @"com.airwatch.Usage";
     
     

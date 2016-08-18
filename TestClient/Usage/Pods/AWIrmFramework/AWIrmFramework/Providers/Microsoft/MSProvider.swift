@@ -103,8 +103,12 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
                                                         authenticationCallback: self,
                                                         consentCallback: self.consent, options: Default)
         { (protectedData:MSProtectedData!, error:NSError!) in
+            var msError = error
             if error != nil {
-                completionBlock(itemHandle: nil, error)
+                if error.code == -4 {
+                    msError = NSError(domain:  Constants.Framework.BundleId, code: Constants.ErrorCodes.PermissionDenied, userInfo: ["NSLocalizedDescription" : error.userInfo["NSLocalizedDescription"]!])
+                }
+                completionBlock(itemHandle: nil, msError)
                 return
             }
             let itemHandle = MSItemHandle(msprotectedData:protectedData)
@@ -129,8 +133,13 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
                                                     options: Default)
         { (userPolicy:MSUserPolicy!, error:NSError!) in
             
+            var msError = error
             if error != nil {
-                completionBlock(itemHandle: nil, error)
+                if error.code == -4 {
+                    msError = NSError(domain:  Constants.Framework.BundleId, code: Constants.ErrorCodes.PermissionDenied, userInfo: ["NSLocalizedDescription" : error.userInfo["NSLocalizedDescription"]!])
+                }
+                completionBlock(itemHandle: nil, msError)
+                return
             }
             else if userPolicy == nil {
                 completionBlock(itemHandle: nil, error)

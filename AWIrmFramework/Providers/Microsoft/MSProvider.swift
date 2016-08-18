@@ -51,9 +51,7 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
                 completionBlock(itemHandle,error)
             })
         } else if(protectionType == .MSCustomProtection) {
-            plainDataFromOfficeFiles(item.path!, userId: userId, clientId: clientId, completionBlock: { (itemHandle:ItemHandle?,error: NSError?) in
-                completionBlock(itemHandle,error)
-            }) 
+            //Todo handle office files.
         } else {
             completionBlock(nil,NSError(domain: Constants.Framework.BundleId, code:  Constants.ErrorCodes.ProtectionNotDetected, userInfo: nil))
         }
@@ -103,8 +101,12 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
                                                         authenticationCallback: self,
                                                         consentCallback: self.consent, options: Default)
         { (protectedData:MSProtectedData!, error:NSError!) in
-            if error != nil {
-                completionBlock(itemHandle: nil, error)
+            if error != nil  {
+                var msError = error
+                if error.code == -4 {
+                    msError = NSError(domain:  Constants.Framework.BundleId, code: Constants.ErrorCodes.PermissionDenied, userInfo: ["NSLocalizedDescription" : error.userInfo["NSLocalizedDescription"]!])
+                }
+                completionBlock(itemHandle: nil, msError)
                 return
             }
             let itemHandle = MSItemHandle(msprotectedData:protectedData)
@@ -123,17 +125,19 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
         let encryptedPackage = result.1
         
         MSUserPolicy.userPolicyWithSerializedPolicy(primaryPackage,
-                                                    userId: nil,
+                                                    userId: userId,
                                                     authenticationCallback: self,
                                                     consentCallback: self.consent,
                                                     options: Default)
         { (userPolicy:MSUserPolicy!, error:NSError!) in
             
-            if error != nil {
-                completionBlock(itemHandle: nil, error)
-            }
-            else if userPolicy == nil {
-                completionBlock(itemHandle: nil, error)
+            if error != nil || userPolicy == nil {
+                var msError = error
+                if error.code == -4 {
+                    msError = NSError(domain:  Constants.Framework.BundleId, code: Constants.ErrorCodes.PermissionDenied, userInfo: ["NSLocalizedDescription" : error.userInfo["NSLocalizedDescription"]!])
+                }
+                completionBlock(itemHandle: nil, msError)
+                return
             }
                 
             else {

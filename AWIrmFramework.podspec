@@ -14,7 +14,7 @@ s.requires_arc = true
 s.dependency 'ADAL', '~> 2.2.2'
 s.dependency 'CompoundFileReader'
 
-s.version = "0.0.46"
+s.version = "0.0.47"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 
