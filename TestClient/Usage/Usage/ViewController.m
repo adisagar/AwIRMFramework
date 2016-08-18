@@ -40,6 +40,8 @@
     
     
     [irmOperation irmItemHandleForReading:url userId:userId clientId:bundleId completionBlock:^(id<AWIrmItemHandle> _Nullable itemHandle, NSError* _Nullable error) {
+        NSError *ix;
+      
         long decryptedLength = [itemHandle decryptedDataLength];
         NSMutableData *plainData = [[NSMutableData alloc] init];
         int chunkSize = 1024;

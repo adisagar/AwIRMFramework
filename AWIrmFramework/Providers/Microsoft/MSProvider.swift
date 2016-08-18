@@ -51,7 +51,9 @@ class MSIrmProvider:NSObject, Provider, InternalProtocol, MSAuthenticationCallba
                 completionBlock(itemHandle,error)
             })
         } else if(protectionType == .MSCustomProtection) {
-            //Todo handle office files.
+            plainDataFromOfficeFiles(item.path!, userId: userId, clientId: clientId, completionBlock: { (itemHandle:ItemHandle?,error: NSError?) in
+                completionBlock(itemHandle,error)
+            })
         } else {
             completionBlock(nil,NSError(domain: Constants.Framework.BundleId, code:  Constants.ErrorCodes.ProtectionNotDetected, userInfo: nil))
         }
