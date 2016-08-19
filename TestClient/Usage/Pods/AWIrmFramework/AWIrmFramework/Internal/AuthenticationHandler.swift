@@ -36,7 +36,8 @@ class AuthenticationHandler: NSObject {
                                              redirectUri: redirectURI,
                                              userId: nil)
             { (let result : ADAuthenticationResult!) in
-                
+                let userInfo = ["IrmProgressStatus" : "1"]
+                NSNotificationCenter.defaultCenter().postNotificationName("IRMAuthenticationDidFinishNotification", object: nil,userInfo:userInfo )
                 if result.status != AD_SUCCEEDED {
                     if result.status == AD_USER_CANCELLED {
                         completionBlock("",NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.UserCancelledAuthentication, userInfo: result.error.userInfo))

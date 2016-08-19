@@ -21,7 +21,7 @@
       NSString *filename = @"FileOneAD";
   // NSString *filename = @"FileOneNonAD";
    // NSString *filename = @"Office";
-
+    [self addremoveIrmNotificationRegistration:YES];
      NSString* newPath = [[NSBundle mainBundle] pathForResource:filename  ofType:@"ppdf"];
     
      BOOL fileExists = [[NSFileManager defaultManager] fileExistsAtPath:newPath];
@@ -180,5 +180,24 @@
 //    //        
 //    //    }];
 //}
+
+-(void) addremoveIrmNotificationRegistration: (BOOL) shouldRegister{
+    NSString *const IRMAuthenticationDidFinishNotification = @"IRMAuthenticationDidFinishNotification";
+
+    if(shouldRegister){
+        [[NSNotificationCenter defaultCenter] addObserver:self
+                                                 selector:@selector(handleAuthenticationComplete:)
+                                                     name:IRMAuthenticationDidFinishNotification
+                                                   object:nil];
+    } else {
+        [[NSNotificationCenter defaultCenter] removeObserver:self
+                                                        name:IRMAuthenticationDidFinishNotification
+                                                      object:nil];
+    }
+}
+-(void)handleAuthenticationComplete:(NSNotification*)irmNotification
+{
+    [[irmNotification userInfo] objectForKey:@"IrmProgressStatus"];
+}
 
 @end

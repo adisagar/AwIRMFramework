@@ -33,4 +33,8 @@ struct Constants {
         static let DataDecryptionError = 1004
         static let ProtectionNotDetected = 1005
     }
+    
+    struct IrmProgressStatus {
+        static let AuthenticationFinished = 1
+    }
 }

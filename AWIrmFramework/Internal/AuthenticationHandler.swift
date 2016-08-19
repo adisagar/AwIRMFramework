@@ -36,7 +36,6 @@ class AuthenticationHandler: NSObject {
                                              redirectUri: redirectURI,
                                              userId: nil)
             { (let result : ADAuthenticationResult!) in
-                
                 if result.status != AD_SUCCEEDED {
                     if result.status == AD_USER_CANCELLED {
                         completionBlock("",NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.UserCancelledAuthentication, userInfo: result.error.userInfo))
@@ -44,11 +43,16 @@ class AuthenticationHandler: NSObject {
                         completionBlock("",NSError(domain: Constants.Framework.BundleId, code: Constants.ErrorCodes.AuthenticationError, userInfo: result.error.userInfo))
                     }
                 } else {
+                    self.postNotification()
                     completionBlock(result.accessToken, result.error) 
                 }
             }
-            
         }
+    }
+    
+    private func postNotification()  {
+        let userInfo = [Constants.Framework.NotificationProgressKey : Constants.IrmProgressStatus.AuthenticationCompleted]
+        NSNotificationCenter.defaultCenter().postNotificationName(Constants.Framework.NotificationName, object: nil,userInfo:userInfo )
     }
     
 }

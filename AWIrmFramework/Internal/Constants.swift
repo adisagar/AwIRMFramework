@@ -23,6 +23,8 @@ struct Constants {
     
     struct Framework {
         static let BundleId = "com.air-watch.AWIrmFramework"
+        static let NotificationProgressKey = "IrmProgressStatus"
+        static let NotificationName = "IRMAuthenticationDidFinishNotification"
     }
     
     struct ErrorCodes {
@@ -33,5 +35,9 @@ struct Constants {
         static let FileParsingError = 1004
         static let DataDecryptionError = 1005
         static let ProtectionNotDetected = 1006
+    }
+    
+    struct IrmProgressStatus {
+        static let AuthenticationCompleted = "AuthenticationCompleted"
     }
 }
